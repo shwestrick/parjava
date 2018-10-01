@@ -10,23 +10,10 @@ class Tabulate {
     return buffer;
   }
 
-  static private char[][] tabSerial(int n) {
-    char[][] arr = new char[n][];
-    for (int i = 0; i < n; i++) {
-      arr[i] = generate(i);
-    }
-    return arr;
-  }
-
-  static private char[][] tabulate(int n) {
-    char[][] arr = new char[n][];
-    ParallelFor.range(0, n, i -> arr[i] = generate(i));
-    return arr;
-  }
-
   static final long NPS = (1000L * 1000 * 1000);
 
   public static void main(String[] args) throws Exception {
+    int procs = 1;
     int n = 1000000000;
     int reps = 1;
     int sreps = 0;
@@ -39,15 +26,24 @@ class Tabulate {
         sreps = Integer.parseInt(args[2]);
     }
     catch (Exception e) {
-      System.out.println("Usage: java Tabulate n reps sreps");
+      System.out.println("Usage: java Tabulate size reps sreps");
       return;
     }
 
-    ForkJoinPool pool = ForkJoinPool.commonPool();
+    final int size = n;
+    
+    System.out.printf("size  %d\n", size);
+    System.out.printf("sreps %d\n", sreps);
+    System.out.printf("reps  %d\n", reps);
+    System.out.println("");
 
     for (int r = 0; r < sreps; r++) {
       long start = System.nanoTime();
-      char[][] result = tabSerial(n);
+
+      ArraySequence<char[]> result = new ArraySequence<char[]>(size);
+      int serialGrain = size; // reuse length as grain to force serial
+      result.tabulate(serialGrain, i -> generate(i));
+
       long stop = System.nanoTime();
       double elapsed = (double)(stop - start) / NPS;
       System.out.printf("serial time:  %7.3f\n", elapsed);
@@ -55,7 +51,10 @@ class Tabulate {
 
     for (int r = 0; r < reps; r++) {
       long start = System.nanoTime();
-      char[][] result = tabulate(n);
+
+      ArraySequence<char[]> result = new ArraySequence<char[]>(size);
+      result.tabulate(i -> generate(i));
+
       long stop = System.nanoTime();
       double elapsed = (double)(stop - start) / NPS;
       System.out.printf("parallel time:  %7.3f\n", elapsed);
