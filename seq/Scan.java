@@ -1,14 +1,7 @@
 import java.util.concurrent.*;
 import java.util.*;
 
-class Tabulate {
-
-  static private char[] generate(int i) {
-    int len = i & 0x7f;
-    char[] buffer = new char[len];
-    for (int j = 0; j < len; j++) buffer[j] = 'a';
-    return buffer;
-  }
+class Scan {
 
   static final long NPS = (1000L * 1000 * 1000);
 
@@ -31,18 +24,21 @@ class Tabulate {
     }
 
     final int size = n;
-    
+
     System.out.printf("size  %d\n", size);
     System.out.printf("sreps %d\n", sreps);
     System.out.printf("reps  %d\n", reps);
     System.out.println("");
 
+    ArraySequence<Long> input =
+      new ArraySequence<Long>(10000, size, i -> new Long(1));
+
     for (int r = 0; r < sreps; r++) {
       long start = System.nanoTime();
 
-      ArraySequence<char[]> result = new ArraySequence<char[]>(size);
       int serialGrain = size; // reuse length as grain to force serial
-      result.tabulate(serialGrain, i -> generate(i));
+      ArraySequence<Long> result =
+        input.scan(serialGrain, (x,y) -> x+y, new Long(0));
 
       long stop = System.nanoTime();
       double elapsed = (double)(stop - start) / NPS;
@@ -52,12 +48,16 @@ class Tabulate {
     for (int r = 0; r < reps; r++) {
       long start = System.nanoTime();
 
-      ArraySequence<char[]> result = new ArraySequence<char[]>(size);
-      result.tabulate(i -> generate(i));
+      int grain = 4096;
+      ArraySequence<Long> result =
+        input.scan(grain, (x,y) -> x+y, new Long(0));
 
       long stop = System.nanoTime();
       double elapsed = (double)(stop - start) / NPS;
       System.out.printf("parallel time:  %7.3f\n", elapsed);
+      if (size < 100) {
+        System.out.println(Arrays.toString(result.data));
+      }
     }
   }
 
