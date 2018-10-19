@@ -2,15 +2,14 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class Tabulate {
+class Map {
 
-    static private int generate(int idx) {
-        return idx;
+    static private int mapper(int elem) {
+        return elem - 1;
     }
 
-    static private void run(int len) {
-        Integer[] result = new Integer[len];
-        IntStream.range(0, len).forEach(i -> result[i] = generate(i));
+    static private void map(Integer[] arr) {
+        IntStream.range(0, arr.length).forEach(i -> arr[i] = mapper(arr[i]));
     }
 
     public static void main(String[] args) throws Exception {
@@ -28,7 +27,10 @@ class Tabulate {
             System.out.println("Usage: java Filter size reps sreps");
             return;
         }
-        final int n2 = n;
-        Runner.run((Void v) -> { run(n2); return null; }, reps);
+
+        Integer[] result = new Integer[n];
+        IntStream.range(0, n).forEach(i -> result[i] = i);
+
+        Runner.run((Void v) -> { map(result); return null; }, reps);
     }
 }

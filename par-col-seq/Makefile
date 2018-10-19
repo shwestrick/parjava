@@ -8,6 +8,8 @@ Filter: *.java
 	javac Runner.java Filter.java
 Reduce: *.java
 	javac Runner.java Reduce.java
+Map: *.java
+	javac Runner.java Map.java
 
 
 clean: phony
