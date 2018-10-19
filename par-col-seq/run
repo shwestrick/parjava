@@ -13,7 +13,7 @@ p.add_argument('-t', '--threads', dest='threads', type=int, default=1)
 a = p.parse_args()
 
 if a.threads == 1:
-  cmd = 'java -Djava.util.concurrent.ForkJoinPool.common.parallelism=1 {} {} {} {}'
+  cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism=1 {} {} {} {}'
   cmd = cmd.format(a.bench, a.size, a.reps, a.sreps)
 else:
   cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
