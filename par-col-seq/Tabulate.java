@@ -10,7 +10,7 @@ class Tabulate {
 
     static private void run(int len) {
         Integer[] result = new Integer[len];
-        IntStream.range(0, len).forEach(i -> result[i] = generate(i));
+        IntStream.range(0, len).parallel().forEach(i -> result[i] = generate(i));
     }
 
     public static void main(String[] args) throws Exception {

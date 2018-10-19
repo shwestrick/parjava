@@ -1,6 +1,8 @@
 .PHONY: phony
 
-default: Reduce
+default: all
+
+all: Tabulate Filter Reduce Map
 
 Tabulate: *.java
 	javac Runner.java Tabulate.java

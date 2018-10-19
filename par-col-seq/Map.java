@@ -8,8 +8,8 @@ class Map {
         return elem - 1;
     }
 
-    static private void map(Integer[] arr) {
-        IntStream.range(0, arr.length).forEach(i -> arr[i] = mapper(arr[i]));
+    static private void map(int[] arr) {
+        IntStream.range(0, arr.length).parallel().forEach(i -> arr[i] = mapper(arr[i]));
     }
 
     public static void main(String[] args) throws Exception {
@@ -28,8 +28,8 @@ class Map {
             return;
         }
 
-        Integer[] result = new Integer[n];
-        IntStream.range(0, n).forEach(i -> result[i] = i);
+        int[] result = new int[n];
+        IntStream.range(0, n).parallel().forEach(i -> result[i] = i);
 
         Runner.run((Void v) -> { map(result); return null; }, reps);
     }
