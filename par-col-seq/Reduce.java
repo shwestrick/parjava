@@ -10,9 +10,11 @@ class Reduce {
 
     private static ArrayList<Integer> setup(int len) {
         Integer[] d = new Integer[len];
-        for (int i = 0;i < len;i++) {
-            d[i] = generateInt(i);
-        }
+        IntStream.range(0, len).parallel().forEach(i -> d[i] = generateInt(i));
+
+        // for (int i = 0;i < len;i++) {
+        //     d[i] = generateInt(i);
+        // }
         return new ArrayList<Integer>(Arrays.asList(d));
     }
 
