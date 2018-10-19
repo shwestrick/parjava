@@ -17,17 +17,8 @@ class Filter {
         return l;
     }
 
-    static final long NPS = (1000L * 1000 * 1000);
-
-    static private void run (ArrayList<Integer> l, int reps) {
-        for (int r = 0;r < reps;r++) {
-            // Is this an appropriate way to convert it back to a list?
-            long start = System.nanoTime();
-            l.parallelStream().filter(i -> i % 2 == 0).collect(Collectors.toList());
-            long end = System.nanoTime();
-            double elapsed = (double) (end - start) / NPS;
-            System.out.printf("Time: %7.3f\n", elapsed);
-        }
+    static private void compute(ArrayList<Integer> l) {
+        l.parallelStream().filter(i -> i % 2 == 0).collect(Collectors.toList());
     }
 
     public static void main(String[] args) throws Exception {
@@ -48,9 +39,6 @@ class Filter {
         }
 
         ArrayList<Integer> l = setup(n);
-
-        run(l, reps);
-
-        System.out.println("we out here");
+        Runner.run((Void v) -> {compute(l);return null;}, reps);
     }
 }
