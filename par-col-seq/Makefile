@@ -2,7 +2,7 @@
 
 default: all
 
-all: Tabulate Filter Reduce Map
+all: Tabulate Filter Reduce Map FilterCount
 
 Tabulate: *.java
 	javac Runner.java Tabulate.java
