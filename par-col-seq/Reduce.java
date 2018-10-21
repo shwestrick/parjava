@@ -8,21 +8,20 @@ class Reduce {
         return idx;
     }
 
-    private static ArrayList<Integer> setup(int len) {
-        Integer[] d = new Integer[len];
+    private static int[] setup(int len) {
+        int[] d = new int[len];
         IntStream.range(0, len).parallel().forEach(i -> d[i] = generateInt(i));
-        return new ArrayList<Integer>(Arrays.asList(d));
+        return d;
     }
 
-    private static Integer max (Integer a, Integer b) {
+    private static int max (int a, int b) {
         if (a > b) {
             return a;
         } 
         return b;
     }
-    private static void compute(ArrayList<Integer> l) {
-        Integer result = l.parallelStream()
-                         .reduce((a,b) -> max(a, b)).get();
+    private static void compute(int[] l) {
+        int result = Arrays.stream(l).parallel().reduce((a,b) -> max(a,b)).getAsInt();
     }
 
     public static void main (String args[]) throws Exception {
@@ -41,7 +40,7 @@ class Reduce {
             return;
         }
 
-        ArrayList<Integer> l = setup (n);
+        int[] l = setup(n);
         Runner.run((Void v) -> { compute(l); return null; }, reps);
     }
 }
