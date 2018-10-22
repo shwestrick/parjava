@@ -29,8 +29,7 @@ public class Fib extends RecursiveTask<Integer> {
     }
 
     public static void job (int num) {
-        Fib f = new Fib(num);
-        f.compute();
+	ForkJoinPool.commonPool().invoke(new Fib(num));
     }
 
     static int seqFib (int n) {
@@ -51,10 +50,7 @@ public class Fib extends RecursiveTask<Integer> {
             Fib f1 = new Fib(n - 1);
             f1.fork();
             Fib f2 = new Fib(n - 2);
-            return f1.join() + f2.compute();
+	    return f2.compute () + f1.join();
         }
     }
-
-
-
 }
