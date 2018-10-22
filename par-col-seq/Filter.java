@@ -5,20 +5,18 @@ import java.util.stream.*;
 class Filter {
 
     static private int generateInt(int i) {
-        return i + 10 * 50;
+        return i;
     }
 
-    // Lets start with just an array list of ints
-    static private ArrayList<Integer> setup(int len) {
-        ArrayList<Integer> l = new ArrayList<Integer>(len);
-        for (int i = 0;i < len;i++) {
-            l.add(i, generateInt(i));
-        }
+
+    static private int[] setup (int len) {
+        int[] l = new int[len];
+        IntStream.range(0, len).parallel().forEach(i -> l[i] = generateInt(i));
         return l;
     }
 
-    static private void compute(ArrayList<Integer> l) {
-        l.parallelStream().filter(i -> i % 2 == 0).collect(Collectors.toList());
+    static private void compute(int[] l) {
+        int[] res = Arrays.stream(l).parallel().filter(i -> i % 2 == 0).toArray();
     }
 
     public static void main(String[] args) throws Exception {
@@ -38,7 +36,7 @@ class Filter {
             return;
         }
 
-        ArrayList<Integer> l = setup(n);
+        int[] l = setup(n);
         Runner.run((Void v) -> {compute(l);return null;}, reps);
     }
 }
