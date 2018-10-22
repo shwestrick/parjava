@@ -1,0 +1,23 @@
+#!/usr/bin/python
+
+import argparse
+import subprocess
+
+p = argparse.ArgumentParser()
+p.add_argument('-b', '--bench', dest='bench', type=str, default='Tabulate')
+p.add_argument('-n', '--size', dest='size', type=int, default=10000000)
+p.add_argument('-r', '--reps', dest='reps', type=int, default=10)
+p.add_argument('-s', '--sreps', dest='sreps', type=int, default=0)
+p.add_argument('-t', '--threads', dest='threads', type=int, default=1)
+
+a = p.parse_args()
+
+if a.threads == 1:
+  cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism=1 {} {} {} {}'
+  cmd = cmd.format(a.bench, a.size, a.reps, a.sreps)
+else:
+  cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
+  cmd = cmd.format(a.threads, a.bench, a.size, a.reps, a.sreps)
+print cmd
+subprocess.call(cmd, shell=True)
+
