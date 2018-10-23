@@ -4,13 +4,13 @@ import java.util.stream.*;
 
 class Reduce {
 
-    private static int generateInt(int idx) {
+    private static long generateLong(long idx) {
         return idx;
     }
 
-    private static int[] setup(int len) {
-        int[] d = new int[len];
-        IntStream.range(0, len).parallel().forEach(i -> d[i] = generateInt(i));
+    private static long[] setup(long len) {
+        long[] d = new long[(int)len];
+        IntStream.range(0, (int)len).parallel().forEach(i -> d[i] = generateLong(i));
         return d;
     }
 
@@ -20,8 +20,11 @@ class Reduce {
         } 
         return b;
     }
-    private static void compute(int[] l) {
-        int result = Arrays.stream(l).parallel().reduce((a,b) -> max(a,b)).getAsInt();
+    private static long add(long a, long b) {
+        return a + b;
+    }
+    private static void compute(long[] l) {
+        long result = Arrays.stream(l).parallel().reduce((a,b) -> a + b).getAsLong();
     }
 
     public static void main (String args[]) throws Exception {
@@ -40,7 +43,7 @@ class Reduce {
             return;
         }
 
-        int[] l = setup(n);
+        long[] l = setup(n);
         Runner.run((Void v) -> { compute(l); return null; }, reps);
     }
 }
