@@ -2,7 +2,7 @@
 
 default: all
 
-all: Tabulate Filter Reduce Map FilterCount Scan
+all: Tabulate Filter Reduce Map FilterCount Scan Fib Integrate MatrixMultiply
 
 Tabulate: *.java
 	javac Runner.java Tabulate.java
@@ -16,7 +16,12 @@ Scan: *.java
 	javac Runner.java Scan.java
 Map: *.java
 	javac Runner.java Map.java
-
+Fib:
+	javac Runner.java Fib.java
+Integrate:
+	javac Runner.java Integrate.java
+MatrixMultiply:
+	javac Runner.java MatrixMultiply.java
 
 clean: phony
 	rm -f *.class
