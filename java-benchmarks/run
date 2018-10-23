@@ -12,12 +12,8 @@ p.add_argument('-t', '--threads', dest='threads', type=int, default=1)
 
 a = p.parse_args()
 
-if a.threads == 1:
-  cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism=1 {} {} {} {}'
-  cmd = cmd.format(a.bench, a.size, a.reps, a.sreps)
-else:
-  cmd = 'java -XX:+UseParallelGC -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
-  cmd = cmd.format(a.threads, a.bench, a.size, a.reps, a.sreps)
+cmd = 'java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
+cmd = cmd.format(a.threads, a.threads, a.bench, a.size, a.reps, a.sreps)
 print cmd
 subprocess.call(cmd, shell=True)
 
