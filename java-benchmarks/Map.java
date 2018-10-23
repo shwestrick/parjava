@@ -4,12 +4,13 @@ import java.util.stream.*;
 
 class Map {
 
-    static private int mapper(int elem) {
+    static private long mapper(long elem) {
         return elem - 1;
     }
 
-    static private void map(int[] arr) {
+    static private void map(long[] arr) {
         IntStream.range(0, arr.length).parallel().forEach(i -> arr[i] = mapper(arr[i]));
+	System.out.println(arr[0]);
     }
 
     public static void main(String[] args) throws Exception {
@@ -28,7 +29,7 @@ class Map {
             return;
         }
 
-        int[] result = new int[n];
+        long[] result = new long[n];
         IntStream.range(0, n).parallel().forEach(i -> result[i] = i);
 
         Runner.run((Void v) -> { map(result); return null; }, reps);
