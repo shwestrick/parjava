@@ -2,15 +2,14 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class Map {
+class MapMut {
 
     static private long mapper(long elem) {
         return elem - 1;
     }
 
     static private void map(long[] arr) {
-	long[] out = new long[arr.length];
-        IntStream.range(0, arr.length).parallel().forEach(i -> out[i] = mapper(arr[i]));
+        IntStream.range(0, arr.length).parallel().forEach(i -> arr[i] = mapper(arr[i]));
     }
 
     public static void main(String[] args) throws Exception {
