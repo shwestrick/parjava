@@ -2,7 +2,7 @@
 
 default: all
 
-all: Tabulate Filter Reduce Map FilterCount Scan Fib Integrate MatrixMultiply MapMut
+all: Tabulate Filter Reduce Map FilterCount Scan Fib Integrate MatrixMultiply MapMut NQueens
 
 Tabulate: *.java
 	javac Runner.java Tabulate.java
@@ -16,6 +16,8 @@ Scan: *.java
 	javac Runner.java Scan.java
 Map: *.java
 	javac Runner.java Map.java
+NQueens: *.java
+	javac Runner.java NQueens.java
 MapMut: *.java
 	javac Runner.java MapMut.java
 Fib:

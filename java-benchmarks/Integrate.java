@@ -20,10 +20,9 @@ public class Integrate {
             return;
         }
 
-        System.out.println("Integrating from " + start + " to " + end + " exponent: " + exp);
-
         Function f = new SampleFunction(exp);
         Integrator integrator = new Integrator(f, 0.001);
+
 
         Runner.run((Void v) -> {integrator.integral(start, end); return null;}, reps);
     }
@@ -66,6 +65,7 @@ public class Integrate {
                             f_lower, f_upper,
                             initialArea);
           ForkJoinPool.commonPool().invoke(q);
+	  // System.out.println(q.area);
           return q.area;
         }
 

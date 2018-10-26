@@ -24,6 +24,7 @@ class MapMut {
             if (args.length > 2)
               sreps = Integer.parseInt(args[2]);
         } catch (Exception e) {
+	    System.out.println(e);
             System.out.println("Usage: java Filter size reps sreps");
             return;
         }

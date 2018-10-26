@@ -14,6 +14,5 @@ a = p.parse_args()
 
 cmd = 'java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
 cmd = cmd.format(a.threads, a.threads, a.bench, a.size, a.reps, a.sreps)
-print cmd
+# print cmd
 subprocess.call(cmd, shell=True)
-
