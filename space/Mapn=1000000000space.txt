@@ -1,0 +1,180 @@
+Time:   3.964
+Time:   4.232
+Time:   4.469
+Time:   4.570
+Time:   3.982
+Time:   4.286
+Time:   3.600
+Time:   3.014
+Time:   4.821
+Time:   3.081
+Min: 3.014084676
+Med: 4.1074717115 0.3400000000000001
+Max: 4.820878634
+	Command being timed: "./run -b Map -t 1 -n 1000000000"
+	User time (seconds): 40.80
+	System time (seconds): 17.70
+	Percent of CPU this job got: 129%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24136824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 107058
+	Voluntary context switches: 4104
+	Involuntary context switches: 138
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.775
+Time:   3.674
+Time:   3.156
+Time:   3.045
+Time:   3.030
+Time:   3.114
+Time:   2.770
+Time:   3.684
+Time:   2.141
+Time:   2.057
+Min: 2.057435995
+Med: 3.0791628255 0.26949999999999996
+Max: 3.775197858
+	Command being timed: "./run -b Map -t 18 -n 1000000000"
+	User time (seconds): 112.66
+	System time (seconds): 20.62
+	Percent of CPU this job got: 390%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24280340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 115808
+	Voluntary context switches: 6792
+	Involuntary context switches: 456
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.337
+Time:   3.565
+Time:   3.442
+Time:   3.437
+Time:   3.389
+Time:   6.914
+Time:   2.379
+Time:   2.455
+Time:   2.425
+Time:   2.310
+Min: 2.310239736
+Med: 3.3629062210000003 2.1235000000000004
+Max: 6.914031945
+	Command being timed: "./run -b Map -t 36 -n 1000000000"
+	User time (seconds): 351.63
+	System time (seconds): 23.53
+	Percent of CPU this job got: 1000%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26821312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 110287
+	Voluntary context switches: 13617
+	Involuntary context switches: 8134
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.179
+Time:   3.327
+Time:   3.120
+Time:   3.088
+Time:   3.226
+Time:   4.041
+Time:   2.846
+Time:   2.808
+Time:   3.811
+Time:   3.855
+Min: 2.808096133
+Med: 3.2028837995 0.561
+Max: 4.040963855
+	Command being timed: "./run -b Map -t 54 -n 1000000000"
+	User time (seconds): 292.84
+	System time (seconds): 28.55
+	Percent of CPU this job got: 873%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26973956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 114716
+	Voluntary context switches: 14914
+	Involuntary context switches: 17269
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.243
+Time:   3.482
+Time:   3.499
+Time:   3.390
+Time:   3.338
+Time:   3.806
+Time:   2.953
+Time:   2.409
+Time:   2.304
+Time:   2.246
+Min: 2.24607993
+Med: 3.2903402825 0.5335
+Max: 3.805638233
+	Command being timed: "./run -b Map -t 72 -n 1000000000"
+	User time (seconds): 382.42
+	System time (seconds): 32.29
+	Percent of CPU this job got: 1208%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 26967576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 100491
+	Voluntary context switches: 17368
+	Involuntary context switches: 29181
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,180 @@
+Time:   2.529
+Time:   1.041
+Time:   1.298
+Time:   1.028
+Time:   0.986
+Time:   1.193
+Time:   0.823
+Time:   0.735
+Time:   0.807
+Time:   0.719
+Min: 0.719066792
+Med: 1.0072305665 0.0
+Max: 2.529212834
+	Command being timed: "./run -b Scan -t 1 -n 1000000000"
+	User time (seconds): 19.89
+	System time (seconds): 2.27
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3983076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18519
+	Voluntary context switches: 3262
+	Involuntary context switches: 64
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.823
+Time:   0.200
+Time:   0.133
+Time:   0.137
+Time:   0.134
+Time:   0.141
+Time:   0.139
+Time:   0.129
+Time:   0.133
+Time:   0.139
+Min: 0.129146199
+Med: 0.13777206349999999 0.0
+Max: 0.822987876
+	Command being timed: "./run -b Scan -t 18 -n 1000000000"
+	User time (seconds): 47.22
+	System time (seconds): 2.24
+	Percent of CPU this job got: 1172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4020060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16542
+	Voluntary context switches: 4969
+	Involuntary context switches: 154
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.265
+Time:   0.526
+Time:   0.176
+Time:   0.109
+Time:   0.106
+Time:   0.103
+Time:   0.106
+Time:   0.107
+Time:   0.103
+Time:   0.103
+Min: 0.102645864
+Med: 0.1067797415 0.0
+Max: 1.265283067
+	Command being timed: "./run -b Scan -t 36 -n 1000000000"
+	User time (seconds): 114.28
+	System time (seconds): 3.28
+	Percent of CPU this job got: 2400%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4061956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19755
+	Voluntary context switches: 5672
+	Involuntary context switches: 256
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.560
+Time:   0.495
+Time:   0.263
+Time:   0.101
+Time:   0.097
+Time:   0.099
+Time:   0.096
+Time:   0.098
+Time:   0.101
+Time:   0.099
+Min: 0.09642901
+Med: 0.10008503 0.0
+Max: 1.559865574
+	Command being timed: "./run -b Scan -t 54 -n 1000000000"
+	User time (seconds): 166.02
+	System time (seconds): 4.36
+	Percent of CPU this job got: 3435%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4186564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19823
+	Voluntary context switches: 8550
+	Involuntary context switches: 581
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.805
+Time:   1.466
+Time:   0.734
+Time:   0.110
+Time:   0.109
+Time:   0.114
+Time:   0.110
+Time:   0.109
+Time:   0.106
+Time:   0.107
+Min: 0.105907208
+Med: 0.109800404 0.0
+Max: 1.804670776
+	Command being timed: "./run -b Scan -t 72 -n 1000000000"
+	User time (seconds): 353.60
+	System time (seconds): 5.62
+	Percent of CPU this job got: 5372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4171952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21809
+	Voluntary context switches: 9712
+	Involuntary context switches: 1183
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
