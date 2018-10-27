@@ -29,7 +29,7 @@ for (f, m) in zip(files, markers):
     t54 = float(targ4.split(" ")[1])
     t72 = float(targ5.split(" ")[1])
 
-    s1 = t1
+    s1 = t1 / t1
     s18 = t1 / t18
     s36 = t1 / t36
     s54 = t1 / t54
