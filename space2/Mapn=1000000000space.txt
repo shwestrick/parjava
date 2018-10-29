@@ -1,0 +1,135 @@
+Time:   4.369
+Min: 4.368648243
+Med: 4.368648243 0.0
+Max: 4.368648243
+	Command being timed: "./run -b Map -t 1 -n 1000000000 -r 1"
+	User time (seconds): 5.64
+	System time (seconds): 6.59
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.74
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15751212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28584
+	Voluntary context switches: 3009
+	Involuntary context switches: 55
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.363
+Min: 3.362783271
+Med: 3.362783271 0.0
+Max: 3.362783271
+	Command being timed: "./run -b Map -t 18 -n 1000000000 -r 1"
+	User time (seconds): 30.54
+	System time (seconds): 6.37
+	Percent of CPU this job got: 516%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15786160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27191
+	Voluntary context switches: 3714
+	Involuntary context switches: 75
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.366
+Min: 3.365804196
+Med: 3.365804196 0.0
+Max: 3.365804196
+	Command being timed: "./run -b Map -t 36 -n 1000000000 -r 1"
+	User time (seconds): 50.37
+	System time (seconds): 8.08
+	Percent of CPU this job got: 828%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15828748
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27220
+	Voluntary context switches: 4407
+	Involuntary context switches: 145
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.410
+Min: 3.410160936
+Med: 3.410160936 0.0
+Max: 3.410160936
+	Command being timed: "./run -b Map -t 54 -n 1000000000 -r 1"
+	User time (seconds): 100.07
+	System time (seconds): 9.20
+	Percent of CPU this job got: 1407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15938476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30971
+	Voluntary context switches: 5418
+	Involuntary context switches: 825
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.408
+Min: 3.407867164
+Med: 3.407867164 0.0
+Max: 3.407867164
+	Command being timed: "./run -b Map -t 72 -n 1000000000 -r 1"
+	User time (seconds): 95.96
+	System time (seconds): 13.00
+	Percent of CPU this job got: 1510%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 15939356
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29474
+	Voluntary context switches: 5934
+	Involuntary context switches: 616
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

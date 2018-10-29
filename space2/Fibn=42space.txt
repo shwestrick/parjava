@@ -1,0 +1,135 @@
+Time:   0.964
+Min: 0.963817516
+Med: 0.963817516 0.0
+Max: 0.963817516
+	Command being timed: "./run -b Fib -t 1 -n 42 -r 1"
+	User time (seconds): 2.68
+	System time (seconds): 0.11
+	Percent of CPU this job got: 227%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 93840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17620
+	Voluntary context switches: 3278
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.163
+Min: 0.16270272
+Med: 0.16270272 0.0
+Max: 0.16270272
+	Command being timed: "./run -b Fib -t 18 -n 42 -r 1"
+	User time (seconds): 3.31
+	System time (seconds): 0.14
+	Percent of CPU this job got: 842%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 124464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14538
+	Voluntary context switches: 3498
+	Involuntary context switches: 37
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.125
+Min: 0.125143137
+Med: 0.125143137 0.0
+Max: 0.125143137
+	Command being timed: "./run -b Fib -t 36 -n 42 -r 1"
+	User time (seconds): 4.22
+	System time (seconds): 0.16
+	Percent of CPU this job got: 1186%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 165420
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17302
+	Voluntary context switches: 4442
+	Involuntary context switches: 26
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.130
+Min: 0.130332975
+Med: 0.130332975 0.008
+Max: 0.130332975
+	Command being timed: "./run -b Fib -t 54 -n 42 -r 1"
+	User time (seconds): 5.01
+	System time (seconds): 0.52
+	Percent of CPU this job got: 1272%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 256128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18617
+	Voluntary context switches: 6103
+	Involuntary context switches: 30
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.160
+Min: 0.159628632
+Med: 0.159628632 0.015
+Max: 0.159628632
+	Command being timed: "./run -b Fib -t 72 -n 42 -r 1"
+	User time (seconds): 7.20
+	System time (seconds): 0.37
+	Percent of CPU this job got: 1672%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 266264
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16054
+	Voluntary context switches: 5778
+	Involuntary context switches: 185
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

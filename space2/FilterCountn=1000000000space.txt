@@ -1,0 +1,135 @@
+Time:   1.275
+Min: 1.2748805
+Med: 1.2748805 0.0
+Max: 1.2748805
+	Command being timed: "./run -b FilterCount -t 1 -n 1000000000 -r 1"
+	User time (seconds): 3.92
+	System time (seconds): 1.91
+	Percent of CPU this job got: 162%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3984616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14786
+	Voluntary context switches: 3076
+	Involuntary context switches: 37
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.433
+Min: 0.433083681
+Med: 0.433083681 0.0
+Max: 0.433083681
+	Command being timed: "./run -b FilterCount -t 18 -n 1000000000 -r 1"
+	User time (seconds): 16.20
+	System time (seconds): 2.19
+	Percent of CPU this job got: 706%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4018320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12605
+	Voluntary context switches: 4005
+	Involuntary context switches: 81
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.525
+Min: 0.524871729
+Med: 0.524871729 0.0
+Max: 0.524871729
+	Command being timed: "./run -b FilterCount -t 36 -n 1000000000 -r 1"
+	User time (seconds): 46.94
+	System time (seconds): 3.17
+	Percent of CPU this job got: 1706%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4057764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15205
+	Voluntary context switches: 4702
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.511
+Min: 0.511245373
+Med: 0.511245373 0.0
+Max: 0.511245373
+	Command being timed: "./run -b FilterCount -t 54 -n 1000000000 -r 1"
+	User time (seconds): 35.28
+	System time (seconds): 3.39
+	Percent of CPU this job got: 1641%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.35
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4185508
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13509
+	Voluntary context switches: 5721
+	Involuntary context switches: 390
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.982
+Min: 0.982026957
+Med: 0.982026957 0.0
+Max: 0.982026957
+	Command being timed: "./run -b FilterCount -t 72 -n 1000000000 -r 1"
+	User time (seconds): 75.59
+	System time (seconds): 4.33
+	Percent of CPU this job got: 2729%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4187596
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14961
+	Voluntary context switches: 7545
+	Involuntary context switches: 604
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
