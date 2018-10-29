@@ -16,8 +16,11 @@ for f in files:
     gctime1 = targ1.split(" ")[2]
     time72 = targ2.split(" ")[1]
     gctime72 = targ2.split(" ")[2]
-    gcperc1 = float(gctime1) / float(time1)
-    gcperc72 = float(gctime72) / float(time72)
+    gcperc1 = 100.0 * (float(gctime1) / float(time1))
+    gcperc72 = 100.0 * (float(gctime72) / float(time72))
     speedup = float(time1) / float(time72)
     s = " & ".join([name, time1, str(gcperc1), time72, str(gcperc72), str(speedup)])
+    # print(s)
+
+    s = "{0} & {1:.2f} & {2:.2f} & {3:.2f} & {4:.2f} & {5:.2f}".format(name, float(time1), gcperc1, float(time72), gcperc72, speedup)
     print(s)
