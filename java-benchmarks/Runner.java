@@ -27,10 +27,10 @@ class Runner {
 
     public static void run_with_setup(Function<Void, Void> setup,
                                       Function<Void, Void> func, int reps) {
-	//for (int i = 0;i < 5;i++) {
-	//  setup.apply(null);
-	//  func.apply(null);
-	//}
+	// for (int i = 0;i < 5;i++) {
+	//   setup.apply(null);
+	//   func.apply(null);
+	// }
 
         ArrayList<Double> times = new ArrayList<Double>();
 	ArrayList<Double> gc_times = new ArrayList<Double>();

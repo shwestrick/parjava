@@ -4,12 +4,16 @@ import java.util.stream.*;
 
 class MapMut {
 
-    static private long mapper(long elem) {
-        return elem - 1;
+    static private char[] mapper(char[] elem) {
+      char[] res = new char[elem.length];
+      for (int i = 0;i < elem.length;i++) {
+        res[elem.length - 1 - i] = elem[i];
+      }
+      return res;
     }
 
-    static private void map(long[] arr) {
-        IntStream.range(0, arr.length).parallel().forEach(i -> arr[i] = mapper(arr[i]));
+    static private void map(char[][] arr) {
+      IntStream.range(0, arr.length).parallel().forEach(i -> arr[i] = mapper(arr[i]));
     }
 
     public static void main(String[] args) throws Exception {
@@ -29,8 +33,9 @@ class MapMut {
             return;
         }
 
-        long[] result = new long[n];
-        IntStream.range(0, n).parallel().forEach(i -> result[i] = i);
+
+	char[][] result = new char[n][0];
+	IntStream.range(0, n).parallel().forEach(i -> result[i] = StrGen.generate(i));
 
         Runner.run((Void v) -> { map(result); return null; }, reps);
     }

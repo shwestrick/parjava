@@ -2,10 +2,13 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class Reduce {
+class ScanImmut {
 
-    private static void compute(char[][] l) {
-      Arrays.stream(l).parallel().reduce((a, b) -> StrGen.combine(a, b));
+    private static void compute(char[][] a) {
+      char[][] newArray = new char[a.length][0];
+      IntStream.range(0, a.length).parallel()
+	      .forEach(i -> newArray[i] = a[i]);
+      Arrays.parallelPrefix(newArray, (x, y) -> StrGen.combine(x, y));
     }
 
     public static void main (String args[]) throws Exception {
@@ -25,7 +28,7 @@ class Reduce {
         }
 
 	char[][] l = new char[n][0];
-	IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
+	IntStream.range(0, n).parallel().forEach(i -> StrGen.generate(i));
         Runner.run((Void v) -> { compute(l); return null; }, reps);
     }
 }

@@ -2,11 +2,24 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class Reduce {
+class ConcHash {
+
+    static class HashObject {
+      HashObject(char[] x) {
+        x = x;
+      }
+      public int hashcode () {
+	return StrGen.hash(x);
+      }
+      char[] x;
+    }
 
     private static void compute(char[][] l) {
-      Arrays.stream(l).parallel().reduce((a, b) -> StrGen.combine(a, b));
+      ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
+      IntStream.range(0, l.length).parallel()
+	      .forEach(i -> x.put(new HashObject(l[i]), 1));
     }
+
 
     public static void main (String args[]) throws Exception {
         int n = 1000000;
@@ -26,6 +39,8 @@ class Reduce {
 
 	char[][] l = new char[n][0];
 	IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
-        Runner.run((Void v) -> { compute(l); return null; }, reps);
+        Runner.run(
+          (Void v) -> { compute(l); return null; },
+   	  reps);
     }
 }

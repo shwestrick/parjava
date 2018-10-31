@@ -4,19 +4,8 @@ import java.util.stream.*;
 
 class Filter {
 
-    static private int generateInt(int i) {
-        return i;
-    }
-
-
-    static private int[] setup (int len) {
-        int[] l = new int[len];
-        IntStream.range(0, len).parallel().forEach(i -> l[i] = generateInt(i));
-        return l;
-    }
-
-    static private void compute(int[] l) {
-        int[] res = Arrays.stream(l).parallel().filter(i -> i % 2 == 0).toArray();
+    static private void compute(char[][] a) {
+      char[][] res = Arrays.stream(a).parallel().filter(i -> StrGen.pred(i)).toArray(char[][]::new);
     }
 
     public static void main(String[] args) throws Exception {
@@ -36,7 +25,9 @@ class Filter {
             return;
         }
 
-        int[] l = setup(n);
+	char[][] l = new char[n][0];
+	IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
+
         Runner.run((Void v) -> {compute(l);return null;}, reps);
     }
 }

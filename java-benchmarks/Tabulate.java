@@ -4,13 +4,9 @@ import java.util.stream.*;
 
 class Tabulate {
 
-    static private int generate(int idx) {
-        return idx;
-    }
-
-    static private void run(int len) {
-        Integer[] result = new Integer[len];
-        IntStream.range(0, len).parallel().forEach(i -> result[i] = generate(i));
+    static private void run (int len) {
+      char[][] result = new char[len][0];
+      IntStream.range(0, len).parallel().forEach(i -> result[i] = StrGen.generate(i));
     }
 
     public static void main(String[] args) throws Exception {

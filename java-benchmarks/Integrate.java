@@ -65,7 +65,6 @@ public class Integrate {
                             f_lower, f_upper,
                             initialArea);
           ForkJoinPool.commonPool().invoke(q);
-	  // System.out.println(q.area);
           return q.area;
         }
 

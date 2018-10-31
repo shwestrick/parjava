@@ -19,7 +19,7 @@ if test_type == "speedup":
 elif test_type == "space":
     f = open(test +'n=' + str(n) +'space.txt', 'w')
     for p in ['1', '18', '36', '54', '72']:
-        res = subprocess.check_output(['time', '-v', './run', '-b', test, '-t', p, '-n', str(n)], stderr=subprocess.STDOUT)
+        res = subprocess.check_output(['time', '-v', './run', '-b', test, '-t', p, '-n', str(n), '-r', '1'], stderr=subprocess.STDOUT)
         f.write(res)
     f.close()
 else:
@@ -27,7 +27,5 @@ else:
     f = open(test +'n=' + str(n) +'at1and72.txt', 'w')
     res1 = subprocess.check_output(['./run', '-b', test, '-t', '1', '-n', str(n)])
     res2 = subprocess.check_output(['./run', '-b', test, '-t', '72', '-n', str(n)])
-    print(res1)
-    print(res2)
     f.write(res1 + res2)
     f.close()

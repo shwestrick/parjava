@@ -2,11 +2,12 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class Reduce {
+class Sort {
 
     private static void compute(char[][] l) {
-      Arrays.stream(l).parallel().reduce((a, b) -> StrGen.combine(a, b));
+      Arrays.parallelSort(l, (x, y) -> StrGen.compare(x, y));
     }
+
 
     public static void main (String args[]) throws Exception {
         int n = 1000000;
@@ -26,6 +27,12 @@ class Reduce {
 
 	char[][] l = new char[n][0];
 	IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
-        Runner.run((Void v) -> { compute(l); return null; }, reps);
+
+	final int n2 = n;
+
+        Runner.run_with_setup(
+	  (Void v) -> { IntStream.range(0, n2).parallel().forEach(i -> l[i] = StrGen.generate(i)); return null;},
+          (Void v) -> { compute(l); return null; },
+   	  reps);
     }
 }
