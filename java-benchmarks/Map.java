@@ -32,6 +32,6 @@ class Map {
         long[] result = new long[n];
         IntStream.range(0, n).parallel().forEach(i -> result[i] = i);
 
-        Runner.run((Void v) -> { map(result); return null; }, reps);
+        Runner.run((Void v) -> { map(result); return null; }, reps, sreps);
     }
 }

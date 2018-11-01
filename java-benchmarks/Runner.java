@@ -4,10 +4,10 @@ import java.lang.management.*;
 
 class Runner {
     static final long NPS = (1000L * 1000 * 1000);
-    public static void run (Function<Void, Void> func, int reps) {
-	// for (int i = 0;i < 5;i++) {
-	//   func.apply(null);
-	// }
+    public static void run (Function<Void, Void> func, int reps, int preRun) {
+	for (int i = 0;i < preRun;i++) {
+	  func.apply(null);
+	}
 
         ArrayList<Double> times = new ArrayList<Double>();
 	ArrayList<Double> gc_times = new ArrayList<Double>();
@@ -26,11 +26,11 @@ class Runner {
     }
 
     public static void run_with_setup(Function<Void, Void> setup,
-                                      Function<Void, Void> func, int reps) {
-	// for (int i = 0;i < 5;i++) {
-	//   setup.apply(null);
-	//   func.apply(null);
-	// }
+                                      Function<Void, Void> func, int reps, int preRun) {
+	for (int i = 0;i < preRun;i++) {
+	  setup.apply(null);
+	  func.apply(null);
+	}
 
         ArrayList<Double> times = new ArrayList<Double>();
 	ArrayList<Double> gc_times = new ArrayList<Double>();

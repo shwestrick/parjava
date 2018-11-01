@@ -2,7 +2,7 @@
 
 default: all
 
-all: Tabulate Filter Reduce Map FilterCount Scan Fib Integrate MatrixMultiply MapMut NQueens ScanImmut ConcHash Sort
+all: Tabulate Filter Reduce Map FilterCount Scan Fib Integrate MatrixMultiply MapMut NQueens ScanImmut ConcHash Sort Histogram
 
 Tabulate: *.java
 	javac Runner.java StrGen.java Tabulate.java
@@ -18,6 +18,8 @@ ScanImmut: *.java
 	javac Runner.java StrGen.java ScanImmut.java
 ConcHash: *.java
 	javac Runner.java StrGen.java ConcHash.java
+Histogram: *.java
+	javac Runner.java StrGen.java Histogram.java
 Sort: *.java
 	javac Runner.java StrGen.java Sort.java
 Map: *.java

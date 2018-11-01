@@ -33,6 +33,6 @@ class Sort {
         Runner.run_with_setup(
 	  (Void v) -> { IntStream.range(0, n2).parallel().forEach(i -> l[i] = StrGen.generate(i)); return null;},
           (Void v) -> { compute(l); return null; },
-   	  reps);
+   	  reps, sreps);
     }
 }

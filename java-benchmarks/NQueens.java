@@ -43,7 +43,7 @@ class NQueens extends RecursiveTask {
 			  System.out.println("wei");
 			}
 	   		return null;},
-	  reps
+	  reps, sreps
 	);
 
         // Runner.run((Void v) -> { run(); return null; }, reps);

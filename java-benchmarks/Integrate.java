@@ -24,7 +24,7 @@ public class Integrate {
         Integrator integrator = new Integrator(f, 0.001);
 
 
-        Runner.run((Void v) -> {integrator.integral(start, end); return null;}, reps);
+        Runner.run((Void v) -> {integrator.integral(start, end); return null;}, reps, sreps);
     }
 
     static interface Function {

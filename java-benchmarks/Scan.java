@@ -42,6 +42,6 @@ class Scan {
         }
 
         int[] l = setup(n);
-        Runner.run((Void v) -> { compute(l); return null; }, reps);
+        Runner.run((Void v) -> { compute(l); return null; }, reps, sreps);
     }
 }

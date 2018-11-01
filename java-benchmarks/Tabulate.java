@@ -25,6 +25,6 @@ class Tabulate {
             return;
         }
         final int n2 = n;
-        Runner.run((Void v) -> { run(n2); return null; }, reps);
+        Runner.run((Void v) -> { run(n2); return null; }, reps, sreps);
     }
 }

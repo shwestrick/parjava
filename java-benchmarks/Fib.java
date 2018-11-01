@@ -21,7 +21,7 @@ public class Fib extends RecursiveTask<Integer> {
             return;
         }
         final int fnum = num;
-        Runner.run((Void v) -> { job(fnum); return null; }, reps);
+        Runner.run((Void v) -> { job(fnum); return null; }, reps, sreps);
     }
 
     public Fib (int n) {

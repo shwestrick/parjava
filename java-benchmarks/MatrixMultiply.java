@@ -32,7 +32,8 @@ public class MatrixMultiply {
         Runner.run_with_setup(
             (Void v) -> { init(a, b, c, n2); return null; },
             (Void v) -> { run(a, b, c, n2); return null; },
-            reps);
+            reps,
+            sreps);
     }
 
     static void run(float[][] a, float[][] b, float[][] c, int n) {

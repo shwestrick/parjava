@@ -26,6 +26,6 @@ class Reduce {
 
 	char[][] l = new char[n][0];
 	IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
-        Runner.run((Void v) -> { compute(l); return null; }, reps);
+        Runner.run((Void v) -> { compute(l); return null; }, reps, sreps);
     }
 }

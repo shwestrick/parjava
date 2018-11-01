@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.stream.*;
 
-class ConcHash {
+class Histogram {
 
     static class HashObject {
       HashObject(char[] x) {
@@ -17,7 +17,8 @@ class ConcHash {
     public static void compute(char[][] l) {
       ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
       IntStream.range(0, l.length).parallel()
-	      .forEach(i -> x.put(new HashObject(l[i]), 1));
+        .forEach(i -> x.compute(
+          new HashObject(l[i]), (k,v) -> (v == null) ? 1 : (v + 1)));
     }
 
 

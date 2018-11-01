@@ -37,6 +37,6 @@ class MapMut {
 	char[][] result = new char[n][0];
 	IntStream.range(0, n).parallel().forEach(i -> result[i] = StrGen.generate(i));
 
-        Runner.run((Void v) -> { map(result); return null; }, reps);
+        Runner.run((Void v) -> { map(result); return null; }, reps, sreps);
     }
 }
