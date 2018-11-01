@@ -5,11 +5,8 @@ import java.util.stream.*;
 class MapMut {
 
     static private char[] mapper(char[] elem) {
-      char[] res = new char[elem.length];
-      for (int i = 0;i < elem.length;i++) {
-        res[elem.length - 1 - i] = elem[i];
-      }
-      return res;
+      int res = StrGen.hash(elem);
+      return Integer.toBinaryString(res).toCharArray();
     }
 
     static private void map(char[][] arr) {

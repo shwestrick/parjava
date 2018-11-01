@@ -13,7 +13,7 @@ p.add_argument('-numa', action='store_true')
 
 a = p.parse_args()
 
-cmd = 'java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
+cmd = 'numactl -i all java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
 cmd = cmd.format(a.threads, a.threads, a.bench, a.size, a.reps, a.sreps)
 
 if a.numa:
