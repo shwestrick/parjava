@@ -9,10 +9,14 @@ p.add_argument('-n', '--size', dest='size', type=int, default=10000000)
 p.add_argument('-r', '--reps', dest='reps', type=int, default=10)
 p.add_argument('-s', '--sreps', dest='sreps', type=int, default=0)
 p.add_argument('-t', '--threads', dest='threads', type=int, default=1)
+p.add_argument('-numa', action='store_true')
 
 a = p.parse_args()
 
 cmd = 'java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
 cmd = cmd.format(a.threads, a.threads, a.bench, a.size, a.reps, a.sreps)
+
+if a.numa:
+    cmd = "numactl -i all " + cmd
 # print cmd
 subprocess.call(cmd, shell=True)
