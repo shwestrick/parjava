@@ -60,7 +60,7 @@ class StrGen {
   }
 
   public static int hash(char[] x) {
-    long v = hashInt(Integer.parseInt(String.valueOf(x), 2)) % 10000000;
+    long v = hashInt(Integer.parseUnsignedInt(String.valueOf(x), 2)) % 10000000;
     return (int) v;
   }
 }

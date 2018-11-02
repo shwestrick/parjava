@@ -20,7 +20,7 @@ class Runner {
 	    double postgc = getGarbageCollectionTime();
             times.add(elapsed);
 	    gc_times.add(postgc - prevgc);
-            System.out.printf("Time: %7.3f\n", elapsed);
+            System.out.printf("Time: %7.3f %7.3f\n", elapsed, postgc-prevgc);
         }
         stats(times, gc_times);
     }
@@ -44,7 +44,7 @@ class Runner {
 	    double postgc = getGarbageCollectionTime();
 	    gc_times.add(postgc - prevgc);
             times.add(elapsed);
-            System.out.printf("Time: %7.3f\n", elapsed);
+            System.out.printf("Time: %7.3f %7.3f\n", elapsed, postgc-prevgc);
         }
         stats(times, gc_times);
     }
@@ -55,6 +55,7 @@ class Runner {
         double median = 0;
 	double medgc = 0;
         Collections.sort(times);
+	Collections.sort(gctimes);
         double pos1 = Math.floor((times.size() - 1.0) / 2.0);
         double pos2 = Math.ceil((times.size() - 1.0) / 2.0);
         if (pos1 == pos2 ) {
