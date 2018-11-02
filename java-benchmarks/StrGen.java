@@ -55,8 +55,26 @@ class StrGen {
     return result;
   }
 
+  // public static int compare(char[] x, char[] y) {
+  //   return String.valueOf(x).compareTo(String.valueOf(y));
+  // }
+
   public static int compare(char[] x, char[] y) {
-    return String.valueOf(x).compareTo(String.valueOf(y));
+    for (int i = 0;i < Math.max(x.length, y.length);i++) {
+      if (i >= x.length) {
+        return -1;
+      }
+      if (i >= y.length) {
+        return -1;
+      }
+      if (x[i] < y[i]) {
+        return -1;
+      }
+      if (x[i] > y[i]) {
+        return 1;
+      }
+    }
+    return 0;
   }
 
   public static int hash(char[] x) {
