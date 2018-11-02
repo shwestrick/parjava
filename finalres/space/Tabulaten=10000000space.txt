@@ -1,22 +1,22 @@
-Time:   2.274
-Min: 2.274377221
-Med: 2.274377221 1.258
-Max: 2.274377221
+Time:   2.239   1.242
+Min: 2.239467213
+Med: 2.239467213 1.242
+Max: 2.239467213
 	Command being timed: "./run -b Tabulate -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 3.08
-	System time (seconds): 0.50
-	Percent of CPU this job got: 140%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.54
+	User time (seconds): 3.01
+	System time (seconds): 0.41
+	Percent of CPU this job got: 137%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.49
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1208452
+	Maximum resident set size (kbytes): 1208032
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 8131
-	Voluntary context switches: 2705
-	Involuntary context switches: 24
+	Minor (reclaiming a frame) page faults: 8028
+	Voluntary context switches: 2367
+	Involuntary context switches: 25
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +25,25 @@ Max: 2.274377221
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  17.055
-Min: 17.054682163
-Med: 17.054682163 16.338
-Max: 17.054682163
+Time:  14.810  14.158
+Min: 14.809540769
+Med: 14.809540769 14.158
+Max: 14.809540769
 	Command being timed: "./run -b Tabulate -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 274.04
-	System time (seconds): 1.88
-	Percent of CPU this job got: 1592%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.32
+	User time (seconds): 238.13
+	System time (seconds): 3.15
+	Percent of CPU this job got: 1596%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.11
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2033820
+	Maximum resident set size (kbytes): 2191628
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 37096
-	Voluntary context switches: 4221
-	Involuntary context switches: 581
+	Minor (reclaiming a frame) page faults: 36807
+	Voluntary context switches: 4149
+	Involuntary context switches: 396
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +52,25 @@ Max: 17.054682163
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   8.820
-Min: 8.819790719
-Med: 8.819790719 8.237
-Max: 8.819790719
+Time:   6.152   5.531
+Min: 6.151635792
+Med: 6.151635792 5.531
+Max: 6.151635792
 	Command being timed: "./run -b Tabulate -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 258.06
-	System time (seconds): 2.70
-	Percent of CPU this job got: 2860%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.11
+	User time (seconds): 160.92
+	System time (seconds): 4.90
+	Percent of CPU this job got: 2566%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.46
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2252532
+	Maximum resident set size (kbytes): 2212976
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 47803
-	Voluntary context switches: 6702
-	Involuntary context switches: 651
+	Minor (reclaiming a frame) page faults: 41649
+	Voluntary context switches: 5879
+	Involuntary context switches: 630
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +79,25 @@ Max: 8.819790719
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  33.642
-Min: 33.641929443
-Med: 33.641929443 33.098
-Max: 33.641929443
+Time:  18.982  18.483
+Min: 18.98188527
+Med: 18.98188527 18.483
+Max: 18.98188527
 	Command being timed: "./run -b Tabulate -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 1714.63
-	System time (seconds): 3.79
-	Percent of CPU this job got: 5073%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.87
+	User time (seconds): 933.53
+	System time (seconds): 7.47
+	Percent of CPU this job got: 4899%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.20
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2232744
+	Maximum resident set size (kbytes): 2370944
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 58230
-	Voluntary context switches: 6569
-	Involuntary context switches: 2689
+	Minor (reclaiming a frame) page faults: 52976
+	Voluntary context switches: 5414
+	Involuntary context switches: 1850
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +106,25 @@ Max: 33.641929443
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  44.330
-Min: 44.330252177
-Med: 44.330252177 43.863
-Max: 44.330252177
+Time:  53.255  52.572
+Min: 53.255364403
+Med: 53.255364403 52.572
+Max: 53.255364403
 	Command being timed: "./run -b Tabulate -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 3135.64
-	System time (seconds): 5.69
-	Percent of CPU this job got: 7052%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.54
+	User time (seconds): 3792.93
+	System time (seconds): 7.40
+	Percent of CPU this job got: 7098%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.53
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2544836
+	Maximum resident set size (kbytes): 2454400
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 70892
-	Voluntary context switches: 7930
-	Involuntary context switches: 3871
+	Minor (reclaiming a frame) page faults: 75143
+	Voluntary context switches: 9145
+	Involuntary context switches: 4732
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
