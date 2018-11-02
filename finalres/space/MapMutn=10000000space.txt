@@ -1,22 +1,22 @@
-Time:   4.871
-Min: 4.870717654
-Med: 4.870717654 3.5669999999999997
-Max: 4.870717654
+Time:   5.074   3.225
+Min: 5.074032238
+Med: 5.074032238 3.2249999999999996
+Max: 5.074032238
 	Command being timed: "./run -b MapMut -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 8.11
-	System time (seconds): 1.19
-	Percent of CPU this job got: 130%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.11
+	User time (seconds): 9.07
+	System time (seconds): 0.96
+	Percent of CPU this job got: 139%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.18
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2594340
+	Maximum resident set size (kbytes): 2590040
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 14261
-	Voluntary context switches: 2839
-	Involuntary context switches: 32
+	Minor (reclaiming a frame) page faults: 16604
+	Voluntary context switches: 3463
+	Involuntary context switches: 26
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +25,25 @@ Max: 4.870717654
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  10.242
-Min: 10.241634547
-Med: 10.241634547 9.947000000000001
-Max: 10.241634547
+Time:   8.358   8.014
+Min: 8.35780308
+Med: 8.35780308 8.014
+Max: 8.35780308
 	Command being timed: "./run -b MapMut -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 449.17
-	System time (seconds): 2.52
-	Percent of CPU this job got: 1667%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.08
+	User time (seconds): 414.38
+	System time (seconds): 2.46
+	Percent of CPU this job got: 1654%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.19
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2545184
+	Maximum resident set size (kbytes): 2594512
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 53925
-	Voluntary context switches: 6206
-	Involuntary context switches: 776
+	Minor (reclaiming a frame) page faults: 64536
+	Voluntary context switches: 6586
+	Involuntary context switches: 618
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +52,25 @@ Max: 10.241634547
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  15.671
-Min: 15.670976888
-Med: 15.670976888 15.350999999999999
-Max: 15.670976888
+Time:   5.013   4.784
+Min: 5.012806493
+Med: 5.012806493 4.784
+Max: 5.012806493
 	Command being timed: "./run -b MapMut -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 679.22
-	System time (seconds): 3.38
-	Percent of CPU this job got: 3247%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.01
+	User time (seconds): 360.24
+	System time (seconds): 4.30
+	Percent of CPU this job got: 2961%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.31
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2699636
+	Maximum resident set size (kbytes): 2723652
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 53167
-	Voluntary context switches: 8254
-	Involuntary context switches: 846
+	Minor (reclaiming a frame) page faults: 62225
+	Voluntary context switches: 9931
+	Involuntary context switches: 1187
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +79,25 @@ Max: 15.670976888
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  22.934
-Min: 22.934371971
-Med: 22.934371971 22.583
-Max: 22.934371971
+Time:  31.443  31.196
+Min: 31.443077878
+Med: 31.443077878 31.195999999999998
+Max: 31.443077878
 	Command being timed: "./run -b MapMut -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 2140.45
-	System time (seconds): 5.98
-	Percent of CPU this job got: 5196%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.30
+	User time (seconds): 1813.74
+	System time (seconds): 5.30
+	Percent of CPU this job got: 5116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.55
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2816524
+	Maximum resident set size (kbytes): 2996504
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 80643
-	Voluntary context switches: 10761
-	Involuntary context switches: 3159
+	Minor (reclaiming a frame) page faults: 104376
+	Voluntary context switches: 14997
+	Involuntary context switches: 5221
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +106,25 @@ Max: 22.934371971
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  20.966
-Min: 20.965776516
-Med: 20.965776516 20.591
-Max: 20.965776516
+Time:  16.116  15.829
+Min: 16.116088786
+Med: 16.116088786 15.829
+Max: 16.116088786
 	Command being timed: "./run -b MapMut -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 4585.22
-	System time (seconds): 6.48
-	Percent of CPU this job got: 7040%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:05.21
+	User time (seconds): 4059.00
+	System time (seconds): 6.85
+	Percent of CPU this job got: 6877%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:59.11
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2873256
+	Maximum resident set size (kbytes): 2765260
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 97166
-	Voluntary context switches: 12118
-	Involuntary context switches: 7589
+	Minor (reclaiming a frame) page faults: 82988
+	Voluntary context switches: 10590
+	Involuntary context switches: 23657
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
