@@ -1,22 +1,22 @@
-Time:   1.035   0.000
-Min: 1.035063404
-Med: 1.035063404 0.0
-Max: 1.035063404
+Time:   1.030   0.000
+Min: 1.030432374
+Med: 1.030432374 0.0
+Max: 1.030432374
 	Command being timed: "./run -b Fib -t 1 -n 42 -r 1 -s 0"
-	User time (seconds): 2.60
-	System time (seconds): 0.18
-	Percent of CPU this job got: 223%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	User time (seconds): 2.91
+	System time (seconds): 0.13
+	Percent of CPU this job got: 227%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.34
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 97124
+	Maximum resident set size (kbytes): 125616
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 16651
-	Voluntary context switches: 3215
-	Involuntary context switches: 30
+	Minor (reclaiming a frame) page faults: 20627
+	Voluntary context switches: 3718
+	Involuntary context switches: 22
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +25,25 @@ Max: 1.035063404
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.174   0.000
-Min: 0.173933582
-Med: 0.173933582 0.0
-Max: 0.173933582
+Time:   0.167   0.000
+Min: 0.167120787
+Med: 0.167120787 0.0
+Max: 0.167120787
 	Command being timed: "./run -b Fib -t 18 -n 42 -r 1 -s 0"
-	User time (seconds): 3.57
-	System time (seconds): 0.17
-	Percent of CPU this job got: 864%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.43
+	User time (seconds): 3.44
+	System time (seconds): 0.28
+	Percent of CPU this job got: 620%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.60
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 126792
+	Maximum resident set size (kbytes): 272544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 15254
-	Voluntary context switches: 3596
-	Involuntary context switches: 45
+	Minor (reclaiming a frame) page faults: 26588
+	Voluntary context switches: 3857
+	Involuntary context switches: 57
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +52,25 @@ Max: 0.173933582
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.137   0.000
-Min: 0.137098121
-Med: 0.137098121 0.0
-Max: 0.137098121
+Time:   0.140   0.000
+Min: 0.140456909
+Med: 0.140456909 0.0
+Max: 0.140456909
 	Command being timed: "./run -b Fib -t 36 -n 42 -r 1 -s 0"
-	User time (seconds): 4.34
-	System time (seconds): 0.24
-	Percent of CPU this job got: 1069%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.42
+	User time (seconds): 4.45
+	System time (seconds): 0.43
+	Percent of CPU this job got: 621%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.78
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 164884
+	Maximum resident set size (kbytes): 453740
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 16296
-	Voluntary context switches: 4124
-	Involuntary context switches: 35
+	Minor (reclaiming a frame) page faults: 37344
+	Voluntary context switches: 4726
+	Involuntary context switches: 50
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +79,25 @@ Max: 0.137098121
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.157   0.017
-Min: 0.156635275
-Med: 0.156635275 0.017
-Max: 0.156635275
+Time:   0.173   0.024
+Min: 0.173483904
+Med: 0.173483904 0.024
+Max: 0.173483904
 	Command being timed: "./run -b Fib -t 54 -n 42 -r 1 -s 0"
-	User time (seconds): 4.87
-	System time (seconds): 0.81
-	Percent of CPU this job got: 1260%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.45
+	User time (seconds): 5.98
+	System time (seconds): 0.56
+	Percent of CPU this job got: 669%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.97
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 263428
+	Maximum resident set size (kbytes): 619616
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 18605
-	Voluntary context switches: 5589
-	Involuntary context switches: 94
+	Minor (reclaiming a frame) page faults: 47762
+	Voluntary context switches: 6511
+	Involuntary context switches: 90
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +106,25 @@ Max: 0.156635275
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.181   0.014
-Min: 0.18085667
-Med: 0.18085667 0.014
-Max: 0.18085667
+Time:   0.185   0.031
+Min: 0.184974317
+Med: 0.184974317 0.031
+Max: 0.184974317
 	Command being timed: "./run -b Fib -t 72 -n 42 -r 1 -s 0"
-	User time (seconds): 7.16
-	System time (seconds): 0.52
-	Percent of CPU this job got: 1435%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.53
+	User time (seconds): 7.85
+	System time (seconds): 0.94
+	Percent of CPU this job got: 773%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.13
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 276028
+	Maximum resident set size (kbytes): 772440
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 17820
-	Voluntary context switches: 6173
-	Involuntary context switches: 98
+	Minor (reclaiming a frame) page faults: 59776
+	Voluntary context switches: 7613
+	Involuntary context switches: 128
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

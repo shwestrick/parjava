@@ -1,22 +1,22 @@
-Time:  10.169   7.906
-Min: 10.169379412
-Med: 10.169379412 7.906
-Max: 10.169379412
+Time:  10.577   4.789
+Min: 10.576838055
+Med: 10.576838055 4.789
+Max: 10.576838055
 	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 14.58
-	System time (seconds): 1.09
-	Percent of CPU this job got: 124%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.55
+	User time (seconds): 26.38
+	System time (seconds): 1.65
+	Percent of CPU this job got: 189%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.79
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2346016
+	Maximum resident set size (kbytes): 3946644
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 14723
-	Voluntary context switches: 3471
-	Involuntary context switches: 49
+	Minor (reclaiming a frame) page faults: 86563
+	Voluntary context switches: 4439
+	Involuntary context switches: 97
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +25,25 @@ Max: 10.169379412
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.428   1.940
-Min: 2.427610219
-Med: 2.427610219 1.9400000000000013
-Max: 2.427610219
+Time:   1.594   0.361
+Min: 1.594063518
+Med: 1.594063518 0.361
+Max: 1.594063518
 	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 273.36
-	System time (seconds): 9.04
-	Percent of CPU this job got: 1595%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.69
+	User time (seconds): 57.92
+	System time (seconds): 4.20
+	Percent of CPU this job got: 1734%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.58
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2386156
+	Maximum resident set size (kbytes): 4244368
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 32322
-	Voluntary context switches: 6625
-	Involuntary context switches: 614
+	Minor (reclaiming a frame) page faults: 67432
+	Voluntary context switches: 39722
+	Involuntary context switches: 287
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +52,25 @@ Max: 2.427610219
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.381   0.000
-Min: 0.381344977
-Med: 0.381344977 0.0
-Max: 0.381344977
+Time:   1.079   0.321
+Min: 1.078657053
+Med: 1.078657053 0.32100000000000006
+Max: 1.078657053
 	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 212.74
-	System time (seconds): 14.90
-	Percent of CPU this job got: 2807%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.10
+	User time (seconds): 75.80
+	System time (seconds): 8.98
+	Percent of CPU this job got: 2521%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.36
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2133980
+	Maximum resident set size (kbytes): 4575632
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 36299
-	Voluntary context switches: 8775
-	Involuntary context switches: 20091
+	Minor (reclaiming a frame) page faults: 80751
+	Voluntary context switches: 45461
+	Involuntary context switches: 367
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +79,25 @@ Max: 0.381344977
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  12.474  11.892
-Min: 12.474126095
-Med: 12.474126095 11.892
-Max: 12.474126095
+Time:   1.060   0.375
+Min: 1.060340424
+Med: 1.060340424 0.375
+Max: 1.060340424
 	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 1815.81
-	System time (seconds): 37.42
-	Percent of CPU this job got: 4973%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.26
+	User time (seconds): 100.24
+	System time (seconds): 12.24
+	Percent of CPU this job got: 3043%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.69
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3078140
+	Maximum resident set size (kbytes): 4830268
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 75606
-	Voluntary context switches: 20461
-	Involuntary context switches: 5161
+	Minor (reclaiming a frame) page faults: 93544
+	Voluntary context switches: 57009
+	Involuntary context switches: 4785
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +106,25 @@ Max: 12.474126095
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.657   0.000
-Min: 0.657197938
-Med: 0.657197938 0.0
-Max: 0.657197938
+Time:   1.168   0.270
+Min: 1.167664017
+Med: 1.167664017 0.27
+Max: 1.167664017
 	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 4109.91
-	System time (seconds): 34.04
-	Percent of CPU this job got: 7034%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.91
+	User time (seconds): 137.86
+	System time (seconds): 14.53
+	Percent of CPU this job got: 3837%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.97
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2409272
+	Maximum resident set size (kbytes): 5018900
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 55407
-	Voluntary context switches: 12719
-	Involuntary context switches: 6151
+	Minor (reclaiming a frame) page faults: 104818
+	Voluntary context switches: 60748
+	Involuntary context switches: 10013
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
