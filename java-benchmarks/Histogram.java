@@ -1,5 +1,6 @@
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
 import java.util.stream.*;
 
 class Histogram {
@@ -16,6 +17,10 @@ class Histogram {
 
     public static void compute(char[][] l) {
       ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
+//       ConcurrentHashMap<HashObject, LongAdder> x = new ConcurrentHashMap<HashObject, LongAdder>(l.length);
+//       IntStream.range(0, l.length).parallel()
+// 	.forEach(i -> x.computeIfAbsent(new HashObject(l[i]), k -> new LongAdder()).increment());
+// 
       IntStream.range(0, l.length).parallel()
         .forEach(i -> x.compute(
           new HashObject(l[i]), (k,v) -> (v == null) ? 1 : (v + 1)));
