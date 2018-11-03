@@ -1,22 +1,157 @@
-Time:  12.608   0.000
-Min: 12.608069291
-Med: 12.608069291 0.0
-Max: 12.608069291
+Time:  12.349   0.000
+Min: 12.349463403
+Med: 12.349463403 0.0
+Max: 12.349463403
 	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 24.98
-	System time (seconds): 2.13
+	User time (seconds): 23.95
+	System time (seconds): 1.60
+	Percent of CPU this job got: 147%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4535080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54227
+	Voluntary context switches: 5972
+	Involuntary context switches: 116
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.678   0.000
+Min: 12.677712106
+Med: 12.677712106 0.0
+Max: 12.677712106
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 25.44
+	System time (seconds): 1.97
+	Percent of CPU this job got: 151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4540756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56270
+	Voluntary context switches: 6209
+	Involuntary context switches: 121
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.743   0.000
+Min: 11.743255386
+Med: 11.743255386 0.0
+Max: 11.743255386
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 23.64
+	System time (seconds): 1.83
+	Percent of CPU this job got: 151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4540160
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52580
+	Voluntary context switches: 5669
+	Involuntary context switches: 107
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.460   0.000
+Min: 11.460319647
+Med: 11.460319647 0.0
+Max: 11.460319647
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 23.03
+	System time (seconds): 1.66
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4536720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54783
+	Voluntary context switches: 5819
+	Involuntary context switches: 97
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.220   0.000
+Min: 12.219609177
+Med: 12.219609177 0.0
+Max: 12.219609177
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 24.53
+	System time (seconds): 1.99
+	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4540524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53807
+	Voluntary context switches: 6105
+	Involuntary context switches: 115
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.109   0.000
+Min: 12.109444176
+Med: 12.109444176 0.0
+Max: 12.109444176
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 24.32
+	System time (seconds): 1.85
 	Percent of CPU this job got: 149%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.16
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.53
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4540652
+	Maximum resident set size (kbytes): 4541996
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 56115
-	Voluntary context switches: 6500
-	Involuntary context switches: 103
+	Minor (reclaiming a frame) page faults: 53807
+	Voluntary context switches: 6090
+	Involuntary context switches: 85
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +160,133 @@ Max: 12.608069291
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.762   0.000
-Min: 2.761933689
-Med: 2.761933689 0.0
-Max: 2.761933689
+Time:  11.791   0.000
+Min: 11.79133015
+Med: 11.79133015 0.0
+Max: 11.79133015
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 23.68
+	System time (seconds): 1.76
+	Percent of CPU this job got: 152%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4541404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55359
+	Voluntary context switches: 5658
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.236   0.000
+Min: 12.236258284
+Med: 12.236258284 0.0
+Max: 12.236258284
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 24.95
+	System time (seconds): 1.92
+	Percent of CPU this job got: 151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4545188
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55935
+	Voluntary context switches: 6042
+	Involuntary context switches: 67
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.133   0.000
+Min: 13.133225169
+Med: 13.133225169 0.0
+Max: 13.133225169
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 24.74
+	System time (seconds): 1.91
+	Percent of CPU this job got: 149%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4540728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56569
+	Voluntary context switches: 5762
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.092   0.000
+Min: 12.092460376
+Med: 12.092460376 0.0
+Max: 12.092460376
+	Command being timed: "./run -b Sort -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 24.41
+	System time (seconds): 1.68
+	Percent of CPU this job got: 151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4536960
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56230
+	Voluntary context switches: 5911
+	Involuntary context switches: 85
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.871   0.000
+Min: 2.870828348
+Med: 2.870828348 0.0
+Max: 2.870828348
 	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 76.59
-	System time (seconds): 5.28
-	Percent of CPU this job got: 1546%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.29
+	User time (seconds): 80.06
+	System time (seconds): 5.48
+	Percent of CPU this job got: 1552%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.51
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 5235652
+	Maximum resident set size (kbytes): 5248360
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 64185
-	Voluntary context switches: 28245
-	Involuntary context switches: 271
+	Minor (reclaiming a frame) page faults: 65185
+	Voluntary context switches: 28371
+	Involuntary context switches: 243
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +295,430 @@ Max: 2.761933689
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.229   0.000
-Min: 2.229219213
-Med: 2.229219213 0.0
-Max: 2.229219213
+Time:   2.791   0.000
+Min: 2.791473855
+Med: 2.791473855 0.0
+Max: 2.791473855
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 77.89
+	System time (seconds): 5.88
+	Percent of CPU this job got: 1529%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5263396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 62612
+	Voluntary context switches: 28282
+	Involuntary context switches: 397
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.770   0.000
+Min: 2.770322715
+Med: 2.770322715 0.0
+Max: 2.770322715
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 75.70
+	System time (seconds): 5.34
+	Percent of CPU this job got: 1567%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5254256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 63343
+	Voluntary context switches: 27421
+	Involuntary context switches: 257
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.935   0.000
+Min: 2.935382526
+Med: 2.935382526 0.0
+Max: 2.935382526
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 80.59
+	System time (seconds): 5.54
+	Percent of CPU this job got: 1541%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5250928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 63849
+	Voluntary context switches: 28902
+	Involuntary context switches: 286
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.461   0.000
+Min: 2.460665502
+Med: 2.460665502 0.0
+Max: 2.460665502
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 71.32
+	System time (seconds): 5.31
+	Percent of CPU this job got: 1525%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5265592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 66627
+	Voluntary context switches: 28380
+	Involuntary context switches: 282
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.572   0.000
+Min: 2.57184207
+Med: 2.57184207 0.0
+Max: 2.57184207
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 73.71
+	System time (seconds): 5.64
+	Percent of CPU this job got: 1539%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5261036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 61987
+	Voluntary context switches: 28228
+	Involuntary context switches: 393
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.714   0.000
+Min: 2.714452382
+Med: 2.714452382 0.0
+Max: 2.714452382
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 73.66
+	System time (seconds): 5.48
+	Percent of CPU this job got: 1558%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5279968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 62729
+	Voluntary context switches: 28756
+	Involuntary context switches: 301
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.362   0.000
+Min: 2.361583926
+Med: 2.361583926 0.0
+Max: 2.361583926
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 69.70
+	System time (seconds): 5.36
+	Percent of CPU this job got: 1522%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5299456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 62272
+	Voluntary context switches: 28764
+	Involuntary context switches: 272
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.443   0.000
+Min: 2.442639827
+Med: 2.442639827 0.0
+Max: 2.442639827
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 71.59
+	System time (seconds): 5.33
+	Percent of CPU this job got: 1517%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5272796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 61496
+	Voluntary context switches: 28003
+	Involuntary context switches: 295
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.544   0.000
+Min: 2.543941113
+Med: 2.543941113 0.0
+Max: 2.543941113
+	Command being timed: "./run -b Sort -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 73.38
+	System time (seconds): 5.43
+	Percent of CPU this job got: 1505%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5259128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 62928
+	Voluntary context switches: 27466
+	Involuntary context switches: 309
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.215   0.000
+Min: 2.214787209
+Med: 2.214787209 0.0
+Max: 2.214787209
 	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 118.78
-	System time (seconds): 11.93
-	Percent of CPU this job got: 2643%
+	User time (seconds): 119.95
+	System time (seconds): 13.35
+	Percent of CPU this job got: 2593%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5700896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77347
+	Voluntary context switches: 28867
+	Involuntary context switches: 595
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.036   0.000
+Min: 2.036214452
+Med: 2.036214452 0.0
+Max: 2.036214452
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 113.09
+	System time (seconds): 11.61
+	Percent of CPU this job got: 2611%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5694896
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74635
+	Voluntary context switches: 28219
+	Involuntary context switches: 588
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.226   0.000
+Min: 2.226370018
+Med: 2.226370018 0.0
+Max: 2.226370018
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 118.60
+	System time (seconds): 13.00
+	Percent of CPU this job got: 2656%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5664916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74981
+	Voluntary context switches: 29734
+	Involuntary context switches: 699
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.121   0.000
+Min: 2.120751641
+Med: 2.120751641 0.0
+Max: 2.120751641
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 119.62
+	System time (seconds): 12.48
+	Percent of CPU this job got: 2552%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5630128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76923
+	Voluntary context switches: 30125
+	Involuntary context switches: 921
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.378   0.000
+Min: 2.377859102
+Med: 2.377859102 0.0
+Max: 2.377859102
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 130.56
+	System time (seconds): 13.48
+	Percent of CPU this job got: 2746%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5616640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76848
+	Voluntary context switches: 29800
+	Involuntary context switches: 530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.280   0.000
+Min: 2.279970697
+Med: 2.279970697 0.0
+Max: 2.279970697
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 124.83
+	System time (seconds): 12.59
+	Percent of CPU this job got: 2610%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5653208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77652
+	Voluntary context switches: 28929
+	Involuntary context switches: 457
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.067   0.000
+Min: 2.067195677
+Med: 2.067195677 0.0
+Max: 2.067195677
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 115.75
+	System time (seconds): 12.40
+	Percent of CPU this job got: 2590%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.94
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 5645244
+	Maximum resident set size (kbytes): 5649468
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 76189
-	Voluntary context switches: 28084
-	Involuntary context switches: 513
+	Minor (reclaiming a frame) page faults: 76020
+	Voluntary context switches: 29974
+	Involuntary context switches: 698
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +727,295 @@ Max: 2.229219213
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.064   0.000
-Min: 2.063571695
-Med: 2.063571695 0.0
-Max: 2.063571695
+Time:   2.139   0.000
+Min: 2.139381384
+Med: 2.139381384 0.0
+Max: 2.139381384
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 118.24
+	System time (seconds): 9.18
+	Percent of CPU this job got: 2581%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5622288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 75553
+	Voluntary context switches: 27015
+	Involuntary context switches: 555
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.435   0.000
+Min: 2.435033395
+Med: 2.435033395 0.0
+Max: 2.435033395
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 125.97
+	System time (seconds): 12.77
+	Percent of CPU this job got: 2699%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.13
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5664136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76168
+	Voluntary context switches: 29367
+	Involuntary context switches: 573
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.367   0.000
+Min: 2.366554081
+Med: 2.366554081 0.0
+Max: 2.366554081
+	Command being timed: "./run -b Sort -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 135.66
+	System time (seconds): 8.02
+	Percent of CPU this job got: 2668%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5612592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 74961
+	Voluntary context switches: 30187
+	Involuntary context switches: 465
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.763   0.000
+Min: 1.762856866
+Med: 1.762856866 0.0
+Max: 1.762856866
 	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 161.80
-	System time (seconds): 10.86
-	Percent of CPU this job got: 3396%
+	User time (seconds): 156.91
+	System time (seconds): 12.94
+	Percent of CPU this job got: 3386%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5998232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90968
+	Voluntary context switches: 32177
+	Involuntary context switches: 6030
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.273   0.000
+Min: 2.272651484
+Med: 2.272651484 0.0
+Max: 2.272651484
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 182.75
+	System time (seconds): 13.28
+	Percent of CPU this job got: 3568%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5950940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 89515
+	Voluntary context switches: 29876
+	Involuntary context switches: 1118
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.017   0.000
+Min: 2.017063626
+Med: 2.017063626 0.0
+Max: 2.017063626
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 173.49
+	System time (seconds): 11.78
+	Percent of CPU this job got: 3519%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6007796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 89513
+	Voluntary context switches: 29105
+	Involuntary context switches: 1232
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.183   0.000
+Min: 2.182993737
+Med: 2.182993737 0.0
+Max: 2.182993737
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 191.26
+	System time (seconds): 12.45
+	Percent of CPU this job got: 3667%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5927032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 89491
+	Voluntary context switches: 30479
+	Involuntary context switches: 1150
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.062   0.000
+Min: 2.061852272
+Med: 2.061852272 0.0
+Max: 2.061852272
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 169.67
+	System time (seconds): 12.46
+	Percent of CPU this job got: 3529%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5920092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90936
+	Voluntary context switches: 27924
+	Involuntary context switches: 810
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.752   0.000
+Min: 1.752148661
+Med: 1.752148661 0.0
+Max: 1.752148661
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 156.29
+	System time (seconds): 14.73
+	Percent of CPU this job got: 3410%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.01
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5894140
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 88920
+	Voluntary context switches: 27873
+	Involuntary context switches: 905
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.013   0.000
+Min: 2.013395757
+Med: 2.013395757 0.0
+Max: 2.013395757
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 181.18
+	System time (seconds): 11.04
+	Percent of CPU this job got: 3666%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5924120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 88287
+	Voluntary context switches: 27098
+	Involuntary context switches: 873
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.084   0.000
+Min: 2.08449279
+Med: 2.08449279 0.0
+Max: 2.08449279
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 169.15
+	System time (seconds): 12.81
+	Percent of CPU this job got: 3581%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.08
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 6004324
+	Maximum resident set size (kbytes): 5902960
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 88930
-	Voluntary context switches: 25734
-	Involuntary context switches: 1091
+	Minor (reclaiming a frame) page faults: 87790
+	Voluntary context switches: 25475
+	Involuntary context switches: 794
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +1024,322 @@ Max: 2.063571695
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.479   0.000
-Min: 1.478883089
-Med: 1.478883089 0.0
-Max: 1.478883089
-	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 187.91
-	System time (seconds): 16.69
-	Percent of CPU this job got: 4118%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.96
+Time:   1.938   0.000
+Min: 1.93824035
+Med: 1.93824035 0.0
+Max: 1.93824035
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 162.54
+	System time (seconds): 13.66
+	Percent of CPU this job got: 3438%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.12
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 6170732
+	Maximum resident set size (kbytes): 5981124
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 102372
-	Voluntary context switches: 33171
-	Involuntary context switches: 1046
+	Minor (reclaiming a frame) page faults: 88561
+	Voluntary context switches: 30550
+	Involuntary context switches: 1424
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.538   0.000
+Min: 2.537556317
+Med: 2.537556317 0.0
+Max: 2.537556317
+	Command being timed: "./run -b Sort -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 203.89
+	System time (seconds): 12.53
+	Percent of CPU this job got: 3715%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5953388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 90081
+	Voluntary context switches: 31229
+	Involuntary context switches: 990
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.543   0.000
+Min: 1.543369604
+Med: 1.543369604 0.0
+Max: 1.543369604
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 193.43
+	System time (seconds): 16.80
+	Percent of CPU this job got: 4267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6198396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 101870
+	Voluntary context switches: 24947
+	Involuntary context switches: 1203
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.707   0.000
+Min: 1.706922821
+Med: 1.706922821 0.0
+Max: 1.706922821
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 197.02
+	System time (seconds): 15.00
+	Percent of CPU this job got: 4196%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6222440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103016
+	Voluntary context switches: 32614
+	Involuntary context switches: 1060
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.637   0.000
+Min: 1.636660864
+Med: 1.636660864 0.0
+Max: 1.636660864
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 200.70
+	System time (seconds): 16.95
+	Percent of CPU this job got: 4389%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6202396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 102041
+	Voluntary context switches: 29704
+	Involuntary context switches: 1986
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.787   0.000
+Min: 1.786935189
+Med: 1.786935189 0.0
+Max: 1.786935189
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 221.10
+	System time (seconds): 13.65
+	Percent of CPU this job got: 4359%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6196812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 101401
+	Voluntary context switches: 32426
+	Involuntary context switches: 1279
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.871   0.000
+Min: 1.870778332
+Med: 1.870778332 0.0
+Max: 1.870778332
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 207.68
+	System time (seconds): 14.74
+	Percent of CPU this job got: 4215%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6221476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103628
+	Voluntary context switches: 37039
+	Involuntary context switches: 3314
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.749   0.000
+Min: 1.749097923
+Med: 1.749097923 0.0
+Max: 1.749097923
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 205.11
+	System time (seconds): 14.17
+	Percent of CPU this job got: 4436%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6175936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103306
+	Voluntary context switches: 30500
+	Involuntary context switches: 1019
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.254   0.000
+Min: 1.253931546
+Med: 1.253931546 0.0
+Max: 1.253931546
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 174.36
+	System time (seconds): 16.56
+	Percent of CPU this job got: 3971%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6205180
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 101912
+	Voluntary context switches: 32036
+	Involuntary context switches: 2318
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.410   0.000
+Min: 1.40976768
+Med: 1.40976768 0.0
+Max: 1.40976768
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 187.44
+	System time (seconds): 14.29
+	Percent of CPU this job got: 3949%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6226636
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103194
+	Voluntary context switches: 38334
+	Involuntary context switches: 3704
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.648   0.000
+Min: 1.648132729
+Med: 1.648132729 0.0
+Max: 1.648132729
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 219.12
+	System time (seconds): 13.64
+	Percent of CPU this job got: 4412%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6156828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 100291
+	Voluntary context switches: 33906
+	Involuntary context switches: 2090
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.131   0.000
+Min: 2.130793967
+Med: 2.130793967 0.0
+Max: 2.130793967
+	Command being timed: "./run -b Sort -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 235.51
+	System time (seconds): 16.86
+	Percent of CPU this job got: 4452%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6189920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 103500
+	Voluntary context switches: 36514
+	Involuntary context switches: 1535
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
