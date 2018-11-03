@@ -27,8 +27,8 @@ class ScanImmut {
             return;
         }
 
-	char[][] l = new char[n][0];
-	IntStream.range(0, n).parallel().forEach(i -> StrGen.generate(i));
+	      char[][] l = new char[n][0];
+	      IntStream.range(0, n).parallel().forEach(i -> l[i] = StrGen.generate(i));
         Runner.run((Void v) -> { compute(l); return null; }, reps, sreps);
     }
 }
