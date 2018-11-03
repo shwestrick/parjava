@@ -1,22 +1,49 @@
-Time:   5.860   0.000
-Min: 5.86015243
-Med: 5.86015243 0.0
-Max: 5.86015243
+Time:   6.221   0.000
+Min: 6.220705922
+Med: 6.220705922 0.0
+Max: 6.220705922
 	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
-	User time (seconds): 6.33
-	System time (seconds): 0.19
+	User time (seconds): 6.62
+	System time (seconds): 0.15
+	Percent of CPU this job got: 104%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 107576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10253
+	Voluntary context switches: 3072
+	Involuntary context switches: 27
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   6.205   0.000
+Min: 6.205255131
+Med: 6.205255131 0.0
+Max: 6.205255131
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.74
+	System time (seconds): 0.13
 	Percent of CPU this job got: 105%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.19
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.54
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 108816
+	Maximum resident set size (kbytes): 107400
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 9041
-	Voluntary context switches: 3079
-	Involuntary context switches: 15
+	Minor (reclaiming a frame) page faults: 8549
+	Voluntary context switches: 3043
+	Involuntary context switches: 35
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +52,52 @@ Max: 5.86015243
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.750   0.000
-Min: 0.749912595
-Med: 0.749912595 0.0
-Max: 0.749912595
-	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
-	User time (seconds): 14.05
+Time:   6.434   0.000
+Min: 6.434204013
+Med: 6.434204013 0.0
+Max: 6.434204013
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.95
+	System time (seconds): 0.15
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.76
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 108764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8996
+	Voluntary context switches: 2956
+	Involuntary context switches: 47
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   5.538   0.000
+Min: 5.538156058
+Med: 5.538156058 0.0
+Max: 5.538156058
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.02
 	System time (seconds): 0.22
-	Percent of CPU this job got: 1327%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.07
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.90
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 180608
+	Maximum resident set size (kbytes): 109260
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 8785
-	Voluntary context switches: 3524
-	Involuntary context switches: 66
+	Minor (reclaiming a frame) page faults: 9217
+	Voluntary context switches: 3035
+	Involuntary context switches: 30
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,24 +106,213 @@ Max: 0.749912595
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.011   0.048
-Min: 1.010870504
-Med: 1.010870504 0.048
-Max: 1.010870504
-	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
-	User time (seconds): 30.21
-	System time (seconds): 1.68
-	Percent of CPU this job got: 2427%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.31
+Time:   6.214   0.000
+Min: 6.214247553
+Med: 6.214247553 0.0
+Max: 6.214247553
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.70
+	System time (seconds): 0.17
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.53
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 284684
+	Maximum resident set size (kbytes): 108872
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 10570
-	Voluntary context switches: 4423
+	Minor (reclaiming a frame) page faults: 10053
+	Voluntary context switches: 2829
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   6.081   0.000
+Min: 6.081291903
+Med: 6.081291903 0.0
+Max: 6.081291903
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.56
+	System time (seconds): 0.18
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 109800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10345
+	Voluntary context switches: 2982
+	Involuntary context switches: 37
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   5.856   0.000
+Min: 5.85582131
+Med: 5.85582131 0.0
+Max: 5.85582131
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.32
+	System time (seconds): 0.13
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 108304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9487
+	Voluntary context switches: 2731
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   5.632   0.000
+Min: 5.632437807
+Med: 5.632437807 0.0
+Max: 5.632437807
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.12
+	System time (seconds): 0.16
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 108808
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9583
+	Voluntary context switches: 2715
+	Involuntary context switches: 42
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   6.296   0.000
+Min: 6.296369988
+Med: 6.296369988 0.0
+Max: 6.296369988
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.82
+	System time (seconds): 0.12
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.60
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 107556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8564
+	Voluntary context switches: 2815
+	Involuntary context switches: 42
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   6.447   0.000
+Min: 6.4465684
+Med: 6.4465684 0.0
+Max: 6.4465684
+	Command being timed: "./run -b MatrixMultiply -t 1 -n 2048 -r 1 -s 0"
+	User time (seconds): 6.90
+	System time (seconds): 0.24
+	Percent of CPU this job got: 105%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 109672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8536
+	Voluntary context switches: 3017
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.760   0.000
+Min: 0.759853006
+Med: 0.759853006 0.0
+Max: 0.759853006
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 14.18
+	System time (seconds): 0.21
+	Percent of CPU this job got: 1323%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 183388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8395
+	Voluntary context switches: 3550
+	Involuntary context switches: 63
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.618   0.000
+Min: 0.618459137
+Med: 0.618459137 0.0
+Max: 0.618459137
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 12.92
+	System time (seconds): 0.17
+	Percent of CPU this job got: 1437%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 183364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8980
+	Voluntary context switches: 3461
 	Involuntary context switches: 98
 	Swaps: 0
 	File system inputs: 0
@@ -79,25 +322,25 @@ Max: 1.010870504
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.909   0.053
-Min: 0.9089238
-Med: 0.9089238 0.053
-Max: 0.9089238
-	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
-	User time (seconds): 35.40
-	System time (seconds): 2.58
-	Percent of CPU this job got: 3053%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+Time:   0.639   0.000
+Min: 0.63945338
+Med: 0.63945338 0.0
+Max: 0.63945338
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 13.13
+	System time (seconds): 0.21
+	Percent of CPU this job got: 1412%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.94
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 304212
+	Maximum resident set size (kbytes): 187952
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 12568
-	Voluntary context switches: 4894
-	Involuntary context switches: 134
+	Minor (reclaiming a frame) page faults: 9073
+	Voluntary context switches: 3496
+	Involuntary context switches: 68
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +349,997 @@ Max: 0.9089238
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.116   0.063
-Min: 1.115665483
-Med: 1.115665483 0.063
-Max: 1.115665483
-	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
-	User time (seconds): 51.62
-	System time (seconds): 4.26
-	Percent of CPU this job got: 3966%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+Time:   0.708   0.000
+Min: 0.708270635
+Med: 0.708270635 0.0
+Max: 0.708270635
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 12.86
+	System time (seconds): 0.16
+	Percent of CPU this job got: 1318%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.98
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 321756
+	Maximum resident set size (kbytes): 163544
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 12061
-	Voluntary context switches: 5400
-	Involuntary context switches: 262
+	Minor (reclaiming a frame) page faults: 8495
+	Voluntary context switches: 3410
+	Involuntary context switches: 63
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.662   0.000
+Min: 0.661580513
+Med: 0.661580513 0.0
+Max: 0.661580513
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 13.44
+	System time (seconds): 0.18
+	Percent of CPU this job got: 1445%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 186968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8841
+	Voluntary context switches: 3699
+	Involuntary context switches: 63
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.790   0.000
+Min: 0.790011813
+Med: 0.790011813 0.0
+Max: 0.790011813
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 14.41
+	System time (seconds): 0.18
+	Percent of CPU this job got: 1379%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 166464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8751
+	Voluntary context switches: 3330
+	Involuntary context switches: 68
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.683   0.000
+Min: 0.68272631
+Med: 0.68272631 0.0
+Max: 0.68272631
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 13.51
+	System time (seconds): 0.36
+	Percent of CPU this job got: 1358%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 183036
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8869
+	Voluntary context switches: 3829
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.610   0.000
+Min: 0.610303326
+Med: 0.610303326 0.0
+Max: 0.610303326
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 12.18
+	System time (seconds): 0.19
+	Percent of CPU this job got: 1332%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 190620
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8662
+	Voluntary context switches: 3655
+	Involuntary context switches: 53
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.773   0.000
+Min: 0.773349294
+Med: 0.773349294 0.0
+Max: 0.773349294
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 15.96
+	System time (seconds): 0.25
+	Percent of CPU this job got: 1515%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 186232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 9144
+	Voluntary context switches: 3478
+	Involuntary context switches: 65
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.629   0.000
+Min: 0.628534667
+Med: 0.628534667 0.0
+Max: 0.628534667
+	Command being timed: "./run -b MatrixMultiply -t 18 -n 2048 -r 1 -s 0"
+	User time (seconds): 13.09
+	System time (seconds): 0.26
+	Percent of CPU this job got: 1400%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 186824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 8800
+	Voluntary context switches: 3776
+	Involuntary context switches: 64
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.931   0.045
+Min: 0.931460356
+Med: 0.931460356 0.045
+Max: 0.931460356
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 29.72
+	System time (seconds): 1.68
+	Percent of CPU this job got: 2530%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 299996
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10731
+	Voluntary context switches: 4288
+	Involuntary context switches: 129
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.885   0.044
+Min: 0.884552719
+Med: 0.884552719 0.044
+Max: 0.884552719
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 25.29
+	System time (seconds): 1.64
+	Percent of CPU this job got: 2398%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 291724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10742
+	Voluntary context switches: 4203
+	Involuntary context switches: 93
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.908   0.045
+Min: 0.907944242
+Med: 0.907944242 0.045
+Max: 0.907944242
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 25.62
+	System time (seconds): 1.59
+	Percent of CPU this job got: 2331%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 293148
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10458
+	Voluntary context switches: 4234
+	Involuntary context switches: 100
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.950   0.050
+Min: 0.949615935
+Med: 0.949615935 0.05
+Max: 0.949615935
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 28.18
+	System time (seconds): 1.66
+	Percent of CPU this job got: 2372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.25
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 307056
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10447
+	Voluntary context switches: 4656
+	Involuntary context switches: 153
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.044   0.045
+Min: 1.043847203
+Med: 1.043847203 0.045
+Max: 1.043847203
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 30.84
+	System time (seconds): 1.58
+	Percent of CPU this job got: 2465%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 301336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11096
+	Voluntary context switches: 4649
+	Involuntary context switches: 102
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.976   0.047
+Min: 0.975933935
+Med: 0.975933935 0.047
+Max: 0.975933935
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 31.55
+	System time (seconds): 1.58
+	Percent of CPU this job got: 2595%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 313196
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11394
+	Voluntary context switches: 4404
+	Involuntary context switches: 107
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.800   0.042
+Min: 0.79952833
+Med: 0.79952833 0.042
+Max: 0.79952833
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 24.96
+	System time (seconds): 1.51
+	Percent of CPU this job got: 2460%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 306208
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10717
+	Voluntary context switches: 4593
+	Involuntary context switches: 172
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.881   0.047
+Min: 0.880629948
+Med: 0.880629948 0.047
+Max: 0.880629948
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 27.06
+	System time (seconds): 1.64
+	Percent of CPU this job got: 2430%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 303500
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10673
+	Voluntary context switches: 4262
+	Involuntary context switches: 103
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.967   0.046
+Min: 0.967198823
+Med: 0.967198823 0.046
+Max: 0.967198823
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 29.01
+	System time (seconds): 1.53
+	Percent of CPU this job got: 2407%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 295572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10628
+	Voluntary context switches: 5242
+	Involuntary context switches: 93
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.948   0.044
+Min: 0.948166482
+Med: 0.948166482 0.044
+Max: 0.948166482
+	Command being timed: "./run -b MatrixMultiply -t 36 -n 2048 -r 1 -s 0"
+	User time (seconds): 27.96
+	System time (seconds): 1.53
+	Percent of CPU this job got: 2363%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 295276
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10506
+	Voluntary context switches: 4079
+	Involuntary context switches: 140
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.094   0.050
+Min: 1.094050817
+Med: 1.094050817 0.05
+Max: 1.094050817
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 44.26
+	System time (seconds): 2.81
+	Percent of CPU this job got: 3384%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 316856
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11675
+	Voluntary context switches: 5032
+	Involuntary context switches: 172
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.827   0.053
+Min: 0.827030584
+Med: 0.827030584 0.053
+Max: 0.827030584
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 32.16
+	System time (seconds): 2.70
+	Percent of CPU this job got: 3298%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11487
+	Voluntary context switches: 4445
+	Involuntary context switches: 96
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.878   0.047
+Min: 0.878326709
+Med: 0.878326709 0.047
+Max: 0.878326709
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.30
+	System time (seconds): 2.36
+	Percent of CPU this job got: 3249%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 316560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11413
+	Voluntary context switches: 4701
+	Involuntary context switches: 127
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.904   0.050
+Min: 0.903804479
+Med: 0.903804479 0.05
+Max: 0.903804479
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.59
+	System time (seconds): 3.13
+	Percent of CPU this job got: 3190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 307600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11311
+	Voluntary context switches: 4689
+	Involuntary context switches: 129
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.660   0.050
+Min: 0.660358965
+Med: 0.660358965 0.05
+Max: 0.660358965
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 24.43
+	System time (seconds): 2.41
+	Percent of CPU this job got: 2767%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 301048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11550
+	Voluntary context switches: 5307
+	Involuntary context switches: 91
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.921   0.050
+Min: 0.921274955
+Med: 0.921274955 0.05
+Max: 0.921274955
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.42
+	System time (seconds): 2.55
+	Percent of CPU this job got: 3064%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308148
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11416
+	Voluntary context switches: 5033
+	Involuntary context switches: 167
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.820   0.052
+Min: 0.819756083
+Med: 0.819756083 0.052
+Max: 0.819756083
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 30.88
+	System time (seconds): 2.72
+	Percent of CPU this job got: 2910%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 304340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11711
+	Voluntary context switches: 4988
+	Involuntary context switches: 202
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.904   0.052
+Min: 0.90406445
+Med: 0.90406445 0.052
+Max: 0.90406445
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 33.62
+	System time (seconds): 2.46
+	Percent of CPU this job got: 3046%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 314456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11647
+	Voluntary context switches: 5164
+	Involuntary context switches: 130
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.017   0.054
+Min: 1.016737687
+Med: 1.016737687 0.054
+Max: 1.016737687
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 40.00
+	System time (seconds): 2.64
+	Percent of CPU this job got: 3187%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.33
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 299660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11387
+	Voluntary context switches: 5036
+	Involuntary context switches: 212
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.056   0.054
+Min: 1.056433018
+Med: 1.056433018 0.054
+Max: 1.056433018
+	Command being timed: "./run -b MatrixMultiply -t 54 -n 2048 -r 1 -s 0"
+	User time (seconds): 42.51
+	System time (seconds): 2.77
+	Percent of CPU this job got: 3274%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 296388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11106
+	Voluntary context switches: 5065
+	Involuntary context switches: 220
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.862   0.059
+Min: 0.862275264
+Med: 0.862275264 0.059
+Max: 0.862275264
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.53
+	System time (seconds): 3.96
+	Percent of CPU this job got: 3246%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 306776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13225
+	Voluntary context switches: 5908
+	Involuntary context switches: 292
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.730   0.059
+Min: 0.729802146
+Med: 0.729802146 0.059
+Max: 0.729802146
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 28.94
+	System time (seconds): 3.86
+	Percent of CPU this job got: 3145%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 313564
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11917
+	Voluntary context switches: 5710
+	Involuntary context switches: 151
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.911   0.060
+Min: 0.911185191
+Med: 0.911185191 0.06
+Max: 0.911185191
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 41.12
+	System time (seconds): 4.19
+	Percent of CPU this job got: 3642%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 306600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12291
+	Voluntary context switches: 5857
+	Involuntary context switches: 209
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.920   0.053
+Min: 0.919643874
+Med: 0.919643874 0.053
+Max: 0.919643874
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 38.66
+	System time (seconds): 3.15
+	Percent of CPU this job got: 3351%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 309696
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 13407
+	Voluntary context switches: 5432
+	Involuntary context switches: 219
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.900   0.065
+Min: 0.900156012
+Med: 0.900156012 0.065
+Max: 0.900156012
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 41.14
+	System time (seconds): 1.90
+	Percent of CPU this job got: 3608%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 308288
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12266
+	Voluntary context switches: 5632
+	Involuntary context switches: 499
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.848   0.059
+Min: 0.847547399
+Med: 0.847547399 0.059
+Max: 0.847547399
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.66
+	System time (seconds): 4.05
+	Percent of CPU this job got: 3351%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 315116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12457
+	Voluntary context switches: 5606
+	Involuntary context switches: 236
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.964   0.060
+Min: 0.964226845
+Med: 0.964226845 0.06
+Max: 0.964226845
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 38.40
+	System time (seconds): 3.47
+	Percent of CPU this job got: 3261%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 310536
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11605
+	Voluntary context switches: 5542
+	Involuntary context switches: 303
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.887   0.057
+Min: 0.886652049
+Med: 0.886652049 0.057
+Max: 0.886652049
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 35.53
+	System time (seconds): 3.63
+	Percent of CPU this job got: 3207%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 305984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12527
+	Voluntary context switches: 5729
+	Involuntary context switches: 219
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.925   0.062
+Min: 0.925098501
+Med: 0.925098501 0.062
+Max: 0.925098501
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 40.19
+	System time (seconds): 3.93
+	Percent of CPU this job got: 3620%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 301460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12509
+	Voluntary context switches: 5347
+	Involuntary context switches: 185
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.085   0.053
+Min: 1.08495814
+Med: 1.08495814 0.053
+Max: 1.08495814
+	Command being timed: "./run -b MatrixMultiply -t 72 -n 2048 -r 1 -s 0"
+	User time (seconds): 53.77
+	System time (seconds): 3.34
+	Percent of CPU this job got: 4019%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 309468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12378
+	Voluntary context switches: 5516
+	Involuntary context switches: 257
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

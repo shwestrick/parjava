@@ -15,11 +15,14 @@ p.add_argument('-numa', action='store_true')
 
 a = p.parse_args()
 
-cmd = 'java -XX:+UseParallelGC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
+cmd = 'java -XX:+UseG1GC -XX:ParallelGCThreads={} -Djava.util.concurrent.ForkJoinPool.common.parallelism={} {} {} {} {}'
 cmd = cmd.format(a.threads, a.threads, a.bench, a.size, a.reps, a.sreps)
 
-
-if "NUMATEST" in os.environ and os.environ["NUMATEST"] == "true":
+if a.threads > 1:
     cmd = "numactl -i all " + cmd
+
+
+# if "NUMATEST" in os.environ and os.environ["NUMATEST"] == "true":
+#     cmd = "numactl -i all " + cmd
 # print cmd
 subprocess.call(cmd, shell=True)

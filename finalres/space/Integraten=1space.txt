@@ -1,22 +1,211 @@
-Time:   1.166   0.008
-Min: 1.16642715
-Med: 1.16642715 0.008
-Max: 1.16642715
+Time:   0.968   0.010
+Min: 0.968255843
+Med: 0.968255843 0.01
+Max: 0.968255843
 	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
-	User time (seconds): 3.65
+	User time (seconds): 3.33
 	System time (seconds): 0.32
-	Percent of CPU this job got: 281%
+	Percent of CPU this job got: 312%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 606456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19904
+	Voluntary context switches: 3518
+	Involuntary context switches: 28
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.099   0.007
+Min: 1.09947839
+Med: 1.09947839 0.007
+Max: 1.09947839
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.61
+	System time (seconds): 0.30
+	Percent of CPU this job got: 283%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 605796
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18858
+	Voluntary context switches: 3681
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.159   0.010
+Min: 1.159000677
+Med: 1.159000677 0.01
+Max: 1.159000677
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.56
+	System time (seconds): 0.30
+	Percent of CPU this job got: 279%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 609760
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18238
+	Voluntary context switches: 3449
+	Involuntary context switches: 35
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.115   0.008
+Min: 1.114592684
+Med: 1.114592684 0.008
+Max: 1.114592684
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.49
+	System time (seconds): 0.44
+	Percent of CPU this job got: 287%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 607360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19144
+	Voluntary context switches: 3576
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.188   0.008
+Min: 1.188051716
+Med: 1.188051716 0.008
+Max: 1.188051716
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.78
+	System time (seconds): 0.30
+	Percent of CPU this job got: 282%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 603644
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18578
+	Voluntary context switches: 3534
+	Involuntary context switches: 38
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.128   0.008
+Min: 1.12809798
+Med: 1.12809798 0.008
+Max: 1.12809798
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.56
+	System time (seconds): 0.39
+	Percent of CPU this job got: 285%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 609764
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19502
+	Voluntary context switches: 3627
+	Involuntary context switches: 59
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.256   0.008
+Min: 1.256172044
+Med: 1.256172044 0.008
+Max: 1.256172044
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.80
+	System time (seconds): 0.40
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.51
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 606380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19190
+	Voluntary context switches: 3688
+	Involuntary context switches: 34
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.140   0.010
+Min: 1.140282028
+Med: 1.140282028 0.01
+Max: 1.140282028
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.57
+	System time (seconds): 0.38
+	Percent of CPU this job got: 280%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.41
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 605376
+	Maximum resident set size (kbytes): 606496
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 19436
-	Voluntary context switches: 3614
-	Involuntary context switches: 31
+	Minor (reclaiming a frame) page faults: 19114
+	Voluntary context switches: 3630
+	Involuntary context switches: 53
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +214,106 @@ Max: 1.16642715
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.644   0.011
-Min: 0.643792507
-Med: 0.643792507 0.011
-Max: 0.643792507
+Time:   1.245   0.011
+Min: 1.245137718
+Med: 1.245137718 0.011
+Max: 1.245137718
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 3.74
+	System time (seconds): 0.52
+	Percent of CPU this job got: 278%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 610372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20152
+	Voluntary context switches: 3814
+	Involuntary context switches: 63
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.239   0.008
+Min: 1.238785785
+Med: 1.238785785 0.008
+Max: 1.238785785
+	Command being timed: "./run -b Integrate -t 1 -n 1 -r 1 -s 0"
+	User time (seconds): 4.19
+	System time (seconds): 0.32
+	Percent of CPU this job got: 295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 607344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21653
+	Voluntary context switches: 3698
+	Involuntary context switches: 43
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.590   0.012
+Min: 0.590005615
+Med: 0.590005615 0.012
+Max: 0.590005615
 	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
-	User time (seconds): 12.68
-	System time (seconds): 0.44
-	Percent of CPU this job got: 1471%
+	User time (seconds): 11.00
+	System time (seconds): 0.48
+	Percent of CPU this job got: 1350%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 599320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17081
+	Voluntary context switches: 4759
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.618   0.012
+Min: 0.61833253
+Med: 0.61833253 0.012
+Max: 0.61833253
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 11.79
+	System time (seconds): 0.32
+	Percent of CPU this job got: 1358%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.89
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 716084
+	Maximum resident set size (kbytes): 607040
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 18366
-	Voluntary context switches: 5179
-	Involuntary context switches: 52
+	Minor (reclaiming a frame) page faults: 18626
+	Voluntary context switches: 5162
+	Involuntary context switches: 54
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +322,241 @@ Max: 0.643792507
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.911   0.024
-Min: 0.911007896
-Med: 0.911007896 0.024
-Max: 0.911007896
+Time:   0.925   0.013
+Min: 0.924894607
+Med: 0.924894607 0.013
+Max: 0.924894607
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 17.96
+	System time (seconds): 0.36
+	Percent of CPU this job got: 1542%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 613340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22387
+	Voluntary context switches: 5645
+	Involuntary context switches: 57
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.576   0.011
+Min: 0.575817382
+Med: 0.575817382 0.011
+Max: 0.575817382
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 11.63
+	System time (seconds): 0.45
+	Percent of CPU this job got: 1372%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.88
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 661000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19291
+	Voluntary context switches: 4473
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.398   0.012
+Min: 0.397825461
+Med: 0.397825461 0.012
+Max: 0.397825461
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 7.02
+	System time (seconds): 0.65
+	Percent of CPU this job got: 1168%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 614928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15552
+	Voluntary context switches: 4598
+	Involuntary context switches: 47
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.623   0.012
+Min: 0.622820777
+Med: 0.622820777 0.012
+Max: 0.622820777
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 12.42
+	System time (seconds): 0.48
+	Percent of CPU this job got: 1490%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 618304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22911
+	Voluntary context switches: 5507
+	Involuntary context switches: 81
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.761   0.010
+Min: 0.761255413
+Med: 0.761255413 0.01
+Max: 0.761255413
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 13.75
+	System time (seconds): 0.37
+	Percent of CPU this job got: 1368%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 610976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19945
+	Voluntary context switches: 5046
+	Involuntary context switches: 56
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.651   0.010
+Min: 0.650870341
+Med: 0.650870341 0.01
+Max: 0.650870341
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 12.31
+	System time (seconds): 0.50
+	Percent of CPU this job got: 1429%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 603524
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18131
+	Voluntary context switches: 5332
+	Involuntary context switches: 56
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.509   0.011
+Min: 0.509049949
+Med: 0.509049949 0.011
+Max: 0.509049949
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 9.49
+	System time (seconds): 0.40
+	Percent of CPU this job got: 1309%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 596668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16384
+	Voluntary context switches: 4968
+	Involuntary context switches: 49
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.722   0.010
+Min: 0.722462602
+Med: 0.722462602 0.01
+Max: 0.722462602
+	Command being timed: "./run -b Integrate -t 18 -n 1 -r 1 -s 0"
+	User time (seconds): 14.90
+	System time (seconds): 0.44
+	Percent of CPU this job got: 1544%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 630752
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26249
+	Voluntary context switches: 5499
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.662   0.020
+Min: 0.662133158
+Med: 0.662133158 0.02
+Max: 0.662133158
 	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
-	User time (seconds): 30.76
-	System time (seconds): 0.67
-	Percent of CPU this job got: 2620%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.20
+	User time (seconds): 22.85
+	System time (seconds): 0.70
+	Percent of CPU this job got: 2572%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.91
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 842924
+	Maximum resident set size (kbytes): 748396
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 18343
-	Voluntary context switches: 6582
-	Involuntary context switches: 104
+	Minor (reclaiming a frame) page faults: 19981
+	Voluntary context switches: 6965
+	Involuntary context switches: 168
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +565,25 @@ Max: 0.911007896
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.304   0.056
-Min: 1.304109814
-Med: 1.304109814 0.056
-Max: 1.304109814
-	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
-	User time (seconds): 66.02
-	System time (seconds): 0.97
-	Percent of CPU this job got: 4208%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.59
+Time:   0.525   0.016
+Min: 0.524626498
+Med: 0.524626498 0.016
+Max: 0.524626498
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 16.47
+	System time (seconds): 0.56
+	Percent of CPU this job got: 2247%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.75
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1060460
+	Maximum resident set size (kbytes): 804300
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 27529
-	Voluntary context switches: 9854
-	Involuntary context switches: 1065
+	Minor (reclaiming a frame) page faults: 19756
+	Voluntary context switches: 6549
+	Involuntary context switches: 101
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +592,754 @@ Max: 1.304109814
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.697   0.054
-Min: 0.696542782
-Med: 0.696542782 0.054
-Max: 0.696542782
-	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
-	User time (seconds): 41.52
-	System time (seconds): 1.63
-	Percent of CPU this job got: 4294%
+Time:   0.714   0.013
+Min: 0.714331408
+Med: 0.714331408 0.013
+Max: 0.714331408
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 23.39
+	System time (seconds): 0.68
+	Percent of CPU this job got: 2505%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 779252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 19902
+	Voluntary context switches: 6795
+	Involuntary context switches: 85
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.838   0.025
+Min: 0.837610349
+Med: 0.837610349 0.025
+Max: 0.837610349
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 29.38
+	System time (seconds): 0.46
+	Percent of CPU this job got: 2677%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 844668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21247
+	Voluntary context switches: 6415
+	Involuntary context switches: 149
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.838   0.024
+Min: 0.838447469
+Med: 0.838447469 0.024
+Max: 0.838447469
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 29.40
+	System time (seconds): 0.92
+	Percent of CPU this job got: 2649%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 845464
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20976
+	Voluntary context switches: 6854
+	Involuntary context switches: 183
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.569   0.021
+Min: 0.56946474
+Med: 0.56946474 0.021
+Max: 0.56946474
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 19.95
+	System time (seconds): 0.61
+	Percent of CPU this job got: 2630%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 779092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20733
+	Voluntary context switches: 6839
+	Involuntary context switches: 116
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.992   0.028
+Min: 0.99196926
+Med: 0.99196926 0.028
+Max: 0.99196926
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 35.49
+	System time (seconds): 0.60
+	Percent of CPU this job got: 2944%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 870512
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25150
+	Voluntary context switches: 6861
+	Involuntary context switches: 212
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.778   0.036
+Min: 0.778247145
+Med: 0.778247145 0.036
+Max: 0.778247145
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 26.64
+	System time (seconds): 0.86
+	Percent of CPU this job got: 2742%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.00
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1065492
+	Maximum resident set size (kbytes): 615560
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 21115
-	Voluntary context switches: 8623
-	Involuntary context switches: 289
+	Minor (reclaiming a frame) page faults: 21470
+	Voluntary context switches: 7152
+	Involuntary context switches: 374
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.642   0.014
+Min: 0.64201655
+Med: 0.64201655 0.014
+Max: 0.64201655
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 21.63
+	System time (seconds): 0.68
+	Percent of CPU this job got: 2438%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 812984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21467
+	Voluntary context switches: 6776
+	Involuntary context switches: 88
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.379   0.014
+Min: 0.379445952
+Med: 0.379445952 0.014
+Max: 0.379445952
+	Command being timed: "./run -b Integrate -t 36 -n 1 -r 1 -s 0"
+	User time (seconds): 11.88
+	System time (seconds): 0.62
+	Percent of CPU this job got: 2013%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 781668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17665
+	Voluntary context switches: 6216
+	Involuntary context switches: 60
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.505   0.051
+Min: 0.505371694
+Med: 0.505371694 0.051
+Max: 0.505371694
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 23.37
+	System time (seconds): 1.13
+	Percent of CPU this job got: 3361%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1073988
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22495
+	Voluntary context switches: 7782
+	Involuntary context switches: 1258
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.640   0.049
+Min: 0.640028254
+Med: 0.640028254 0.049
+Max: 0.640028254
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 29.33
+	System time (seconds): 1.08
+	Percent of CPU this job got: 3341%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1077088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25675
+	Voluntary context switches: 8299
+	Involuntary context switches: 536
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.579   0.055
+Min: 0.579461464
+Med: 0.579461464 0.055
+Max: 0.579461464
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 27.99
+	System time (seconds): 1.07
+	Percent of CPU this job got: 3408%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1058956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26657
+	Voluntary context switches: 7363
+	Involuntary context switches: 657
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.831   0.111
+Min: 0.830975919
+Med: 0.830975919 0.111
+Max: 0.830975919
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 39.98
+	System time (seconds): 1.18
+	Percent of CPU this job got: 3745%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1104144
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25834
+	Voluntary context switches: 8263
+	Involuntary context switches: 2719
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.124   0.038
+Min: 1.123643346
+Med: 1.123643346 0.038
+Max: 1.123643346
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 56.39
+	System time (seconds): 1.26
+	Percent of CPU this job got: 4101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.40
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1091856
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29555
+	Voluntary context switches: 8652
+	Involuntary context switches: 165
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.575   0.058
+Min: 0.575191204
+Med: 0.575191204 0.058
+Max: 0.575191204
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 26.63
+	System time (seconds): 1.15
+	Percent of CPU this job got: 3521%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1032148
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21772
+	Voluntary context switches: 8936
+	Involuntary context switches: 372
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.898   0.032
+Min: 0.898202962
+Med: 0.898202962 0.032
+Max: 0.898202962
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 45.48
+	System time (seconds): 1.28
+	Percent of CPU this job got: 4053%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1083332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27458
+	Voluntary context switches: 8134
+	Involuntary context switches: 193
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.772   0.034
+Min: 0.771510217
+Med: 0.771510217 0.034
+Max: 0.771510217
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 35.80
+	System time (seconds): 0.99
+	Percent of CPU this job got: 3676%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1099632
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23556
+	Voluntary context switches: 9081
+	Involuntary context switches: 166
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.486   0.042
+Min: 0.485627912
+Med: 0.485627912 0.042
+Max: 0.485627912
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 21.11
+	System time (seconds): 1.36
+	Percent of CPU this job got: 3252%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1071336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20743
+	Voluntary context switches: 8122
+	Involuntary context switches: 355
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.064   0.107
+Min: 1.064197758
+Med: 1.064197758 0.107
+Max: 1.064197758
+	Command being timed: "./run -b Integrate -t 54 -n 1 -r 1 -s 0"
+	User time (seconds): 49.09
+	System time (seconds): 1.20
+	Percent of CPU this job got: 3889%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1080440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25030
+	Voluntary context switches: 9093
+	Involuntary context switches: 2511
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.790   0.054
+Min: 0.790315832
+Med: 0.790315832 0.054
+Max: 0.790315832
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 47.59
+	System time (seconds): 2.15
+	Percent of CPU this job got: 4567%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1110080
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21683
+	Voluntary context switches: 9323
+	Involuntary context switches: 871
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.986   0.071
+Min: 0.986451738
+Med: 0.986451738 0.071
+Max: 0.986451738
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 64.39
+	System time (seconds): 1.62
+	Percent of CPU this job got: 5341%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1086008
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31497
+	Voluntary context switches: 9630
+	Involuntary context switches: 1013
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.668   0.068
+Min: 0.667882095
+Med: 0.667882095 0.068
+Max: 0.667882095
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 39.57
+	System time (seconds): 1.54
+	Percent of CPU this job got: 4328%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1079200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 23577
+	Voluntary context switches: 8698
+	Involuntary context switches: 567
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.997   0.107
+Min: 0.996683416
+Med: 0.996683416 0.107
+Max: 0.996683416
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 56.39
+	System time (seconds): 1.41
+	Percent of CPU this job got: 4584%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1092448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29048
+	Voluntary context switches: 11090
+	Involuntary context switches: 2018
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.677   0.106
+Min: 0.676590956
+Med: 0.676590956 0.106
+Max: 0.676590956
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 41.04
+	System time (seconds): 1.04
+	Percent of CPU this job got: 4526%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1015880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25317
+	Voluntary context switches: 9707
+	Involuntary context switches: 2522
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.582   0.111
+Min: 0.582045838
+Med: 0.582045838 0.111
+Max: 0.582045838
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 32.33
+	System time (seconds): 1.35
+	Percent of CPU this job got: 3958%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1090408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22170
+	Voluntary context switches: 9691
+	Involuntary context switches: 3184
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.855   0.057
+Min: 0.855123942
+Med: 0.855123942 0.057
+Max: 0.855123942
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 54.01
+	System time (seconds): 1.71
+	Percent of CPU this job got: 4971%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1097032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27513
+	Voluntary context switches: 8723
+	Involuntary context switches: 650
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.678   0.117
+Min: 0.677653913
+Med: 0.677653913 0.117
+Max: 0.677653913
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 39.59
+	System time (seconds): 1.37
+	Percent of CPU this job got: 4307%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1094300
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24760
+	Voluntary context switches: 8707
+	Involuntary context switches: 4134
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.906   0.053
+Min: 0.906038096
+Med: 0.906038096 0.053
+Max: 0.906038096
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 57.72
+	System time (seconds): 1.32
+	Percent of CPU this job got: 4978%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1031556
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28395
+	Voluntary context switches: 10783
+	Involuntary context switches: 322
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.946   0.138
+Min: 0.946410995
+Med: 0.946410995 0.138
+Max: 0.946410995
+	Command being timed: "./run -b Integrate -t 72 -n 1 -r 1 -s 0"
+	User time (seconds): 56.18
+	System time (seconds): 1.28
+	Percent of CPU this job got: 4781%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.20
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1083900
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24296
+	Voluntary context switches: 9916
+	Involuntary context switches: 2382
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

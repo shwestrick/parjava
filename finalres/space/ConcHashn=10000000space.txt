@@ -1,22 +1,22 @@
-Time:  11.946  10.562
-Min: 11.945648544
-Med: 11.945648544 10.562000000000001
-Max: 11.945648544
+Time:  12.655  10.839
+Min: 12.655105006
+Med: 12.655105006 10.839
+Max: 12.655105006
 	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 15.55
-	System time (seconds): 0.87
-	Percent of CPU this job got: 116%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.15
+	User time (seconds): 16.78
+	System time (seconds): 1.20
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.14
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2506356
+	Maximum resident set size (kbytes): 2496468
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 17611
-	Voluntary context switches: 4177
-	Involuntary context switches: 21
+	Minor (reclaiming a frame) page faults: 17957
+	Voluntary context switches: 3350
+	Involuntary context switches: 88
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,24 +25,402 @@ Max: 11.945648544
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.528   0.742
-Min: 1.527551218
-Med: 1.527551218 0.7419999999999991
-Max: 1.527551218
-	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 284.13
-	System time (seconds): 5.91
-	Percent of CPU this job got: 1600%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.11
+Time:  13.164  11.573
+Min: 13.163700435
+Med: 13.163700435 11.573
+Max: 13.163700435
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.02
+	System time (seconds): 1.06
+	Percent of CPU this job got: 116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.49
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2637996
+	Maximum resident set size (kbytes): 2512964
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 33148
-	Voluntary context switches: 6366
+	Minor (reclaiming a frame) page faults: 16210
+	Voluntary context switches: 3473
+	Involuntary context switches: 73
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.375  11.444
+Min: 13.374598892
+Med: 13.374598892 11.444
+Max: 13.374598892
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.56
+	System time (seconds): 1.00
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2487448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16947
+	Voluntary context switches: 3606
+	Involuntary context switches: 79
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.240  11.387
+Min: 13.239621212
+Med: 13.239621212 11.387
+Max: 13.239621212
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.34
+	System time (seconds): 1.01
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.67
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2507700
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16776
+	Voluntary context switches: 3933
+	Involuntary context switches: 57
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  12.457  11.040
+Min: 12.456752869
+Med: 12.456752869 11.040000000000001
+Max: 12.456752869
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 16.20
+	System time (seconds): 1.08
+	Percent of CPU this job got: 116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.90
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2492656
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16979
+	Voluntary context switches: 3569
+	Involuntary context switches: 73
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.517  11.511
+Min: 13.51673689
+Med: 13.51673689 11.511
+Max: 13.51673689
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.81
+	System time (seconds): 1.20
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2484280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17371
+	Voluntary context switches: 3794
+	Involuntary context switches: 67
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.564  11.625
+Min: 13.564220608
+Med: 13.564220608 11.625
+Max: 13.564220608
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.95
+	System time (seconds): 1.15
+	Percent of CPU this job got: 118%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2494116
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18962
+	Voluntary context switches: 3720
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  14.108  11.995
+Min: 14.108036598
+Med: 14.108036598 11.995
+Max: 14.108036598
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 18.44
+	System time (seconds): 1.21
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.66
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2502468
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17220
+	Voluntary context switches: 3704
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  14.051  12.103
+Min: 14.05092607
+Med: 14.05092607 12.103
+Max: 14.05092607
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 18.21
+	System time (seconds): 1.00
+	Percent of CPU this job got: 116%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2525612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17515
+	Voluntary context switches: 3656
+	Involuntary context switches: 87
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  13.480  11.402
+Min: 13.47998545
+Med: 13.47998545 11.402
+Max: 13.47998545
+	Command being timed: "./run -b ConcHash -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 17.56
+	System time (seconds): 1.12
+	Percent of CPU this job got: 117%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2486684
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17308
+	Voluntary context switches: 3474
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.133   0.631
+Min: 1.133316802
+Med: 1.133316802 0.6310000000000002
+Max: 1.133316802
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 262.71
+	System time (seconds): 9.33
+	Percent of CPU this job got: 1608%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2447740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33095
+	Voluntary context switches: 6622
+	Involuntary context switches: 429
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.103   0.573
+Min: 1.102938244
+Med: 1.102938244 0.5730000000000004
+Max: 1.102938244
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 284.88
+	System time (seconds): 6.52
+	Percent of CPU this job got: 1597%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2491384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33239
+	Voluntary context switches: 6426
+	Involuntary context switches: 396
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.049   0.578
+Min: 1.049285252
+Med: 1.049285252 0.5780000000000012
+Max: 1.049285252
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 251.61
+	System time (seconds): 8.92
+	Percent of CPU this job got: 1576%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.52
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2502124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32763
+	Voluntary context switches: 6329
+	Involuntary context switches: 364
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.481   0.925
+Min: 1.481354583
+Med: 1.481354583 0.9250000000000007
+Max: 1.481354583
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 276.82
+	System time (seconds): 5.85
+	Percent of CPU this job got: 1601%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2352408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33800
+	Voluntary context switches: 6245
+	Involuntary context switches: 311
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.717   7.151
+Min: 7.7169854
+Med: 7.7169854 7.151
+Max: 7.7169854
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 176.62
+	System time (seconds): 9.32
+	Percent of CPU this job got: 1436%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.94
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2686360
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 38650
+	Voluntary context switches: 8809
+	Involuntary context switches: 318
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.097   0.574
+Min: 1.09690373
+Med: 1.09690373 0.5739999999999998
+Max: 1.09690373
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 277.13
+	System time (seconds): 6.50
+	Percent of CPU this job got: 1590%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2778124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33252
+	Voluntary context switches: 6007
 	Involuntary context switches: 381
 	Swaps: 0
 	File system inputs: 0
@@ -52,25 +430,133 @@ Max: 1.527551218
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.344   1.933
-Min: 2.344102996
-Med: 2.344102996 1.9330000000000007
-Max: 2.344102996
+Time:   1.910   1.265
+Min: 1.910284495
+Med: 1.910284495 1.2650000000000006
+Max: 1.910284495
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 283.86
+	System time (seconds): 8.56
+	Percent of CPU this job got: 1625%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2414488
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33975
+	Voluntary context switches: 6031
+	Involuntary context switches: 382
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.425   0.779
+Min: 1.425259338
+Med: 1.425259338 0.7789999999999999
+Max: 1.425259338
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 240.81
+	System time (seconds): 10.47
+	Percent of CPU this job got: 1611%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2424400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32317
+	Voluntary context switches: 6095
+	Involuntary context switches: 365
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   9.055   8.548
+Min: 9.055494881
+Med: 9.055494881 8.548
+Max: 9.055494881
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 187.27
+	System time (seconds): 7.84
+	Percent of CPU this job got: 1444%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2813428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 48745
+	Voluntary context switches: 7908
+	Involuntary context switches: 316
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.068   0.589
+Min: 1.067661996
+Med: 1.067661996 0.5889999999999986
+Max: 1.067661996
+	Command being timed: "./run -b ConcHash -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 284.54
+	System time (seconds): 6.98
+	Percent of CPU this job got: 1604%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2433908
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33266
+	Voluntary context switches: 5883
+	Involuntary context switches: 369
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  16.669  16.208
+Min: 16.669231696
+Med: 16.669231696 16.208000000000002
+Max: 16.669231696
 	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 200.20
-	System time (seconds): 14.24
-	Percent of CPU this job got: 2606%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.22
+	User time (seconds): 708.00
+	System time (seconds): 15.60
+	Percent of CPU this job got: 3461%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.90
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2260920
+	Maximum resident set size (kbytes): 2326952
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 38152
-	Voluntary context switches: 7819
-	Involuntary context switches: 926
+	Minor (reclaiming a frame) page faults: 27922
+	Voluntary context switches: 6816
+	Involuntary context switches: 818
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +565,268 @@ Max: 2.344102996
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.487   0.000
-Min: 0.486680573
-Med: 0.486680573 0.0
-Max: 0.486680573
+Time:  16.328  15.783
+Min: 16.327944517
+Med: 16.327944517 15.783
+Max: 16.327944517
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 688.29
+	System time (seconds): 14.40
+	Percent of CPU this job got: 3375%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2578396
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29908
+	Voluntary context switches: 7130
+	Involuntary context switches: 684
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.404   0.000
+Min: 0.40356466
+Med: 0.40356466 0.0
+Max: 0.40356466
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 754.88
+	System time (seconds): 12.58
+	Percent of CPU this job got: 3322%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:23.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2127792
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28624
+	Voluntary context switches: 7306
+	Involuntary context switches: 22931
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.451   0.000
+Min: 0.451144935
+Med: 0.451144935 0.0
+Max: 0.451144935
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 446.28
+	System time (seconds): 13.02
+	Percent of CPU this job got: 3084%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2092380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28822
+	Voluntary context switches: 7842
+	Involuntary context switches: 1927
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  15.210  14.700
+Min: 15.209855128
+Med: 15.209855128 14.7
+Max: 15.209855128
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 647.93
+	System time (seconds): 12.84
+	Percent of CPU this job got: 3354%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.70
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2777576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44066
+	Voluntary context switches: 9517
+	Involuntary context switches: 788
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.525   0.000
+Min: 0.525308167
+Med: 0.525308167 0.0
+Max: 0.525308167
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 735.88
+	System time (seconds): 13.88
+	Percent of CPU this job got: 3475%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2578964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29037
+	Voluntary context switches: 8158
+	Involuntary context switches: 16954
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.490   0.000
+Min: 0.489585611
+Med: 0.489585611 0.0
+Max: 0.489585611
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 127.22
+	System time (seconds): 31.00
+	Percent of CPU this job got: 2612%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2681856
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36338
+	Voluntary context switches: 7657
+	Involuntary context switches: 9503
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.616   0.000
+Min: 0.616370773
+Med: 0.616370773 0.0
+Max: 0.616370773
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 572.93
+	System time (seconds): 16.16
+	Percent of CPU this job got: 3308%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.80
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2209196
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30143
+	Voluntary context switches: 8082
+	Involuntary context switches: 6336
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.526   0.000
+Min: 0.525814333
+Med: 0.525814333 0.0
+Max: 0.525814333
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 136.11
+	System time (seconds): 26.59
+	Percent of CPU this job got: 2604%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2789828
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 39841
+	Voluntary context switches: 8326
+	Involuntary context switches: 30514
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.425   0.000
+Min: 0.4245957
+Med: 0.4245957 0.0
+Max: 0.4245957
+	Command being timed: "./run -b ConcHash -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 477.15
+	System time (seconds): 14.69
+	Percent of CPU this job got: 3114%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:15.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2293612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29929
+	Voluntary context switches: 7690
+	Involuntary context switches: 9180
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.537   0.000
+Min: 0.536833849
+Med: 0.536833849 0.0
+Max: 0.536833849
 	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 912.54
-	System time (seconds): 46.54
-	Percent of CPU this job got: 4873%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.67
+	User time (seconds): 1320.02
+	System time (seconds): 24.73
+	Percent of CPU this job got: 4935%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:27.24
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3352608
+	Maximum resident set size (kbytes): 2376500
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 67728
-	Voluntary context switches: 16186
-	Involuntary context switches: 10734
+	Minor (reclaiming a frame) page faults: 44624
+	Voluntary context switches: 9159
+	Involuntary context switches: 8307
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +835,511 @@ Max: 0.486680573
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.438   0.000
-Min: 0.438476048
-Med: 0.438476048 0.0
-Max: 0.438476048
-	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 2778.04
-	System time (seconds): 39.05
-	Percent of CPU this job got: 6936%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:40.61
+Time:   0.506   0.000
+Min: 0.505627017
+Med: 0.505627017 0.0
+Max: 0.505627017
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1840.29
+	System time (seconds): 20.16
+	Percent of CPU this job got: 5128%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.28
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2626812
+	Maximum resident set size (kbytes): 2311080
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 53992
-	Voluntary context switches: 10248
-	Involuntary context switches: 16589
+	Minor (reclaiming a frame) page faults: 43149
+	Voluntary context switches: 9550
+	Involuntary context switches: 13957
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.424   0.000
+Min: 0.42438247
+Med: 0.42438247 0.0
+Max: 0.42438247
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1511.49
+	System time (seconds): 24.95
+	Percent of CPU this job got: 5042%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2368756
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44935
+	Voluntary context switches: 8787
+	Involuntary context switches: 10535
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.439   0.000
+Min: 0.438604453
+Med: 0.438604453 0.0
+Max: 0.438604453
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1464.66
+	System time (seconds): 22.55
+	Percent of CPU this job got: 5259%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2395928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43307
+	Voluntary context switches: 9176
+	Involuntary context switches: 29306
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.647   0.000
+Min: 0.646635594
+Med: 0.646635594 0.0
+Max: 0.646635594
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1571.29
+	System time (seconds): 23.77
+	Percent of CPU this job got: 5064%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:31.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2179480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43725
+	Voluntary context switches: 9435
+	Involuntary context switches: 1862
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.526   0.000
+Min: 0.525527314
+Med: 0.525527314 0.0
+Max: 0.525527314
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1266.05
+	System time (seconds): 19.65
+	Percent of CPU this job got: 5248%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2219940
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28516
+	Voluntary context switches: 8036
+	Involuntary context switches: 3712
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.448   0.000
+Min: 0.448119024
+Med: 0.448119024 0.0
+Max: 0.448119024
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1689.00
+	System time (seconds): 23.03
+	Percent of CPU this job got: 5267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:32.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2276848
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43383
+	Voluntary context switches: 9578
+	Involuntary context switches: 7443
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.557   0.000
+Min: 0.556880945
+Med: 0.556880945 0.0
+Max: 0.556880945
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2168.74
+	System time (seconds): 22.32
+	Percent of CPU this job got: 5251%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2107384
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43477
+	Voluntary context switches: 9209
+	Involuntary context switches: 2873
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.503   0.000
+Min: 0.503347723
+Med: 0.503347723 0.0
+Max: 0.503347723
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2032.65
+	System time (seconds): 24.02
+	Percent of CPU this job got: 5233%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2367576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 45114
+	Voluntary context switches: 9679
+	Involuntary context switches: 6530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.536   0.000
+Min: 0.536145258
+Med: 0.536145258 0.0
+Max: 0.536145258
+	Command being timed: "./run -b ConcHash -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2332.00
+	System time (seconds): 23.69
+	Percent of CPU this job got: 5214%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2484124
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46141
+	Voluntary context switches: 9157
+	Involuntary context switches: 17340
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.435   0.000
+Min: 0.435493923
+Med: 0.435493923 0.0
+Max: 0.435493923
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3232.80
+	System time (seconds): 36.06
+	Percent of CPU this job got: 7015%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:46.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2944440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56720
+	Voluntary context switches: 12545
+	Involuntary context switches: 32276
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.501   0.000
+Min: 0.501387578
+Med: 0.501387578 0.0
+Max: 0.501387578
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3675.88
+	System time (seconds): 36.77
+	Percent of CPU this job got: 7006%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:52.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2485968
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53010
+	Voluntary context switches: 10950
+	Involuntary context switches: 11448
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.522   0.000
+Min: 0.521610162
+Med: 0.521610162 0.0
+Max: 0.521610162
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3785.56
+	System time (seconds): 36.40
+	Percent of CPU this job got: 7036%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:54.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2544212
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54660
+	Voluntary context switches: 10569
+	Involuntary context switches: 5473
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.478   0.000
+Min: 0.477651143
+Med: 0.477651143 0.0
+Max: 0.477651143
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3217.21
+	System time (seconds): 34.44
+	Percent of CPU this job got: 7073%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2290320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52269
+	Voluntary context switches: 10993
+	Involuntary context switches: 9224
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.544   0.000
+Min: 0.544481976
+Med: 0.544481976 0.0
+Max: 0.544481976
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3880.77
+	System time (seconds): 39.25
+	Percent of CPU this job got: 6959%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:56.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2307552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55110
+	Voluntary context switches: 11410
+	Involuntary context switches: 8612
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.597   1.034
+Min: 1.596822029
+Med: 1.596822029 1.033999999999999
+Max: 1.596822029
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3667.11
+	System time (seconds): 35.68
+	Percent of CPU this job got: 6938%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.36
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2721220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 64905
+	Voluntary context switches: 13754
+	Involuntary context switches: 7530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.553   0.000
+Min: 0.553385785
+Med: 0.553385785 0.0
+Max: 0.553385785
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2896.05
+	System time (seconds): 35.61
+	Percent of CPU this job got: 6974%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2595676
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53033
+	Voluntary context switches: 10747
+	Involuntary context switches: 7694
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.621   0.000
+Min: 0.621286265
+Med: 0.621286265 0.0
+Max: 0.621286265
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3171.48
+	System time (seconds): 36.94
+	Percent of CPU this job got: 7012%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:45.75
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2349244
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53339
+	Voluntary context switches: 10753
+	Involuntary context switches: 6295
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  20.234  19.718
+Min: 20.233903449
+Med: 20.233903449 19.718000000000004
+Max: 20.233903449
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4144.70
+	System time (seconds): 72.14
+	Percent of CPU this job got: 6804%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2938816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 77300
+	Voluntary context switches: 25210
+	Involuntary context switches: 5028
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.465   0.000
+Min: 0.465021233
+Med: 0.465021233 0.0
+Max: 0.465021233
+	Command being timed: "./run -b ConcHash -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4109.18
+	System time (seconds): 37.19
+	Percent of CPU this job got: 7052%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2548304
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55229
+	Voluntary context switches: 10443
+	Involuntary context switches: 10970
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

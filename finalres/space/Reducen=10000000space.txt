@@ -1,22 +1,22 @@
-Time:   2.460   0.531
-Min: 2.460282924
-Med: 2.460282924 0.5309999999999999
-Max: 2.460282924
+Time:   2.845   0.621
+Min: 2.844729566
+Med: 2.844729566 0.621
+Max: 2.844729566
 	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 6.74
-	System time (seconds): 0.82
-	Percent of CPU this job got: 160%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.70
+	User time (seconds): 6.64
+	System time (seconds): 0.93
+	Percent of CPU this job got: 154%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.89
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2005236
+	Maximum resident set size (kbytes): 2003040
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 11707
-	Voluntary context switches: 3366
-	Involuntary context switches: 34
+	Minor (reclaiming a frame) page faults: 11284
+	Voluntary context switches: 2819
+	Involuntary context switches: 47
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,25 +25,268 @@ Max: 2.460282924
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.920   2.446
-Min: 2.919935281
-Med: 2.919935281 2.4460000000000015
-Max: 2.919935281
+Time:   2.702   0.649
+Min: 2.701825542
+Med: 2.701825542 0.649
+Max: 2.701825542
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.86
+	System time (seconds): 1.16
+	Percent of CPU this job got: 156%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2005544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12576
+	Voluntary context switches: 3079
+	Involuntary context switches: 41
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.350   0.495
+Min: 2.349868824
+Med: 2.349868824 0.4950000000000001
+Max: 2.349868824
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.28
+	System time (seconds): 0.90
+	Percent of CPU this job got: 152%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2005816
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10822
+	Voluntary context switches: 3317
+	Involuntary context switches: 52
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.745   0.591
+Min: 2.744927552
+Med: 2.744927552 0.5910000000000002
+Max: 2.744927552
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.90
+	System time (seconds): 1.22
+	Percent of CPU this job got: 157%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2003920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12801
+	Voluntary context switches: 3362
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.608   0.639
+Min: 2.608294774
+Med: 2.608294774 0.639
+Max: 2.608294774
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 7.10
+	System time (seconds): 0.98
+	Percent of CPU this job got: 161%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2005172
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11709
+	Voluntary context switches: 2853
+	Involuntary context switches: 39
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.786   0.516
+Min: 2.785758486
+Med: 2.785758486 0.516
+Max: 2.785758486
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.99
+	System time (seconds): 1.08
+	Percent of CPU this job got: 155%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2003540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11634
+	Voluntary context switches: 3007
+	Involuntary context switches: 41
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.352   0.587
+Min: 2.351777461
+Med: 2.351777461 0.587
+Max: 2.351777461
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.72
+	System time (seconds): 0.99
+	Percent of CPU this job got: 159%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2003296
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11763
+	Voluntary context switches: 3100
+	Involuntary context switches: 61
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.395   0.486
+Min: 2.395156143
+Med: 2.395156143 0.486
+Max: 2.395156143
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.42
+	System time (seconds): 0.91
+	Percent of CPU this job got: 153%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2007096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10881
+	Voluntary context switches: 3351
+	Involuntary context switches: 47
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.743   0.621
+Min: 2.742880666
+Med: 2.742880666 0.621
+Max: 2.742880666
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 7.16
+	System time (seconds): 1.08
+	Percent of CPU this job got: 159%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:05.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2002024
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12304
+	Voluntary context switches: 2822
+	Involuntary context switches: 45
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.454   0.492
+Min: 2.453596438
+Med: 2.453596438 0.492
+Max: 2.453596438
+	Command being timed: "./run -b Reduce -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 6.78
+	System time (seconds): 0.80
+	Percent of CPU this job got: 155%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2001544
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12898
+	Voluntary context switches: 3221
+	Involuntary context switches: 51
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.661   2.261
+Min: 2.660620425
+Med: 2.660620425 2.261000000000001
+Max: 2.660620425
 	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 271.24
-	System time (seconds): 10.40
-	Percent of CPU this job got: 1589%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.72
+	User time (seconds): 302.32
+	System time (seconds): 5.98
+	Percent of CPU this job got: 1609%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.15
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2425080
+	Maximum resident set size (kbytes): 2595752
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 28589
-	Voluntary context switches: 5300
-	Involuntary context switches: 442
+	Minor (reclaiming a frame) page faults: 29656
+	Voluntary context switches: 5416
+	Involuntary context switches: 529
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +295,268 @@ Max: 2.919935281
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   1.783   1.423
-Min: 1.783124831
-Med: 1.783124831 1.423
-Max: 1.783124831
+Time:   7.156   6.670
+Min: 7.1560406
+Med: 7.1560406 6.670000000000002
+Max: 7.1560406
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 392.72
+	System time (seconds): 6.27
+	Percent of CPU this job got: 1646%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:24.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2369504
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 24934
+	Voluntary context switches: 5152
+	Involuntary context switches: 592
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.891   2.405
+Min: 2.89082213
+Med: 2.89082213 2.4049999999999994
+Max: 2.89082213
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 114.83
+	System time (seconds): 3.70
+	Percent of CPU this job got: 1628%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2105804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26429
+	Voluntary context switches: 5615
+	Involuntary context switches: 228
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.538   2.057
+Min: 2.538367845
+Med: 2.538367845 2.0569999999999986
+Max: 2.538367845
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 282.10
+	System time (seconds): 8.34
+	Percent of CPU this job got: 1599%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2220436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28688
+	Voluntary context switches: 5491
+	Involuntary context switches: 284
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.993   2.552
+Min: 2.992772891
+Med: 2.992772891 2.5519999999999996
+Max: 2.992772891
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 321.39
+	System time (seconds): 5.62
+	Percent of CPU this job got: 1613%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2428000
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30315
+	Voluntary context switches: 5617
+	Involuntary context switches: 356
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  19.040  18.582
+Min: 19.03981052
+Med: 19.03981052 18.582
+Max: 19.03981052
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 437.47
+	System time (seconds): 4.62
+	Percent of CPU this job got: 1746%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:25.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2317680
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32061
+	Voluntary context switches: 7170
+	Involuntary context switches: 481
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   5.548   5.144
+Min: 5.548497229
+Med: 5.548497229 5.144000000000002
+Max: 5.548497229
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 349.94
+	System time (seconds): 5.90
+	Percent of CPU this job got: 1629%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2253700
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27494
+	Voluntary context switches: 5338
+	Involuntary context switches: 357
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.028   2.601
+Min: 3.028184568
+Med: 3.028184568 2.601000000000001
+Max: 3.028184568
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 304.78
+	System time (seconds): 6.84
+	Percent of CPU this job got: 1625%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2347892
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31092
+	Voluntary context switches: 5612
+	Involuntary context switches: 282
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.793   7.332
+Min: 7.792924896
+Med: 7.792924896 7.331999999999999
+Max: 7.792924896
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 203.11
+	System time (seconds): 4.82
+	Percent of CPU this job got: 1700%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2118800
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21769
+	Voluntary context switches: 5786
+	Involuntary context switches: 362
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  18.796  18.259
+Min: 18.795651849
+Med: 18.795651849 18.259
+Max: 18.795651849
+	Command being timed: "./run -b Reduce -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 350.05
+	System time (seconds): 5.95
+	Percent of CPU this job got: 1641%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2307496
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29076
+	Voluntary context switches: 7261
+	Involuntary context switches: 652
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   6.417   6.084
+Min: 6.416641994
+Med: 6.416641994 6.084
+Max: 6.416641994
 	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 182.62
-	System time (seconds): 12.86
-	Percent of CPU this job got: 2961%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.60
+	User time (seconds): 343.60
+	System time (seconds): 13.69
+	Percent of CPU this job got: 3108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.49
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2736316
+	Maximum resident set size (kbytes): 2290360
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 42763
-	Voluntary context switches: 6647
-	Involuntary context switches: 346
+	Minor (reclaiming a frame) page faults: 31803
+	Voluntary context switches: 6240
+	Involuntary context switches: 598
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +565,268 @@ Max: 1.783124831
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.413   0.000
-Min: 0.413190804
-Med: 0.413190804 0.0
-Max: 0.413190804
+Time:   9.277   8.956
+Min: 9.277264024
+Med: 9.277264024 8.956
+Max: 9.277264024
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 441.66
+	System time (seconds): 13.80
+	Percent of CPU this job got: 3150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2322308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32731
+	Voluntary context switches: 6546
+	Involuntary context switches: 794
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.687   2.337
+Min: 2.686941614
+Med: 2.686941614 2.3369999999999997
+Max: 2.686941614
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 197.08
+	System time (seconds): 14.04
+	Percent of CPU this job got: 2953%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2628872
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36412
+	Voluntary context switches: 6547
+	Involuntary context switches: 522
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.820   2.398
+Min: 2.820060932
+Med: 2.820060932 2.3980000000000006
+Max: 2.820060932
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 210.93
+	System time (seconds): 13.08
+	Percent of CPU this job got: 2654%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2338884
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37933
+	Voluntary context switches: 6718
+	Involuntary context switches: 497
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.289   0.000
+Min: 0.288798989
+Med: 0.288798989 0.0
+Max: 0.288798989
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 248.78
+	System time (seconds): 13.22
+	Percent of CPU this job got: 2877%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2429600
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37167
+	Voluntary context switches: 6840
+	Involuntary context switches: 612
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  16.322  15.961
+Min: 16.322324711
+Med: 16.322324711 15.960999999999999
+Max: 16.322324711
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 688.44
+	System time (seconds): 15.47
+	Percent of CPU this job got: 3388%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2503712
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27282
+	Voluntary context switches: 6328
+	Involuntary context switches: 955
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.337   0.000
+Min: 0.337343998
+Med: 0.337343998 0.0
+Max: 0.337343998
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 341.81
+	System time (seconds): 13.07
+	Percent of CPU this job got: 2969%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2186248
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31465
+	Voluntary context switches: 6348
+	Involuntary context switches: 450
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.441   2.079
+Min: 2.440782506
+Med: 2.440782506 2.0789999999999997
+Max: 2.440782506
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 189.80
+	System time (seconds): 15.65
+	Percent of CPU this job got: 2888%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.11
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2428740
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36411
+	Voluntary context switches: 6689
+	Involuntary context switches: 595
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.552  11.191
+Min: 11.552484959
+Med: 11.552484959 11.190999999999999
+Max: 11.552484959
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 526.20
+	System time (seconds): 13.07
+	Percent of CPU this job got: 3175%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2568912
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30102
+	Voluntary context switches: 6617
+	Involuntary context switches: 677
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.053  10.785
+Min: 11.053239455
+Med: 11.053239455 10.785
+Max: 11.053239455
+	Command being timed: "./run -b Reduce -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 497.53
+	System time (seconds): 15.74
+	Percent of CPU this job got: 3149%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.29
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2667148
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29052
+	Voluntary context switches: 5747
+	Involuntary context switches: 788
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  26.508  26.174
+Min: 26.50762058
+Med: 26.50762058 26.174
+Max: 26.50762058
 	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 2280.51
-	System time (seconds): 26.94
-	Percent of CPU this job got: 5176%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:44.57
+	User time (seconds): 1955.40
+	System time (seconds): 19.94
+	Percent of CPU this job got: 5150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:38.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2211324
+	Maximum resident set size (kbytes): 2500408
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 43755
-	Voluntary context switches: 7374
-	Involuntary context switches: 2534
+	Minor (reclaiming a frame) page faults: 43752
+	Voluntary context switches: 8349
+	Involuntary context switches: 2165
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +835,511 @@ Max: 0.413190804
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.384   0.000
-Min: 0.383988086
-Med: 0.383988086 0.0
-Max: 0.383988086
-	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 3493.46
-	System time (seconds): 36.18
-	Percent of CPU this job got: 7092%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:49.76
+Time:   0.405   0.000
+Min: 0.405352734
+Med: 0.405352734 0.0
+Max: 0.405352734
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1516.66
+	System time (seconds): 23.16
+	Percent of CPU this job got: 5190%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.66
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2279784
+	Maximum resident set size (kbytes): 2346740
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 52591
-	Voluntary context switches: 9395
-	Involuntary context switches: 4598
+	Minor (reclaiming a frame) page faults: 42375
+	Voluntary context switches: 7145
+	Involuntary context switches: 2272
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.255   0.000
+Min: 0.255082689
+Med: 0.255082689 0.0
+Max: 0.255082689
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2124.50
+	System time (seconds): 25.24
+	Percent of CPU this job got: 5171%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2638936
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44313
+	Voluntary context switches: 6823
+	Involuntary context switches: 2542
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.324   0.000
+Min: 0.323529891
+Med: 0.323529891 0.0
+Max: 0.323529891
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1460.56
+	System time (seconds): 26.59
+	Percent of CPU this job got: 5151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.86
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2355836
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43652
+	Voluntary context switches: 7317
+	Involuntary context switches: 1974
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.314   0.000
+Min: 0.313547159
+Med: 0.313547159 0.0
+Max: 0.313547159
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 972.68
+	System time (seconds): 26.44
+	Percent of CPU this job got: 5183%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2403364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55468
+	Voluntary context switches: 10002
+	Involuntary context switches: 2024
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.231   0.000
+Min: 0.230915317
+Med: 0.230915317 0.0
+Max: 0.230915317
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2144.04
+	System time (seconds): 24.33
+	Percent of CPU this job got: 5172%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:41.92
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2280200
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44207
+	Voluntary context switches: 7260
+	Involuntary context switches: 1982
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.331   0.000
+Min: 0.330914874
+Med: 0.330914874 0.0
+Max: 0.330914874
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1916.62
+	System time (seconds): 24.88
+	Percent of CPU this job got: 5240%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2816412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46974
+	Voluntary context switches: 7209
+	Involuntary context switches: 2014
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.291   0.000
+Min: 0.291136105
+Med: 0.291136105 0.0
+Max: 0.291136105
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1798.12
+	System time (seconds): 26.35
+	Percent of CPU this job got: 5113%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:35.68
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2168916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44754
+	Voluntary context switches: 7056
+	Involuntary context switches: 2691
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.520   1.173
+Min: 1.520201028
+Med: 1.520201028 1.1730000000000018
+Max: 1.520201028
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 987.81
+	System time (seconds): 40.79
+	Percent of CPU this job got: 4862%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3591032
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 76353
+	Voluntary context switches: 16581
+	Involuntary context switches: 1565
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  28.453  27.985
+Min: 28.453069062
+Med: 28.453069062 27.985
+Max: 28.453069062
+	Command being timed: "./run -b Reduce -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2173.57
+	System time (seconds): 22.44
+	Percent of CPU this job got: 5124%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2455580
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43044
+	Voluntary context switches: 8337
+	Involuntary context switches: 2590
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.329   0.000
+Min: 0.329400935
+Med: 0.329400935 0.0
+Max: 0.329400935
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4003.99
+	System time (seconds): 37.19
+	Percent of CPU this job got: 7041%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:57.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2768256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53454
+	Voluntary context switches: 8997
+	Involuntary context switches: 4042
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  16.264  15.960
+Min: 16.263650753
+Med: 16.263650753 15.96
+Max: 16.263650753
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4307.62
+	System time (seconds): 30.94
+	Percent of CPU this job got: 7109%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2431608
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 50293
+	Voluntary context switches: 10180
+	Involuntary context switches: 5089
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  15.211  14.814
+Min: 15.210708608
+Med: 15.210708608 14.814
+Max: 15.210708608
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4308.52
+	System time (seconds): 32.58
+	Percent of CPU this job got: 7108%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:01.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2390016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51552
+	Voluntary context switches: 10575
+	Involuntary context switches: 4586
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.419   0.000
+Min: 0.418782168
+Med: 0.418782168 0.0
+Max: 0.418782168
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3283.27
+	System time (seconds): 36.82
+	Percent of CPU this job got: 7007%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2418404
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53689
+	Voluntary context switches: 8697
+	Involuntary context switches: 4715
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.335   0.000
+Min: 0.334592988
+Med: 0.334592988 0.0
+Max: 0.334592988
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4448.05
+	System time (seconds): 39.06
+	Percent of CPU this job got: 7076%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:03.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2651552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53568
+	Voluntary context switches: 8666
+	Involuntary context switches: 5101
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.730  11.409
+Min: 11.730354813
+Med: 11.730354813 11.408999999999999
+Max: 11.730354813
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4338.00
+	System time (seconds): 34.77
+	Percent of CPU this job got: 7000%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02.46
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2288064
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 51808
+	Voluntary context switches: 9351
+	Involuntary context switches: 5003
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.374   0.000
+Min: 0.374373108
+Med: 0.374373108 0.0
+Max: 0.374373108
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3702.77
+	System time (seconds): 38.04
+	Percent of CPU this job got: 7008%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.37
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2454128
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53863
+	Voluntary context switches: 8999
+	Involuntary context switches: 5184
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  42.526  42.058
+Min: 42.526365578
+Med: 42.526365578 42.058
+Max: 42.526365578
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4181.22
+	System time (seconds): 24.79
+	Percent of CPU this job got: 6985%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2644392
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 49838
+	Voluntary context switches: 9638
+	Involuntary context switches: 5234
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.356   0.000
+Min: 0.355759492
+Med: 0.355759492 0.0
+Max: 0.355759492
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3061.88
+	System time (seconds): 37.31
+	Percent of CPU this job got: 7060%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2455640
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54533
+	Voluntary context switches: 9381
+	Involuntary context switches: 2684
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.393   0.000
+Min: 0.393179557
+Med: 0.393179557 0.0
+Max: 0.393179557
+	Command being timed: "./run -b Reduce -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2966.65
+	System time (seconds): 38.93
+	Percent of CPU this job got: 6885%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2237660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53237
+	Voluntary context switches: 8793
+	Involuntary context switches: 4294
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

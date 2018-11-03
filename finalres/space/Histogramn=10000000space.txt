@@ -1,21 +1,48 @@
-Time:  10.169   7.906
-Min: 10.169379412
-Med: 10.169379412 7.906
-Max: 10.169379412
+Time:   9.322   7.655
+Min: 9.321695799
+Med: 9.321695799 7.655000000000001
+Max: 9.321695799
 	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 14.58
-	System time (seconds): 1.09
-	Percent of CPU this job got: 124%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.55
+	User time (seconds): 13.43
+	System time (seconds): 1.00
+	Percent of CPU this job got: 123%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:11.72
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2346016
+	Maximum resident set size (kbytes): 2354788
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 14723
-	Voluntary context switches: 3471
+	Minor (reclaiming a frame) page faults: 15390
+	Voluntary context switches: 3628
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.975   8.812
+Min: 10.974754138
+Med: 10.974754138 8.812000000000001
+Max: 10.974754138
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 15.53
+	System time (seconds): 1.02
+	Percent of CPU this job got: 123%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2372428
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 18319
+	Voluntary context switches: 3680
 	Involuntary context switches: 49
 	Swaps: 0
 	File system inputs: 0
@@ -25,25 +52,241 @@ Max: 10.169379412
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   2.428   1.940
-Min: 2.427610219
-Med: 2.427610219 1.9400000000000013
-Max: 2.427610219
+Time:  10.515   8.354
+Min: 10.515292436
+Med: 10.515292436 8.354
+Max: 10.515292436
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 15.22
+	System time (seconds): 1.06
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:13.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2358204
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 16380
+	Voluntary context switches: 3987
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.285   8.162
+Min: 10.284975236
+Med: 10.284975236 8.161999999999999
+Max: 10.284975236
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 15.02
+	System time (seconds): 1.04
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.82
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2341520
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14640
+	Voluntary context switches: 3694
+	Involuntary context switches: 67
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.121   7.948
+Min: 10.121015999
+Med: 10.121015999 7.948
+Max: 10.121015999
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 14.68
+	System time (seconds): 1.01
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2359956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15750
+	Voluntary context switches: 3760
+	Involuntary context switches: 77
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.516   8.163
+Min: 10.516410087
+Med: 10.516410087 8.163
+Max: 10.516410087
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 14.98
+	System time (seconds): 1.06
+	Percent of CPU this job got: 123%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.95
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2358364
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14863
+	Voluntary context switches: 3986
+	Involuntary context switches: 75
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   9.795   8.041
+Min: 9.794659585
+Med: 9.794659585 8.041
+Max: 9.794659585
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 14.16
+	System time (seconds): 1.00
+	Percent of CPU this job got: 123%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2358336
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 15646
+	Voluntary context switches: 3937
+	Involuntary context switches: 53
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   9.683   7.935
+Min: 9.682668016
+Med: 9.682668016 7.935
+Max: 9.682668016
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 14.12
+	System time (seconds): 1.00
+	Percent of CPU this job got: 124%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2358444
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17175
+	Voluntary context switches: 3604
+	Involuntary context switches: 57
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   9.747   8.084
+Min: 9.746830422
+Med: 9.746830422 8.084
+Max: 9.746830422
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 13.72
+	System time (seconds): 1.05
+	Percent of CPU this job got: 121%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.14
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2360260
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 17347
+	Voluntary context switches: 3575
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.454   8.252
+Min: 10.454379334
+Med: 10.454379334 8.251999999999999
+Max: 10.454379334
+	Command being timed: "./run -b Histogram -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 15.17
+	System time (seconds): 1.03
+	Percent of CPU this job got: 125%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2346388
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 14661
+	Voluntary context switches: 3709
+	Involuntary context switches: 56
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.066   2.547
+Min: 3.065633451
+Med: 3.065633451 2.546999999999999
+Max: 3.065633451
 	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 273.36
-	System time (seconds): 9.04
-	Percent of CPU this job got: 1595%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.69
+	User time (seconds): 293.99
+	System time (seconds): 8.32
+	Percent of CPU this job got: 1611%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.76
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2386156
+	Maximum resident set size (kbytes): 2358392
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 32322
-	Voluntary context switches: 6625
-	Involuntary context switches: 614
+	Minor (reclaiming a frame) page faults: 31880
+	Voluntary context switches: 6550
+	Involuntary context switches: 349
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -52,25 +295,268 @@ Max: 2.427610219
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.381   0.000
-Min: 0.381344977
-Med: 0.381344977 0.0
-Max: 0.381344977
+Time:   1.602   1.016
+Min: 1.602167944
+Med: 1.602167944 1.016
+Max: 1.602167944
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 266.61
+	System time (seconds): 8.67
+	Percent of CPU this job got: 1589%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2462344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33356
+	Voluntary context switches: 6573
+	Involuntary context switches: 292
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  11.806  11.247
+Min: 11.805817366
+Med: 11.805817366 11.246999999999998
+Max: 11.805817366
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 318.56
+	System time (seconds): 5.62
+	Percent of CPU this job got: 1684%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:19.24
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2388576
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34984
+	Voluntary context switches: 9016
+	Involuntary context switches: 480
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.563   1.051
+Min: 1.563260401
+Med: 1.563260401 1.051000000000002
+Max: 1.563260401
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 277.87
+	System time (seconds): 6.06
+	Percent of CPU this job got: 1596%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2442440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33663
+	Voluntary context switches: 6905
+	Involuntary context switches: 334
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.365   0.730
+Min: 1.364755564
+Med: 1.364755564 0.7300000000000004
+Max: 1.364755564
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 262.95
+	System time (seconds): 8.12
+	Percent of CPU this job got: 1592%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2460232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 34157
+	Voluntary context switches: 6488
+	Involuntary context switches: 203
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.798   1.246
+Min: 1.798094823
+Med: 1.798094823 1.2460000000000004
+Max: 1.798094823
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 269.00
+	System time (seconds): 9.46
+	Percent of CPU this job got: 1587%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2447044
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 30995
+	Voluntary context switches: 6705
+	Involuntary context switches: 255
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.426   0.851
+Min: 1.425935866
+Med: 1.425935866 0.8510000000000009
+Max: 1.425935866
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 284.16
+	System time (seconds): 7.14
+	Percent of CPU this job got: 1598%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2487984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33619
+	Voluntary context switches: 6412
+	Involuntary context switches: 466
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.138   0.523
+Min: 1.138415161
+Med: 1.138415161 0.5230000000000015
+Max: 1.138415161
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 260.62
+	System time (seconds): 6.60
+	Percent of CPU this job got: 1592%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.78
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2413424
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32466
+	Voluntary context switches: 6809
+	Involuntary context switches: 356
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   8.204   7.608
+Min: 8.203958885
+Med: 8.203958885 7.608
+Max: 8.203958885
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 226.10
+	System time (seconds): 6.56
+	Percent of CPU this job got: 1629%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:14.27
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2514372
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 35670
+	Voluntary context switches: 9395
+	Involuntary context switches: 241
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.259   0.726
+Min: 1.25929995
+Med: 1.25929995 0.7259999999999991
+Max: 1.25929995
+	Command being timed: "./run -b Histogram -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 279.96
+	System time (seconds): 6.07
+	Percent of CPU this job got: 1625%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:17.59
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2356456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31889
+	Voluntary context switches: 6618
+	Involuntary context switches: 419
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.042   1.495
+Min: 2.041690748
+Med: 2.041690748 1.4949999999999997
+Max: 2.041690748
 	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 212.74
-	System time (seconds): 14.90
-	Percent of CPU this job got: 2807%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.10
+	User time (seconds): 165.77
+	System time (seconds): 14.10
+	Percent of CPU this job got: 2864%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.27
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2133980
+	Maximum resident set size (kbytes): 2389224
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 36299
-	Voluntary context switches: 8775
-	Involuntary context switches: 20091
+	Minor (reclaiming a frame) page faults: 39891
+	Voluntary context switches: 8551
+	Involuntary context switches: 823
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -79,25 +565,268 @@ Max: 0.381344977
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  12.474  11.892
-Min: 12.474126095
-Med: 12.474126095 11.892
-Max: 12.474126095
+Time:   0.494   0.000
+Min: 0.494197935
+Med: 0.494197935 0.0
+Max: 0.494197935
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 690.00
+	System time (seconds): 12.65
+	Percent of CPU this job got: 3295%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:21.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2060460
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28867
+	Voluntary context switches: 8012
+	Involuntary context switches: 26958
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   3.709   3.157
+Min: 3.708939421
+Med: 3.708939421 3.1570000000000005
+Max: 3.708939421
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 232.27
+	System time (seconds): 14.29
+	Percent of CPU this job got: 2930%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2449400
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36089
+	Voluntary context switches: 8600
+	Involuntary context switches: 837
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.660   0.000
+Min: 0.660161875
+Med: 0.660161875 0.0
+Max: 0.660161875
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 148.68
+	System time (seconds): 27.07
+	Percent of CPU this job got: 2685%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2889320
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53729
+	Voluntary context switches: 10632
+	Involuntary context switches: 16579
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.474   6.864
+Min: 7.473529553
+Med: 7.473529553 6.864
+Max: 7.473529553
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 364.32
+	System time (seconds): 13.87
+	Percent of CPU this job got: 2950%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:12.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2157744
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 29812
+	Voluntary context switches: 8612
+	Involuntary context switches: 1207
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.550   0.000
+Min: 0.550446439
+Med: 0.550446439 0.0
+Max: 0.550446439
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 278.60
+	System time (seconds): 14.00
+	Percent of CPU this job got: 2926%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2061004
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33798
+	Voluntary context switches: 8878
+	Involuntary context switches: 2050
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.555   0.000
+Min: 0.555095803
+Med: 0.555095803 0.0
+Max: 0.555095803
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 177.16
+	System time (seconds): 14.84
+	Percent of CPU this job got: 2574%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.45
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2190252
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 37726
+	Voluntary context switches: 9557
+	Involuntary context switches: 1848
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.513   1.060
+Min: 1.512638631
+Med: 1.512638631 1.0600000000000005
+Max: 1.512638631
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 149.91
+	System time (seconds): 14.72
+	Percent of CPU this job got: 2479%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:06.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2303476
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40002
+	Voluntary context switches: 8351
+	Involuntary context switches: 578
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.384   1.726
+Min: 2.38401596
+Med: 2.38401596 1.726
+Max: 2.38401596
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 190.70
+	System time (seconds): 13.72
+	Percent of CPU this job got: 2603%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2508728
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 40593
+	Voluntary context switches: 8356
+	Involuntary context switches: 504
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.883   2.490
+Min: 2.882824948
+Med: 2.882824948 2.49
+Max: 2.882824948
+	Command being timed: "./run -b Histogram -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 196.20
+	System time (seconds): 14.91
+	Percent of CPU this job got: 2736%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:07.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2454076
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 36277
+	Voluntary context switches: 8530
+	Involuntary context switches: 582
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.508   1.015
+Min: 1.507536553
+Med: 1.507536553 1.0150000000000006
+Max: 1.507536553
 	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 1815.81
-	System time (seconds): 37.42
-	Percent of CPU this job got: 4973%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:37.26
+	User time (seconds): 2389.76
+	System time (seconds): 42.02
+	Percent of CPU this job got: 5267%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:46.16
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 3078140
+	Maximum resident set size (kbytes): 2859732
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 75606
-	Voluntary context switches: 20461
-	Involuntary context switches: 5161
+	Minor (reclaiming a frame) page faults: 66570
+	Voluntary context switches: 15185
+	Involuntary context switches: 4233
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -106,25 +835,511 @@ Max: 12.474126095
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   0.657   0.000
-Min: 0.657197938
-Med: 0.657197938 0.0
-Max: 0.657197938
-	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 4109.91
-	System time (seconds): 34.04
-	Percent of CPU this job got: 7034%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:58.91
+Time:  26.151  25.573
+Min: 26.150699231
+Med: 26.150699231 25.573000000000004
+Max: 26.150699231
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2189.94
+	System time (seconds): 23.33
+	Percent of CPU this job got: 5248%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:42.16
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2409272
+	Maximum resident set size (kbytes): 2598844
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 55407
-	Voluntary context switches: 12719
-	Involuntary context switches: 6151
+	Minor (reclaiming a frame) page faults: 47224
+	Voluntary context switches: 10225
+	Involuntary context switches: 2270
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  14.231  13.643
+Min: 14.230758607
+Med: 14.230758607 13.643
+Max: 14.230758607
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1567.56
+	System time (seconds): 25.39
+	Percent of CPU this job got: 5189%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2717308
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46633
+	Voluntary context switches: 9966
+	Involuntary context switches: 1903
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.588   0.000
+Min: 0.587977974
+Med: 0.587977974 0.0
+Max: 0.587977974
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1694.87
+	System time (seconds): 23.36
+	Percent of CPU this job got: 5074%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2456408
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46506
+	Voluntary context switches: 9597
+	Involuntary context switches: 5173
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.605   0.000
+Min: 0.604831235
+Med: 0.604831235 0.0
+Max: 0.604831235
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1737.48
+	System time (seconds): 21.36
+	Percent of CPU this job got: 5099%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:34.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2361380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44299
+	Voluntary context switches: 9451
+	Involuntary context switches: 5274
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.495   0.000
+Min: 0.494834249
+Med: 0.494834249 0.0
+Max: 0.494834249
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 905.02
+	System time (seconds): 27.73
+	Percent of CPU this job got: 4985%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:18.71
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2729432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54209
+	Voluntary context switches: 10852
+	Involuntary context switches: 12530
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.581   0.000
+Min: 0.580850184
+Med: 0.580850184 0.0
+Max: 0.580850184
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1579.54
+	System time (seconds): 26.00
+	Percent of CPU this job got: 5257%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2605312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 43619
+	Voluntary context switches: 10648
+	Involuntary context switches: 12926
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.609   0.000
+Min: 0.609067066
+Med: 0.609067066 0.0
+Max: 0.609067066
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 993.70
+	System time (seconds): 24.40
+	Percent of CPU this job got: 5042%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.19
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2617136
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55961
+	Voluntary context switches: 11927
+	Involuntary context switches: 40134
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.546   0.000
+Min: 0.545643828
+Med: 0.545643828 0.0
+Max: 0.545643828
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1560.83
+	System time (seconds): 23.30
+	Percent of CPU this job got: 5173%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.62
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2278952
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 44740
+	Voluntary context switches: 9732
+	Involuntary context switches: 9765
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  22.828  22.329
+Min: 22.827818678
+Med: 22.827818678 22.329
+Max: 22.827818678
+	Command being timed: "./run -b Histogram -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2052.40
+	System time (seconds): 25.86
+	Percent of CPU this job got: 5216%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.83
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2460340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 46243
+	Voluntary context switches: 9471
+	Involuntary context switches: 4051
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.551   0.000
+Min: 0.550790531
+Med: 0.550790531 0.0
+Max: 0.550790531
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3862.42
+	System time (seconds): 35.30
+	Percent of CPU this job got: 6988%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:55.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2231692
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53963
+	Voluntary context switches: 11018
+	Involuntary context switches: 11068
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.491   0.000
+Min: 0.491451311
+Med: 0.491451311 0.0
+Max: 0.491451311
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3653.26
+	System time (seconds): 34.47
+	Percent of CPU this job got: 7019%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:52.53
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2776844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 52754
+	Voluntary context switches: 11878
+	Involuntary context switches: 20789
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  28.539  27.862
+Min: 28.538773465
+Med: 28.538773465 27.862000000000002
+Max: 28.538773465
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2945.10
+	System time (seconds): 30.98
+	Percent of CPU this job got: 6788%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:43.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2582916
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 65615
+	Voluntary context switches: 19181
+	Involuntary context switches: 4659
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.526   0.000
+Min: 0.525922391
+Med: 0.525922391 0.0
+Max: 0.525922391
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3721.47
+	System time (seconds): 38.87
+	Percent of CPU this job got: 6979%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2481616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 53480
+	Voluntary context switches: 11173
+	Involuntary context switches: 16784
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.526   0.000
+Min: 0.525645341
+Med: 0.525645341 0.0
+Max: 0.525645341
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3733.86
+	System time (seconds): 37.08
+	Percent of CPU this job got: 7003%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:53.84
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2885092
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 57312
+	Voluntary context switches: 12767
+	Involuntary context switches: 12328
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.856   0.000
+Min: 0.855516052
+Med: 0.855516052 0.0
+Max: 0.855516052
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3358.49
+	System time (seconds): 38.02
+	Percent of CPU this job got: 7077%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.99
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2313660
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54499
+	Voluntary context switches: 13379
+	Involuntary context switches: 10522
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  20.904  20.316
+Min: 20.903597453
+Med: 20.903597453 20.316
+Max: 20.903597453
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2555.54
+	System time (seconds): 64.06
+	Percent of CPU this job got: 6665%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 3039548
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 94395
+	Voluntary context switches: 24386
+	Involuntary context switches: 8808
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  10.107   9.529
+Min: 10.107013574
+Med: 10.107013574 9.529
+Max: 10.107013574
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 2604.64
+	System time (seconds): 61.53
+	Percent of CPU this job got: 6828%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:39.04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2617280
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 71871
+	Voluntary context switches: 12888
+	Involuntary context switches: 3045
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.584   0.000
+Min: 0.584105902
+Med: 0.584105902 0.0
+Max: 0.584105902
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 3221.54
+	System time (seconds): 39.50
+	Percent of CPU this job got: 6907%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:47.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2249072
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 54608
+	Voluntary context switches: 11861
+	Involuntary context switches: 5360
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.587   0.000
+Min: 0.587407751
+Med: 0.587407751 0.0
+Max: 0.587407751
+	Command being timed: "./run -b Histogram -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4212.71
+	System time (seconds): 37.16
+	Percent of CPU this job got: 7062%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:00.17
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2617552
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 55746
+	Voluntary context switches: 12336
+	Involuntary context switches: 6650
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0

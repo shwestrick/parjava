@@ -19,8 +19,9 @@ if test_type == "speedup":
 elif test_type == "space":
     f = open(test +'n=' + str(n) +'space.txt', 'w')
     for p in ['1', '18', '36', '54', '72']:
-        res = subprocess.check_output(['time', '-v', './run', '-b', test, '-t', p, '-n', str(n), '-r', '1', '-s', '0'], stderr=subprocess.STDOUT)
-        f.write(res)
+        for i in range(0, 10):
+            res = subprocess.check_output(['time', '-v', './run', '-b', test, '-t', p, '-n', str(n), '-r', '1', '-s', '0'], stderr=subprocess.STDOUT)
+            f.write(res)
     f.close()
 else:
     # run on 1 proc, 72 procs

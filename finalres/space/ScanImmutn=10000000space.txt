@@ -1,22 +1,913 @@
-Time:   1.508   0.713
-Min: 1.507980988
-Med: 1.507980988 0.7129999999999999
-Max: 1.507980988
+Time:   1.554   0.659
+Min: 1.553743646
+Med: 1.553743646 0.659
+Max: 1.553743646
 	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
-	User time (seconds): 4.43
-	System time (seconds): 0.60
+	User time (seconds): 4.36
+	System time (seconds): 0.52
+	Percent of CPU this job got: 153%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.18
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1551720
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11051
+	Voluntary context switches: 3154
+	Involuntary context switches: 17
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.523   0.636
+Min: 1.523165342
+Med: 1.523165342 0.636
+Max: 1.523165342
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.30
+	System time (seconds): 0.66
+	Percent of CPU this job got: 140%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1525048
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12021
+	Voluntary context switches: 3125
+	Involuntary context switches: 44
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.442   0.548
+Min: 1.441952309
+Med: 1.441952309 0.548
+Max: 1.441952309
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.48
+	System time (seconds): 0.70
+	Percent of CPU this job got: 151%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.42
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1529112
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12505
+	Voluntary context switches: 3527
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.485   0.689
+Min: 1.484561887
+Med: 1.484561887 0.689
+Max: 1.484561887
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.57
+	System time (seconds): 0.64
 	Percent of CPU this job got: 150%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1559088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11724
+	Voluntary context switches: 3127
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.563   0.717
+Min: 1.563343779
+Med: 1.563343779 0.717
+Max: 1.563343779
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.59
+	System time (seconds): 0.62
+	Percent of CPU this job got: 146%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1564016
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12145
+	Voluntary context switches: 3229
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.499   0.609
+Min: 1.49884932
+Med: 1.49884932 0.6089999999999999
+Max: 1.49884932
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.69
+	System time (seconds): 0.65
+	Percent of CPU this job got: 152%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1526672
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12425
+	Voluntary context switches: 3195
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.364   0.491
+Min: 1.363514569
+Med: 1.363514569 0.491
+Max: 1.363514569
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.19
+	System time (seconds): 0.56
+	Percent of CPU this job got: 143%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.32
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1541040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 11014
+	Voluntary context switches: 3151
+	Involuntary context switches: 46
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.419   0.491
+Min: 1.418524846
+Med: 1.418524846 0.491
+Max: 1.418524846
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.13
+	System time (seconds): 0.62
+	Percent of CPU this job got: 143%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1547920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12013
+	Voluntary context switches: 3245
+	Involuntary context switches: 50
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.471   0.618
+Min: 1.470871457
+Med: 1.470871457 0.618
+Max: 1.470871457
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.46
+	System time (seconds): 0.66
+	Percent of CPU this job got: 149%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.44
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1535052
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 12170
+	Voluntary context switches: 3207
+	Involuntary context switches: 58
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.397   0.537
+Min: 1.397111794
+Med: 1.397111794 0.537
+Max: 1.397111794
+	Command being timed: "./run -b ScanImmut -t 1 -n 10000000 -r 1 -s 0"
+	User time (seconds): 4.07
+	System time (seconds): 0.66
+	Percent of CPU this job got: 139%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.39
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1537480
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 10509
+	Voluntary context switches: 3157
+	Involuntary context switches: 48
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   8.223   7.171
+Min: 8.223130033
+Med: 8.223130033 7.170999999999999
+Max: 8.223130033
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 133.00
+	System time (seconds): 6.42
+	Percent of CPU this job got: 1434%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2137340
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25869
+	Voluntary context switches: 4539
+	Involuntary context switches: 328
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.538   6.522
+Min: 7.537966065
+Med: 7.537966065 6.522
+Max: 7.537966065
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 131.11
+	System time (seconds): 3.93
+	Percent of CPU this job got: 1465%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.21
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2121920
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25687
+	Voluntary context switches: 4864
+	Involuntary context switches: 301
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.710   6.665
+Min: 7.709880732
+Med: 7.709880732 6.665
+Max: 7.709880732
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 126.51
+	System time (seconds): 4.40
+	Percent of CPU this job got: 1413%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2143928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25637
+	Voluntary context switches: 4932
+	Involuntary context switches: 230
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   8.088   7.247
+Min: 8.087921478
+Med: 8.087921478 7.247
+Max: 8.087921478
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 130.13
+	System time (seconds): 5.65
+	Percent of CPU this job got: 1428%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.50
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2137272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25814
+	Voluntary context switches: 5129
+	Involuntary context switches: 278
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.832   6.981
+Min: 7.831984758
+Med: 7.831984758 6.981
+Max: 7.831984758
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 134.37
+	System time (seconds): 5.61
+	Percent of CPU this job got: 1508%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.28
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2139976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25898
+	Voluntary context switches: 5099
+	Involuntary context switches: 290
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.061   6.109
+Min: 7.061103341
+Med: 7.061103341 6.109
+Max: 7.061103341
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 118.70
+	System time (seconds): 3.84
+	Percent of CPU this job got: 1446%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:08.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2109776
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26328
+	Voluntary context switches: 4543
+	Involuntary context switches: 224
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.588   6.453
+Min: 7.587929423
+Med: 7.587929423 6.452999999999999
+Max: 7.587929423
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 122.34
+	System time (seconds): 4.94
+	Percent of CPU this job got: 1399%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.09
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2120928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 25995
+	Voluntary context switches: 4971
+	Involuntary context switches: 218
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   7.557   6.375
+Min: 7.556714228
+Med: 7.556714228 6.375
+Max: 7.556714228
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 120.93
+	System time (seconds): 5.09
+	Percent of CPU this job got: 1394%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2150592
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26307
+	Voluntary context switches: 4572
+	Involuntary context switches: 276
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   8.781   7.751
+Min: 8.780783388
+Med: 8.780783388 7.751
+Max: 8.780783388
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 146.62
+	System time (seconds): 3.67
+	Percent of CPU this job got: 1452%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.34
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2132232
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26137
+	Voluntary context switches: 4954
+	Involuntary context switches: 264
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   8.613   7.698
+Min: 8.612962343
+Med: 8.612962343 7.6979999999999995
+Max: 8.612962343
+	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
+	User time (seconds): 145.00
+	System time (seconds): 3.48
+	Percent of CPU this job got: 1451%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:10.22
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2144668
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26581
+	Voluntary context switches: 4637
+	Involuntary context switches: 311
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.570   0.187
+Min: 1.569561666
+Med: 1.569561666 0.18700000000000006
+Max: 1.569561666
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 74.81
+	System time (seconds): 6.52
+	Percent of CPU this job got: 2600%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1331120
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21697
+	Voluntary context switches: 5746
+	Involuntary context switches: 526
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.019   0.000
+Min: 1.018825771
+Med: 1.018825771 0.0
+Max: 1.018825771
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 62.71
+	System time (seconds): 4.72
+	Percent of CPU this job got: 2505%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1336824
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21679
+	Voluntary context switches: 5921
+	Involuntary context switches: 500
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.168   0.000
+Min: 1.167624242
+Med: 1.167624242 0.0
+Max: 1.167624242
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 68.49
+	System time (seconds): 4.50
+	Percent of CPU this job got: 2536%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.87
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1319736
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21987
+	Voluntary context switches: 6052
+	Involuntary context switches: 456
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.712   0.000
+Min: 0.711926079
+Med: 0.711926079 0.0
+Max: 0.711926079
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 51.08
+	System time (seconds): 6.49
+	Percent of CPU this job got: 2262%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.54
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1368272
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22140
+	Voluntary context switches: 5481
+	Involuntary context switches: 894
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.373   0.217
+Min: 1.373140805
+Med: 1.373140805 0.21699999999999997
+Max: 1.373140805
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 68.02
+	System time (seconds): 4.34
+	Percent of CPU this job got: 2442%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.96
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1369560
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 22286
+	Voluntary context switches: 5778
+	Involuntary context switches: 294
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.935   0.000
+Min: 0.934660815
+Med: 0.934660815 0.0
+Max: 0.934660815
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 52.54
+	System time (seconds): 6.26
+	Percent of CPU this job got: 2272%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.58
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1342928
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 21827
+	Voluntary context switches: 5578
+	Involuntary context switches: 340
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.460   0.000
+Min: 1.460162478
+Med: 1.460162478 0.0
+Max: 1.460162478
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 76.90
+	System time (seconds): 5.42
+	Percent of CPU this job got: 2547%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.23
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1354472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20600
+	Voluntary context switches: 5474
+	Involuntary context switches: 277
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.150   0.000
+Min: 1.150203991
+Med: 1.150203991 0.0
+Max: 1.150203991
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 67.35
+	System time (seconds): 4.74
+	Percent of CPU this job got: 2559%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1331964
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20743
+	Voluntary context switches: 5528
+	Involuntary context switches: 327
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   0.883   0.000
+Min: 0.882855558
+Med: 0.882855558 0.0
+Max: 0.882855558
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 60.22
+	System time (seconds): 5.22
+	Percent of CPU this job got: 2362%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.77
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1367852
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20648
+	Voluntary context switches: 5617
+	Involuntary context switches: 500
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.574   0.209
+Min: 1.573596381
+Med: 1.573596381 0.20900000000000007
+Max: 1.573596381
+	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
+	User time (seconds): 75.43
+	System time (seconds): 4.86
+	Percent of CPU this job got: 2543%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.15
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1355612
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 20827
+	Voluntary context switches: 5647
+	Involuntary context switches: 412
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.703   0.000
+Min: 1.703481544
+Med: 1.703481544 0.0
+Max: 1.703481544
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 125.50
+	System time (seconds): 9.85
+	Percent of CPU this job got: 3962%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.41
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1410084
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28124
+	Voluntary context switches: 6822
+	Involuntary context switches: 493
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.690   0.000
+Min: 1.689806899
+Med: 1.689806899 0.0
+Max: 1.689806899
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 123.76
+	System time (seconds): 10.60
+	Percent of CPU this job got: 4049%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.31
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1370980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28156
+	Voluntary context switches: 6849
+	Involuntary context switches: 400
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.654   0.000
+Min: 1.654465964
+Med: 1.654465964 0.0
+Max: 1.654465964
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 121.00
+	System time (seconds): 11.80
+	Percent of CPU this job got: 4020%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.30
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1371380
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28948
+	Voluntary context switches: 7152
+	Involuntary context switches: 767
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.537   0.000
+Min: 1.536701883
+Med: 1.536701883 0.0
+Max: 1.536701883
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 116.27
+	System time (seconds): 10.02
+	Percent of CPU this job got: 3761%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.35
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1567700
+	Maximum resident set size (kbytes): 1376256
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 12546
-	Voluntary context switches: 3322
-	Involuntary context switches: 29
+	Minor (reclaiming a frame) page faults: 28511
+	Voluntary context switches: 6410
+	Involuntary context switches: 719
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
@@ -25,78 +916,213 @@ Max: 1.507980988
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:   8.151   7.354
-Min: 8.150721914
-Med: 8.150721914 7.353999999999999
-Max: 8.150721914
-	Command being timed: "./run -b ScanImmut -t 18 -n 10000000 -r 1 -s 0"
-	User time (seconds): 136.66
-	System time (seconds): 3.52
-	Percent of CPU this job got: 1438%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:09.74
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2122992
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 25857
-	Voluntary context switches: 4871
-	Involuntary context switches: 295
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-Time:   0.967   0.000
-Min: 0.966555098
-Med: 0.966555098 0.0
-Max: 0.966555098
-	Command being timed: "./run -b ScanImmut -t 36 -n 10000000 -r 1 -s 0"
-	User time (seconds): 53.03
-	System time (seconds): 5.60
-	Percent of CPU this job got: 2246%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.61
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1317376
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 20815
-	Voluntary context switches: 5556
-	Involuntary context switches: 511
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 0
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-Time:   1.296   0.000
-Min: 1.295555339
-Med: 1.295555339 0.0
-Max: 1.295555339
+Time:   1.292   0.226
+Min: 1.291513202
+Med: 1.291513202 0.22599999999999998
+Max: 1.291513202
 	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
-	User time (seconds): 109.04
-	System time (seconds): 10.38
-	Percent of CPU this job got: 3712%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.21
+	User time (seconds): 85.54
+	System time (seconds): 10.14
+	Percent of CPU this job got: 3633%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.63
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 1384772
+	Maximum resident set size (kbytes): 1371068
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 29411
-	Voluntary context switches: 6172
+	Minor (reclaiming a frame) page faults: 28814
+	Voluntary context switches: 6233
+	Involuntary context switches: 575
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.395   0.000
+Min: 1.395133693
+Med: 1.395133693 0.0
+Max: 1.395133693
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 100.24
+	System time (seconds): 10.70
+	Percent of CPU this job got: 3630%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1394456
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27937
+	Voluntary context switches: 6524
+	Involuntary context switches: 752
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.394   0.000
+Min: 1.394075439
+Med: 1.394075439 0.0
+Max: 1.394075439
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 107.22
+	System time (seconds): 11.52
+	Percent of CPU this job got: 3641%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.26
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1360812
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26967
+	Voluntary context switches: 6644
+	Involuntary context switches: 1367
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.217   0.000
+Min: 1.216607394
+Med: 1.216607394 0.0
+Max: 1.216607394
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 90.61
+	System time (seconds): 11.48
+	Percent of CPU this job got: 3432%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.97
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1376532
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 27641
+	Voluntary context switches: 6413
+	Involuntary context switches: 575
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.216   0.000
+Min: 1.216350381
+Med: 1.216350381 0.0
+Max: 1.216350381
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 90.80
+	System time (seconds): 14.51
+	Percent of CPU this job got: 3583%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.93
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1359040
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 26467
+	Voluntary context switches: 6655
+	Involuntary context switches: 1267
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.284   0.000
+Min: 1.284347965
+Med: 1.284347965 0.0
+Max: 1.284347965
+	Command being timed: "./run -b ScanImmut -t 54 -n 10000000 -r 1 -s 0"
+	User time (seconds): 100.30
+	System time (seconds): 9.97
+	Percent of CPU this job got: 3608%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1396220
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 28403
+	Voluntary context switches: 6243
+	Involuntary context switches: 785
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.891   0.000
+Min: 1.890859074
+Med: 1.890859074 0.0
+Max: 1.890859074
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 186.77
+	System time (seconds): 13.00
+	Percent of CPU this job got: 5411%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.69
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1419316
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32215
+	Voluntary context switches: 7684
+	Involuntary context switches: 884
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.827   0.000
+Min: 1.827369222
+Med: 1.827369222 0.0
+Max: 1.827369222
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 182.24
+	System time (seconds): 13.59
+	Percent of CPU this job got: 5371%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1407732
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32388
+	Voluntary context switches: 7520
 	Involuntary context switches: 850
 	Swaps: 0
 	File system inputs: 0
@@ -106,25 +1132,214 @@ Max: 1.295555339
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-Time:  18.133  16.159
-Min: 18.133091883
-Med: 18.133091883 16.159
-Max: 18.133091883
+Time:   1.011   0.000
+Min: 1.011418955
+Med: 1.011418955 0.0
+Max: 1.011418955
 	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
-	User time (seconds): 1234.44
-	System time (seconds): 21.34
-	Percent of CPU this job got: 6267%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:20.03
+	User time (seconds): 118.92
+	System time (seconds): 14.17
+	Percent of CPU this job got: 4775%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:02.78
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 4598652
+	Maximum resident set size (kbytes): 1425028
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 0
-	Minor (reclaiming a frame) page faults: 66544
-	Voluntary context switches: 13142
-	Involuntary context switches: 2565
+	Minor (reclaiming a frame) page faults: 32359
+	Voluntary context switches: 7628
+	Involuntary context switches: 868
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.689   0.000
+Min: 1.688907139
+Med: 1.688907139 0.0
+Max: 1.688907139
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 166.76
+	System time (seconds): 14.13
+	Percent of CPU this job got: 5094%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1419316
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32355
+	Voluntary context switches: 7282
+	Involuntary context switches: 1400
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.202   0.000
+Min: 1.202359203
+Med: 1.202359203 0.0
+Max: 1.202359203
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 130.10
+	System time (seconds): 13.84
+	Percent of CPU this job got: 4717%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.05
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1394724
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33087
+	Voluntary context switches: 7346
+	Involuntary context switches: 1072
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:  14.679  12.781
+Min: 14.679076033
+Med: 14.679076033 12.780999999999999
+Max: 14.679076033
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 1021.48
+	System time (seconds): 17.93
+	Percent of CPU this job got: 6280%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:16.55
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4540832
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 56789
+	Voluntary context switches: 11824
+	Involuntary context switches: 3367
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.721   0.000
+Min: 1.720521701
+Med: 1.720521701 0.0
+Max: 1.720521701
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 167.18
+	System time (seconds): 14.08
+	Percent of CPU this job got: 5185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1399572
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 31636
+	Voluntary context switches: 7590
+	Involuntary context switches: 1003
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   2.039   0.000
+Min: 2.038594683
+Med: 2.038594683 0.0
+Max: 2.038594683
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 189.05
+	System time (seconds): 14.34
+	Percent of CPU this job got: 5273%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.85
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1405256
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 33004
+	Voluntary context switches: 7933
+	Involuntary context switches: 941
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.693   0.000
+Min: 1.69318339
+Med: 1.69318339 0.0
+Max: 1.69318339
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 165.98
+	System time (seconds): 14.44
+	Percent of CPU this job got: 5180%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.48
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1395976
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32656
+	Voluntary context switches: 7404
+	Involuntary context switches: 1243
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+Time:   1.445   0.000
+Min: 1.444509229
+Med: 1.444509229 0.0
+Max: 1.444509229
+	Command being timed: "./run -b ScanImmut -t 72 -n 10000000 -r 1 -s 0"
+	User time (seconds): 147.61
+	System time (seconds): 13.23
+	Percent of CPU this job got: 5075%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.16
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1423844
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 32073
+	Voluntary context switches: 8165
+	Involuntary context switches: 540
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 0
