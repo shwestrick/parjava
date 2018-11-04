@@ -52,7 +52,7 @@ public class SortBenchmark {
     }
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
-    public void Scan(BState state, Blackhole bh) {
+    public void Sort(BState state, Blackhole bh) {
       Arrays.parallelSort(state.result, (x, y) -> StrGen.compare(x, y));
     }
 
