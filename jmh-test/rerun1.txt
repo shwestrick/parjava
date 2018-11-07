@@ -1,0 +1,120 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ConcHashBenchmark.ConcHash
+
+# Run progress: 0.00% complete, ETA 00:07:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 8.358 s/op
+# Warmup Iteration   2: 7.099 s/op
+# Warmup Iteration   3: 7.420 s/op
+# Warmup Iteration   4: 7.151 s/op
+# Warmup Iteration   5: 7.940 s/op
+Iteration   1: 6.539 s/op
+Iteration   2: 10.348 s/op
+Iteration   3: 18.515 s/op
+Iteration   4: 6.315 s/op
+Iteration   5: 10.749 s/op
+Iteration   6: 10.168 s/op
+Iteration   7: 13.190 s/op
+Iteration   8: 7.739 s/op
+Iteration   9: 11.071 s/op
+Iteration  10: 10.171 s/op
+
+
+Result "org.sample.ConcHashBenchmark.ConcHash":
+  10.481 ±(99.9%) 5.355 s/op [Average]
+  (min, avg, max) = (6.315, 10.481, 18.515), stdev = 3.542
+  CI (99.9%): [5.125, 15.836] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FilterBenchmark.Filter
+
+# Run progress: 33.33% complete, ETA 00:07:16
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.566 s/op
+# Warmup Iteration   2: 1.349 s/op
+# Warmup Iteration   3: 1.268 s/op
+# Warmup Iteration   4: 1.207 s/op
+# Warmup Iteration   5: 1.317 s/op
+Iteration   1: 1.139 s/op
+Iteration   2: 1.183 s/op
+Iteration   3: 1.207 s/op
+Iteration   4: 1.197 s/op
+Iteration   5: 1.114 s/op
+Iteration   6: 1.152 s/op
+Iteration   7: 1.202 s/op
+Iteration   8: 1.085 s/op
+Iteration   9: 1.080 s/op
+Iteration  10: 1.079 s/op
+
+
+Result "org.sample.FilterBenchmark.Filter":
+  1.144 ±(99.9%) 0.079 s/op [Average]
+  (min, avg, max) = (1.079, 1.144, 1.207), stdev = 0.052
+  CI (99.9%): [1.065, 1.223] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.HistogramBenchmark.Histogram
+
+# Run progress: 66.67% complete, ETA 00:03:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 10.420 s/op
+# Warmup Iteration   2: 12.257 s/op
+# Warmup Iteration   3: 14.606 s/op
+# Warmup Iteration   4: 16.057 s/op
+# Warmup Iteration   5: 15.430 s/op
+Iteration   1: 16.531 s/op
+Iteration   2: 20.249 s/op
+Iteration   3: 15.209 s/op
+Iteration   4: 14.152 s/op
+Iteration   5: 14.871 s/op
+Iteration   6: 16.521 s/op
+Iteration   7: 18.315 s/op
+Iteration   8: 12.895 s/op
+Iteration   9: 20.956 s/op
+Iteration  10: 10.547 s/op
+
+
+Result "org.sample.HistogramBenchmark.Histogram":
+  16.025 ±(99.9%) 4.866 s/op [Average]
+  (min, avg, max) = (10.547, 16.025, 20.956), stdev = 3.218
+  CI (99.9%): [11.159, 20.890] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:28
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                     Mode  Cnt   Score   Error  Units
+ConcHashBenchmark.ConcHash    avgt   10  10.481 ± 5.355   s/op
+FilterBenchmark.Filter        avgt   10   1.144 ± 0.079   s/op
+HistogramBenchmark.Histogram  avgt   10  16.025 ± 4.866   s/op

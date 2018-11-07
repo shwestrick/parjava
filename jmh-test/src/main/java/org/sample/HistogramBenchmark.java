@@ -61,7 +61,8 @@ public class HistogramBenchmark {
 	// IntStream.range(0, state.result.length).parallel()
 	// 	.forEach(i -> x.compute(new StrGen.HashObject(state.result[i]), 
 	// 				(k, v) -> (v == null) ? 1 : (v + 1)));
-	bh.consume(x);
+	StrGen.HashObject[] result = x.keySet().stream().parallel().toArray(StrGen.HashObject[]::new);
+	bh.consume(result);
     }
 
 }

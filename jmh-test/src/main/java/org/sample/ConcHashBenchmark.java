@@ -56,6 +56,7 @@ public class ConcHashBenchmark {
 	ConcurrentHashMap<StrGen.HashObject, Integer> x= new ConcurrentHashMap<StrGen.HashObject, Integer>(state.result.length);
 	IntStream.range(0, state.result.length).parallel()
 		.forEach(i -> x.put(new StrGen.HashObject(state.result[i]), 1));
+	// StrGen.HashObject[] result = x.keySet().stream().parallel().toArray(StrGen.HashObject[]::new);
 	bh.consume(x);
     }
 
