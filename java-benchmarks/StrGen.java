@@ -19,9 +19,10 @@ class StrGen {
   }
 
   public static boolean pred(char[] e) {
+    char[] e_new = generate(hash(e));
     int cnt = 0;
-    for (int i = 0;i < e.length;i++) { 
-      if (e[i] == '1'){
+    for (int i = 0;i < e_new.length;i++) { 
+      if (e_new[i] == '1'){
         cnt++;
       }
     }

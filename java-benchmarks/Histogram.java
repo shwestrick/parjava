@@ -16,14 +16,15 @@ class Histogram {
     }
 
     public static void compute(char[][] l) {
-      ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
-//       ConcurrentHashMap<HashObject, LongAdder> x = new ConcurrentHashMap<HashObject, LongAdder>(l.length);
-//       IntStream.range(0, l.length).parallel()
-// 	.forEach(i -> x.computeIfAbsent(new HashObject(l[i]), k -> new LongAdder()).increment());
-// 
-      IntStream.range(0, l.length).parallel()
-        .forEach(i -> x.compute(
-          new HashObject(l[i]), (k,v) -> (v == null) ? 1 : (v + 1)));
+//      ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
+       ConcurrentHashMap<HashObject, LongAdder> x = new ConcurrentHashMap<HashObject, LongAdder>(l.length);
+       IntStream.range(0, l.length).parallel()
+	.forEach(i -> x.computeIfAbsent(new HashObject(l[i]), k -> new LongAdder()).increment());
+       HashObject[] res = x.keySet().stream().parallel().toArray(HashObject[]::new);
+
+      // IntStream.range(0, l.length).parallel()
+      //   .forEach(i -> x.compute(
+      //     new HashObject(l[i]), (k,v) -> (v == null) ? 1 : (v + 1)));
     }
 
 

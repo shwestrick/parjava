@@ -18,6 +18,8 @@ class ConcHash {
       ConcurrentHashMap<HashObject, Integer> x = new ConcurrentHashMap<HashObject, Integer>(l.length);
       IntStream.range(0, l.length).parallel()
 	      .forEach(i -> x.put(new HashObject(l[i]), 1));
+       HashObject[] res = x.keySet().stream().parallel().toArray(HashObject[]::new);
+
     }
 
 
