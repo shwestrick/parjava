@@ -1,0 +1,379 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ConcHashBenchmark.ConcHash
+
+# Run progress: 0.00% complete, ETA 00:25:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.631 s/op
+# Warmup Iteration   2: 0.715 s/op
+# Warmup Iteration   3: 0.643 s/op
+# Warmup Iteration   4: 0.687 s/op
+# Warmup Iteration   5: 0.629 s/op
+Iteration   1: 0.638 s/op
+Iteration   2: 0.689 s/op
+Iteration   3: 0.743 s/op
+Iteration   4: 0.636 s/op
+Iteration   5: 0.640 s/op
+Iteration   6: 0.732 s/op
+Iteration   7: 0.628 s/op
+Iteration   8: 0.669 s/op
+Iteration   9: 0.678 s/op
+Iteration  10: 0.616 s/op
+
+
+Result "org.sample.ConcHashBenchmark.ConcHash":
+  0.667 ±(99.9%) 0.066 s/op [Average]
+  (min, avg, max) = (0.616, 0.667, 0.743), stdev = 0.044
+  CI (99.9%): [0.601, 0.733] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibBenchmark.Fib
+
+# Run progress: 10.00% complete, ETA 00:23:54
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.028 s/op
+# Warmup Iteration   2: 0.027 s/op
+# Warmup Iteration   3: 0.027 s/op
+# Warmup Iteration   4: 0.027 s/op
+# Warmup Iteration   5: 0.027 s/op
+Iteration   1: 0.027 s/op
+Iteration   2: 0.027 s/op
+Iteration   3: 0.027 s/op
+Iteration   4: 0.027 s/op
+Iteration   5: 0.027 s/op
+Iteration   6: 0.027 s/op
+Iteration   7: 0.028 s/op
+Iteration   8: 0.027 s/op
+Iteration   9: 0.027 s/op
+Iteration  10: 0.028 s/op
+
+
+Result "org.sample.FibBenchmark.Fib":
+  0.027 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.027, 0.027, 0.028), stdev = 0.001
+  CI (99.9%): [0.027, 0.028] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FilterBenchmark.Filter
+
+# Run progress: 20.00% complete, ETA 00:20:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.120 s/op
+# Warmup Iteration   2: 0.097 s/op
+# Warmup Iteration   3: 0.095 s/op
+# Warmup Iteration   4: 0.095 s/op
+# Warmup Iteration   5: 0.097 s/op
+Iteration   1: 0.089 s/op
+Iteration   2: 0.103 s/op
+Iteration   3: 0.093 s/op
+Iteration   4: 0.086 s/op
+Iteration   5: 0.085 s/op
+Iteration   6: 0.085 s/op
+Iteration   7: 0.094 s/op
+Iteration   8: 0.089 s/op
+Iteration   9: 0.093 s/op
+Iteration  10: 0.095 s/op
+
+
+Result "org.sample.FilterBenchmark.Filter":
+  0.091 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.085, 0.091, 0.103), stdev = 0.006
+  CI (99.9%): [0.083, 0.100] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.HistogramBenchmark.Histogram
+
+# Run progress: 30.00% complete, ETA 00:18:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.430 s/op
+# Warmup Iteration   2: 1.218 s/op
+# Warmup Iteration   3: 0.920 s/op
+# Warmup Iteration   4: 1.016 s/op
+# Warmup Iteration   5: 1.458 s/op
+Iteration   1: 1.086 s/op
+Iteration   2: 1.058 s/op
+Iteration   3: 1.233 s/op
+Iteration   4: 1.362 s/op
+Iteration   5: 1.064 s/op
+Iteration   6: 1.124 s/op
+Iteration   7: 1.453 s/op
+Iteration   8: 1.203 s/op
+Iteration   9: 1.334 s/op
+Iteration  10: 1.333 s/op
+
+
+Result "org.sample.HistogramBenchmark.Histogram":
+  1.225 ±(99.9%) 0.213 s/op [Average]
+  (min, avg, max) = (1.058, 1.225, 1.453), stdev = 0.141
+  CI (99.9%): [1.012, 1.438] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MapMutBenchmark.MapMut
+
+# Run progress: 40.00% complete, ETA 00:15:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.899 s/op
+# Warmup Iteration   2: 0.537 s/op
+# Warmup Iteration   3: 0.464 s/op
+# Warmup Iteration   4: 0.442 s/op
+# Warmup Iteration   5: 0.464 s/op
+Iteration   1: 0.375 s/op
+Iteration   2: 0.465 s/op
+Iteration   3: 0.422 s/op
+Iteration   4: 0.363 s/op
+Iteration   5: 0.490 s/op
+Iteration   6: 0.376 s/op
+Iteration   7: 0.424 s/op
+Iteration   8: 0.446 s/op
+Iteration   9: 0.377 s/op
+Iteration  10: 0.436 s/op
+
+
+Result "org.sample.MapMutBenchmark.MapMut":
+  0.417 ±(99.9%) 0.066 s/op [Average]
+  (min, avg, max) = (0.363, 0.417, 0.490), stdev = 0.043
+  CI (99.9%): [0.352, 0.483] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MatrixMultiplyBenchmark.MatrixMultiply
+
+# Run progress: 50.00% complete, ETA 00:13:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.340 s/op
+# Warmup Iteration   2: 0.312 s/op
+# Warmup Iteration   3: 0.306 s/op
+# Warmup Iteration   4: 0.309 s/op
+# Warmup Iteration   5: 0.317 s/op
+Iteration   1: 0.314 s/op
+Iteration   2: 0.313 s/op
+Iteration   3: 0.318 s/op
+Iteration   4: 0.312 s/op
+Iteration   5: 0.315 s/op
+Iteration   6: 0.309 s/op
+Iteration   7: 0.314 s/op
+Iteration   8: 0.309 s/op
+Iteration   9: 0.324 s/op
+Iteration  10: 0.315 s/op
+
+
+Result "org.sample.MatrixMultiplyBenchmark.MatrixMultiply":
+  0.314 ±(99.9%) 0.007 s/op [Average]
+  (min, avg, max) = (0.309, 0.314, 0.324), stdev = 0.004
+  CI (99.9%): [0.308, 0.321] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ReduceBenchmark.Reduce
+
+# Run progress: 60.00% complete, ETA 00:10:29
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.099 s/op
+# Warmup Iteration   2: 0.081 s/op
+# Warmup Iteration   3: 0.077 s/op
+# Warmup Iteration   4: 0.079 s/op
+# Warmup Iteration   5: 0.077 s/op
+Iteration   1: 0.078 s/op
+Iteration   2: 0.078 s/op
+Iteration   3: 0.076 s/op
+Iteration   4: 0.076 s/op
+Iteration   5: 0.076 s/op
+Iteration   6: 0.077 s/op
+Iteration   7: 0.077 s/op
+Iteration   8: 0.077 s/op
+Iteration   9: 0.077 s/op
+Iteration  10: 0.076 s/op
+
+
+Result "org.sample.ReduceBenchmark.Reduce":
+  0.077 ±(99.9%) 0.001 s/op [Average]
+  (min, avg, max) = (0.076, 0.077, 0.078), stdev = 0.001
+  CI (99.9%): [0.075, 0.078] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ScanBenchmark.Scan
+
+# Run progress: 70.00% complete, ETA 00:07:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.355 s/op
+# Warmup Iteration   2: 1.131 s/op
+# Warmup Iteration   3: 1.032 s/op
+# Warmup Iteration   4: 1.097 s/op
+# Warmup Iteration   5: 1.193 s/op
+Iteration   1: 1.026 s/op
+Iteration   2: 1.053 s/op
+Iteration   3: 1.130 s/op
+Iteration   4: 1.119 s/op
+Iteration   5: 1.179 s/op
+Iteration   6: 1.099 s/op
+Iteration   7: 1.072 s/op
+Iteration   8: 1.150 s/op
+Iteration   9: 1.125 s/op
+Iteration  10: 1.066 s/op
+
+
+Result "org.sample.ScanBenchmark.Scan":
+  1.102 ±(99.9%) 0.072 s/op [Average]
+  (min, avg, max) = (1.026, 1.102, 1.179), stdev = 0.048
+  CI (99.9%): [1.030, 1.174] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortBenchmark.Sort
+
+# Run progress: 80.00% complete, ETA 00:05:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.695 s/op
+# Warmup Iteration   2: 0.447 s/op
+# Warmup Iteration   3: 0.586 s/op
+# Warmup Iteration   4: 0.446 s/op
+# Warmup Iteration   5: 0.530 s/op
+Iteration   1: 0.445 s/op
+Iteration   2: 0.446 s/op
+Iteration   3: 0.508 s/op
+Iteration   4: 0.446 s/op
+Iteration   5: 0.535 s/op
+Iteration   6: 0.463 s/op
+Iteration   7: 0.493 s/op
+Iteration   8: 0.446 s/op
+Iteration   9: 0.526 s/op
+Iteration  10: 0.454 s/op
+
+
+Result "org.sample.SortBenchmark.Sort":
+  0.476 ±(99.9%) 0.054 s/op [Average]
+  (min, avg, max) = (0.445, 0.476, 0.535), stdev = 0.036
+  CI (99.9%): [0.422, 0.531] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=72 -Djava.util.concurrent.ForkJoinPool.common.parallelism=72
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.TabulateBenchmark.Tabulate
+
+# Run progress: 90.00% complete, ETA 00:02:37
+# Fork: 1 of 1
+# Warmup Iteration   1: 1.278 s/op
+# Warmup Iteration   2: 0.952 s/op
+# Warmup Iteration   3: 0.954 s/op
+# Warmup Iteration   4: 0.887 s/op
+# Warmup Iteration   5: 0.922 s/op
+Iteration   1: 0.941 s/op
+Iteration   2: 0.841 s/op
+Iteration   3: 0.982 s/op
+Iteration   4: 0.891 s/op
+Iteration   5: 0.913 s/op
+Iteration   6: 0.962 s/op
+Iteration   7: 0.967 s/op
+Iteration   8: 0.986 s/op
+Iteration   9: 0.931 s/op
+Iteration  10: 1.002 s/op
+
+
+Result "org.sample.TabulateBenchmark.Tabulate":
+  0.942 ±(99.9%) 0.075 s/op [Average]
+  (min, avg, max) = (0.841, 0.942, 1.002), stdev = 0.049
+  CI (99.9%): [0.867, 1.016] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:26:22
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                               Mode  Cnt  Score    Error  Units
+ConcHashBenchmark.ConcHash              avgt   10  0.667 ±  0.066   s/op
+FibBenchmark.Fib                        avgt   10  0.027 ±  0.001   s/op
+FilterBenchmark.Filter                  avgt   10  0.091 ±  0.009   s/op
+HistogramBenchmark.Histogram            avgt   10  1.225 ±  0.213   s/op
+MapMutBenchmark.MapMut                  avgt   10  0.417 ±  0.066   s/op
+MatrixMultiplyBenchmark.MatrixMultiply  avgt   10  0.314 ±  0.007   s/op
+ReduceBenchmark.Reduce                  avgt   10  0.077 ±  0.001   s/op
+ScanBenchmark.Scan                      avgt   10  1.102 ±  0.072   s/op
+SortBenchmark.Sort                      avgt   10  0.476 ±  0.054   s/op
+TabulateBenchmark.Tabulate              avgt   10  0.942 ±  0.075   s/op
