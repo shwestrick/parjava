@@ -1,0 +1,849 @@
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ConcHashBenchmark.ConcHash
+
+# Run progress: 0.00% complete, ETA 01:23:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 11.143 s/op
+# Warmup Iteration   2: 2.540 s/op
+# Warmup Iteration   3: 3.625 s/op
+# Warmup Iteration   4: 1.849 s/op
+# Warmup Iteration   5: 1.880 s/op
+Iteration   1: 1.763 s/op
+Iteration   2: 1.931 s/op
+Iteration   3: 1.682 s/op
+Iteration   4: 2.075 s/op
+Iteration   5: 2.184 s/op
+
+# Run progress: 2.00% complete, ETA 01:31:03
+# Fork: 2 of 5
+# Warmup Iteration   1: 10.352 s/op
+# Warmup Iteration   2: 3.486 s/op
+# Warmup Iteration   3: 2.121 s/op
+# Warmup Iteration   4: 2.276 s/op
+# Warmup Iteration   5: 1.935 s/op
+Iteration   1: 2.136 s/op
+Iteration   2: 1.856 s/op
+Iteration   3: 1.783 s/op
+Iteration   4: 1.645 s/op
+Iteration   5: 1.853 s/op
+
+# Run progress: 4.00% complete, ETA 01:33:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 10.742 s/op
+# Warmup Iteration   2: 2.615 s/op
+# Warmup Iteration   3: 5.233 s/op
+# Warmup Iteration   4: 2.154 s/op
+# Warmup Iteration   5: 2.235 s/op
+Iteration   1: 1.878 s/op
+Iteration   2: 1.763 s/op
+Iteration   3: 1.952 s/op
+Iteration   4: 2.057 s/op
+Iteration   5: 1.588 s/op
+
+# Run progress: 6.00% complete, ETA 01:29:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 10.335 s/op
+# Warmup Iteration   2: 3.397 s/op
+# Warmup Iteration   3: 2.151 s/op
+# Warmup Iteration   4: 2.192 s/op
+# Warmup Iteration   5: 1.762 s/op
+Iteration   1: 1.894 s/op
+Iteration   2: 1.805 s/op
+Iteration   3: 1.721 s/op
+Iteration   4: 1.634 s/op
+Iteration   5: 1.811 s/op
+
+# Run progress: 8.00% complete, ETA 01:28:20
+# Fork: 5 of 5
+# Warmup Iteration   1: 10.594 s/op
+# Warmup Iteration   2: 3.572 s/op
+# Warmup Iteration   3: 2.151 s/op
+# Warmup Iteration   4: 2.241 s/op
+# Warmup Iteration   5: 2.012 s/op
+Iteration   1: 2.335 s/op
+Iteration   2: 1.936 s/op
+Iteration   3: 1.765 s/op
+Iteration   4: 2.273 s/op
+Iteration   5: 2.446 s/op
+
+
+Result "org.sample.ConcHashBenchmark.ConcHash":
+  1.911 ±(99.9%) 0.169 s/op [Average]
+  (min, avg, max) = (1.588, 1.911, 2.446), stdev = 0.226
+  CI (99.9%): [1.741, 2.080] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FibBenchmark.Fib
+
+# Run progress: 10.00% complete, ETA 01:27:13
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.878 s/op
+# Warmup Iteration   2: 0.931 s/op
+# Warmup Iteration   3: 0.795 s/op
+# Warmup Iteration   4: 0.736 s/op
+# Warmup Iteration   5: 0.841 s/op
+Iteration   1: 0.891 s/op
+Iteration   2: 0.824 s/op
+Iteration   3: 0.779 s/op
+Iteration   4: 0.730 s/op
+Iteration   5: 0.887 s/op
+
+# Run progress: 12.00% complete, ETA 01:23:50
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.794 s/op
+# Warmup Iteration   2: 0.779 s/op
+# Warmup Iteration   3: 0.737 s/op
+# Warmup Iteration   4: 0.841 s/op
+# Warmup Iteration   5: 0.838 s/op
+Iteration   1: 0.701 s/op
+Iteration   2: 0.751 s/op
+Iteration   3: 0.709 s/op
+Iteration   4: 0.761 s/op
+Iteration   5: 0.762 s/op
+
+# Run progress: 14.00% complete, ETA 01:20:59
+# Fork: 3 of 5
+# Warmup Iteration   1: 1.052 s/op
+# Warmup Iteration   2: 0.732 s/op
+# Warmup Iteration   3: 0.723 s/op
+# Warmup Iteration   4: 0.837 s/op
+# Warmup Iteration   5: 0.703 s/op
+Iteration   1: 0.698 s/op
+Iteration   2: 0.681 s/op
+Iteration   3: 0.811 s/op
+Iteration   4: 0.806 s/op
+Iteration   5: 0.855 s/op
+
+# Run progress: 16.00% complete, ETA 01:18:18
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.949 s/op
+# Warmup Iteration   2: 0.734 s/op
+# Warmup Iteration   3: 0.796 s/op
+# Warmup Iteration   4: 0.775 s/op
+# Warmup Iteration   5: 0.711 s/op
+Iteration   1: 0.742 s/op
+Iteration   2: 0.711 s/op
+Iteration   3: 0.709 s/op
+Iteration   4: 0.684 s/op
+Iteration   5: 0.680 s/op
+
+# Run progress: 18.00% complete, ETA 01:15:53
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.913 s/op
+# Warmup Iteration   2: 0.748 s/op
+# Warmup Iteration   3: 0.684 s/op
+# Warmup Iteration   4: 0.719 s/op
+# Warmup Iteration   5: 0.785 s/op
+Iteration   1: 0.789 s/op
+Iteration   2: 0.703 s/op
+Iteration   3: 0.870 s/op
+Iteration   4: 0.846 s/op
+Iteration   5: 0.810 s/op
+
+
+Result "org.sample.FibBenchmark.Fib":
+  0.768 ±(99.9%) 0.051 s/op [Average]
+  (min, avg, max) = (0.680, 0.768, 0.891), stdev = 0.068
+  CI (99.9%): [0.717, 0.818] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.FilterBenchmark.Filter
+
+# Run progress: 20.00% complete, ETA 01:13:35
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.335 s/op
+# Warmup Iteration   2: 0.230 s/op
+# Warmup Iteration   3: 0.229 s/op
+# Warmup Iteration   4: 0.241 s/op
+# Warmup Iteration   5: 0.238 s/op
+Iteration   1: 0.229 s/op
+Iteration   2: 0.241 s/op
+Iteration   3: 0.223 s/op
+Iteration   4: 0.242 s/op
+Iteration   5: 0.258 s/op
+
+# Run progress: 22.00% complete, ETA 01:11:21
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.283 s/op
+# Warmup Iteration   2: 0.266 s/op
+# Warmup Iteration   3: 0.276 s/op
+# Warmup Iteration   4: 0.266 s/op
+# Warmup Iteration   5: 0.240 s/op
+Iteration   1: 0.254 s/op
+Iteration   2: 0.218 s/op
+Iteration   3: 0.200 s/op
+Iteration   4: 0.251 s/op
+Iteration   5: 0.257 s/op
+
+# Run progress: 24.00% complete, ETA 01:09:12
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.296 s/op
+# Warmup Iteration   2: 0.249 s/op
+# Warmup Iteration   3: 0.227 s/op
+# Warmup Iteration   4: 0.223 s/op
+# Warmup Iteration   5: 0.229 s/op
+Iteration   1: 0.228 s/op
+Iteration   2: 0.237 s/op
+Iteration   3: 0.215 s/op
+Iteration   4: 0.244 s/op
+Iteration   5: 0.273 s/op
+
+# Run progress: 26.00% complete, ETA 01:07:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.314 s/op
+# Warmup Iteration   2: 0.245 s/op
+# Warmup Iteration   3: 0.236 s/op
+# Warmup Iteration   4: 0.224 s/op
+# Warmup Iteration   5: 0.235 s/op
+Iteration   1: 0.226 s/op
+Iteration   2: 0.247 s/op
+Iteration   3: 0.228 s/op
+Iteration   4: 0.236 s/op
+Iteration   5: 0.270 s/op
+
+# Run progress: 28.00% complete, ETA 01:05:06
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.305 s/op
+# Warmup Iteration   2: 0.240 s/op
+# Warmup Iteration   3: 0.235 s/op
+# Warmup Iteration   4: 0.222 s/op
+# Warmup Iteration   5: 0.240 s/op
+Iteration   1: 0.228 s/op
+Iteration   2: 0.252 s/op
+Iteration   3: 0.216 s/op
+Iteration   4: 0.219 s/op
+Iteration   5: 0.210 s/op
+
+
+Result "org.sample.FilterBenchmark.Filter":
+  0.236 ±(99.9%) 0.014 s/op [Average]
+  (min, avg, max) = (0.200, 0.236, 0.273), stdev = 0.019
+  CI (99.9%): [0.222, 0.250] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.HistogramBenchmark.Histogram
+
+# Run progress: 30.00% complete, ETA 01:03:06
+# Fork: 1 of 5
+# Warmup Iteration   1: 10.825 s/op
+# Warmup Iteration   2: 3.341 s/op
+# Warmup Iteration   3: 2.686 s/op
+# Warmup Iteration   4: 2.810 s/op
+# Warmup Iteration   5: 2.510 s/op
+Iteration   1: 2.112 s/op
+Iteration   2: 2.040 s/op
+Iteration   3: 2.004 s/op
+Iteration   4: 2.316 s/op
+Iteration   5: 1.749 s/op
+
+# Run progress: 32.00% complete, ETA 01:02:00
+# Fork: 2 of 5
+# Warmup Iteration   1: 10.707 s/op
+# Warmup Iteration   2: 2.991 s/op
+# Warmup Iteration   3: 3.450 s/op
+# Warmup Iteration   4: 2.150 s/op
+# Warmup Iteration   5: 2.587 s/op
+Iteration   1: 2.242 s/op
+Iteration   2: 2.765 s/op
+Iteration   3: 2.023 s/op
+Iteration   4: 2.552 s/op
+Iteration   5: 2.317 s/op
+
+# Run progress: 34.00% complete, ETA 01:00:41
+# Fork: 3 of 5
+# Warmup Iteration   1: 9.630 s/op
+# Warmup Iteration   2: 2.690 s/op
+# Warmup Iteration   3: 3.166 s/op
+# Warmup Iteration   4: 1.985 s/op
+# Warmup Iteration   5: 2.222 s/op
+Iteration   1: 2.696 s/op
+Iteration   2: 2.260 s/op
+Iteration   3: 2.817 s/op
+Iteration   4: 2.206 s/op
+Iteration   5: 1.926 s/op
+
+# Run progress: 36.00% complete, ETA 00:59:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 9.700 s/op
+# Warmup Iteration   2: 2.781 s/op
+# Warmup Iteration   3: 3.113 s/op
+# Warmup Iteration   4: 2.837 s/op
+# Warmup Iteration   5: 2.163 s/op
+Iteration   1: 2.016 s/op
+Iteration   2: 2.714 s/op
+Iteration   3: 2.203 s/op
+Iteration   4: 1.898 s/op
+Iteration   5: 2.271 s/op
+
+# Run progress: 38.00% complete, ETA 00:57:50
+# Fork: 5 of 5
+# Warmup Iteration   1: 10.774 s/op
+# Warmup Iteration   2: 2.917 s/op
+# Warmup Iteration   3: 3.462 s/op
+# Warmup Iteration   4: 2.150 s/op
+# Warmup Iteration   5: 2.531 s/op
+Iteration   1: 2.208 s/op
+Iteration   2: 2.793 s/op
+Iteration   3: 2.188 s/op
+Iteration   4: 1.863 s/op
+Iteration   5: 2.110 s/op
+
+
+Result "org.sample.HistogramBenchmark.Histogram":
+  2.252 ±(99.9%) 0.231 s/op [Average]
+  (min, avg, max) = (1.749, 2.252, 2.817), stdev = 0.309
+  CI (99.9%): [2.020, 2.483] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MapMutBenchmark.MapMut
+
+# Run progress: 40.00% complete, ETA 00:56:22
+# Fork: 1 of 5
+# Warmup Iteration   1: 3.537 s/op
+# Warmup Iteration   2: 2.082 s/op
+# Warmup Iteration   3: 0.915 s/op
+# Warmup Iteration   4: 0.803 s/op
+# Warmup Iteration   5: 0.961 s/op
+Iteration   1: 1.208 s/op
+Iteration   2: 1.271 s/op
+Iteration   3: 1.061 s/op
+Iteration   4: 1.009 s/op
+Iteration   5: 1.247 s/op
+
+# Run progress: 42.00% complete, ETA 00:54:31
+# Fork: 2 of 5
+# Warmup Iteration   1: 4.024 s/op
+# Warmup Iteration   2: 2.642 s/op
+# Warmup Iteration   3: 1.486 s/op
+# Warmup Iteration   4: 1.210 s/op
+# Warmup Iteration   5: 1.455 s/op
+Iteration   1: 1.206 s/op
+Iteration   2: 0.940 s/op
+Iteration   3: 1.311 s/op
+Iteration   4: 1.221 s/op
+Iteration   5: 1.154 s/op
+
+# Run progress: 44.00% complete, ETA 00:52:40
+# Fork: 3 of 5
+# Warmup Iteration   1: 4.072 s/op
+# Warmup Iteration   2: 2.118 s/op
+# Warmup Iteration   3: 1.136 s/op
+# Warmup Iteration   4: 1.426 s/op
+# Warmup Iteration   5: 1.412 s/op
+Iteration   1: 1.461 s/op
+Iteration   2: 0.922 s/op
+Iteration   3: 1.414 s/op
+Iteration   4: 1.401 s/op
+Iteration   5: 1.050 s/op
+
+# Run progress: 46.00% complete, ETA 00:50:50
+# Fork: 4 of 5
+# Warmup Iteration   1: 4.333 s/op
+# Warmup Iteration   2: 2.479 s/op
+# Warmup Iteration   3: 1.123 s/op
+# Warmup Iteration   4: 0.962 s/op
+# Warmup Iteration   5: 1.247 s/op
+Iteration   1: 1.307 s/op
+Iteration   2: 0.921 s/op
+Iteration   3: 1.325 s/op
+Iteration   4: 1.312 s/op
+Iteration   5: 0.928 s/op
+
+# Run progress: 48.00% complete, ETA 00:49:06
+# Fork: 5 of 5
+# Warmup Iteration   1: 3.761 s/op
+# Warmup Iteration   2: 2.469 s/op
+# Warmup Iteration   3: 1.233 s/op
+# Warmup Iteration   4: 0.911 s/op
+# Warmup Iteration   5: 0.951 s/op
+Iteration   1: 1.235 s/op
+Iteration   2: 1.321 s/op
+Iteration   3: 0.997 s/op
+Iteration   4: 0.902 s/op
+Iteration   5: 1.266 s/op
+
+
+Result "org.sample.MapMutBenchmark.MapMut":
+  1.176 ±(99.9%) 0.130 s/op [Average]
+  (min, avg, max) = (0.902, 1.176, 1.461), stdev = 0.174
+  CI (99.9%): [1.045, 1.306] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.MatrixMultiplyBenchmark.MatrixMultiply
+
+# Run progress: 50.00% complete, ETA 00:47:15
+# Fork: 1 of 5
+# Warmup Iteration   1: 5.692 s/op
+# Warmup Iteration   2: 5.303 s/op
+# Warmup Iteration   3: 5.232 s/op
+# Warmup Iteration   4: 7.039 s/op
+# Warmup Iteration   5: 4.995 s/op
+Iteration   1: 4.981 s/op
+Iteration   2: 4.954 s/op
+Iteration   3: 4.969 s/op
+Iteration   4: 5.022 s/op
+Iteration   5: 4.957 s/op
+
+# Run progress: 52.00% complete, ETA 00:45:36
+# Fork: 2 of 5
+# Warmup Iteration   1: 5.083 s/op
+# Warmup Iteration   2: 4.925 s/op
+# Warmup Iteration   3: 4.906 s/op
+# Warmup Iteration   4: 10.827 s/op
+# Warmup Iteration   5: 4.896 s/op
+Iteration   1: 4.908 s/op
+Iteration   2: 4.899 s/op
+Iteration   3: 4.908 s/op
+Iteration   4: 4.899 s/op
+Iteration   5: 4.987 s/op
+
+# Run progress: 54.00% complete, ETA 00:44:01
+# Fork: 3 of 5
+# Warmup Iteration   1: 5.585 s/op
+# Warmup Iteration   2: 4.967 s/op
+# Warmup Iteration   3: 5.108 s/op
+# Warmup Iteration   4: 5.069 s/op
+# Warmup Iteration   5: 11.260 s/op
+Iteration   1: 5.040 s/op
+Iteration   2: 5.285 s/op
+Iteration   3: 4.977 s/op
+Iteration   4: 4.977 s/op
+Iteration   5: 4.996 s/op
+
+# Run progress: 56.00% complete, ETA 00:42:02
+# Fork: 4 of 5
+# Warmup Iteration   1: 5.060 s/op
+# Warmup Iteration   2: 4.933 s/op
+# Warmup Iteration   3: 5.279 s/op
+# Warmup Iteration   4: 8.085 s/op
+# Warmup Iteration   5: 5.016 s/op
+Iteration   1: 4.955 s/op
+Iteration   2: 5.211 s/op
+Iteration   3: 4.915 s/op
+Iteration   4: 4.927 s/op
+Iteration   5: 4.943 s/op
+
+# Run progress: 58.00% complete, ETA 00:40:20
+# Fork: 5 of 5
+# Warmup Iteration   1: 5.710 s/op
+# Warmup Iteration   2: 5.115 s/op
+# Warmup Iteration   3: 5.345 s/op
+# Warmup Iteration   4: 4.971 s/op
+# Warmup Iteration   5: 11.323 s/op
+Iteration   1: 4.919 s/op
+Iteration   2: 5.250 s/op
+Iteration   3: 4.939 s/op
+Iteration   4: 4.964 s/op
+Iteration   5: 5.241 s/op
+
+
+Result "org.sample.MatrixMultiplyBenchmark.MatrixMultiply":
+  5.001 ±(99.9%) 0.087 s/op [Average]
+  (min, avg, max) = (4.899, 5.001, 5.285), stdev = 0.116
+  CI (99.9%): [4.914, 5.088] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ReduceBenchmark.Reduce
+
+# Run progress: 60.00% complete, ETA 00:38:25
+# Fork: 1 of 5
+# Warmup Iteration   1: 2.033 s/op
+# Warmup Iteration   2: 1.908 s/op
+# Warmup Iteration   3: 1.768 s/op
+# Warmup Iteration   4: 1.965 s/op
+# Warmup Iteration   5: 2.121 s/op
+Iteration   1: 1.818 s/op
+Iteration   2: 1.910 s/op
+Iteration   3: 1.855 s/op
+Iteration   4: 1.835 s/op
+Iteration   5: 1.735 s/op
+
+# Run progress: 62.00% complete, ETA 00:36:28
+# Fork: 2 of 5
+# Warmup Iteration   1: 1.887 s/op
+# Warmup Iteration   2: 1.737 s/op
+# Warmup Iteration   3: 1.838 s/op
+# Warmup Iteration   4: 1.751 s/op
+# Warmup Iteration   5: 1.865 s/op
+Iteration   1: 1.677 s/op
+Iteration   2: 1.718 s/op
+Iteration   3: 1.673 s/op
+Iteration   4: 1.739 s/op
+Iteration   5: 1.690 s/op
+
+# Run progress: 64.00% complete, ETA 00:34:31
+# Fork: 3 of 5
+# Warmup Iteration   1: 2.028 s/op
+# Warmup Iteration   2: 1.797 s/op
+# Warmup Iteration   3: 1.825 s/op
+# Warmup Iteration   4: 1.909 s/op
+# Warmup Iteration   5: 2.166 s/op
+Iteration   1: 1.838 s/op
+Iteration   2: 2.011 s/op
+Iteration   3: 1.933 s/op
+Iteration   4: 1.796 s/op
+Iteration   5: 1.815 s/op
+
+# Run progress: 66.00% complete, ETA 00:32:34
+# Fork: 4 of 5
+# Warmup Iteration   1: 1.756 s/op
+# Warmup Iteration   2: 1.632 s/op
+# Warmup Iteration   3: 1.458 s/op
+# Warmup Iteration   4: 1.629 s/op
+# Warmup Iteration   5: 1.874 s/op
+Iteration   1: 1.713 s/op
+Iteration   2: 1.635 s/op
+Iteration   3: 1.676 s/op
+Iteration   4: 1.737 s/op
+Iteration   5: 1.713 s/op
+
+# Run progress: 68.00% complete, ETA 00:30:36
+# Fork: 5 of 5
+# Warmup Iteration   1: 2.160 s/op
+# Warmup Iteration   2: 2.103 s/op
+# Warmup Iteration   3: 1.903 s/op
+# Warmup Iteration   4: 1.892 s/op
+# Warmup Iteration   5: 1.727 s/op
+Iteration   1: 1.854 s/op
+Iteration   2: 1.729 s/op
+Iteration   3: 1.796 s/op
+Iteration   4: 1.966 s/op
+Iteration   5: 1.688 s/op
+
+
+Result "org.sample.ReduceBenchmark.Reduce":
+  1.782 ±(99.9%) 0.075 s/op [Average]
+  (min, avg, max) = (1.635, 1.782, 2.011), stdev = 0.100
+  CI (99.9%): [1.707, 1.857] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.ScanBenchmark.Scan
+
+# Run progress: 70.00% complete, ETA 00:28:41
+# Fork: 1 of 5
+# Warmup Iteration   1: 7.239 s/op
+# Warmup Iteration   2: 3.684 s/op
+# Warmup Iteration   3: 4.193 s/op
+# Warmup Iteration   4: 5.045 s/op
+# Warmup Iteration   5: 4.454 s/op
+Iteration   1: 3.893 s/op
+Iteration   2: 4.242 s/op
+Iteration   3: 4.651 s/op
+Iteration   4: 4.444 s/op
+Iteration   5: 4.497 s/op
+
+# Run progress: 72.00% complete, ETA 00:26:52
+# Fork: 2 of 5
+# Warmup Iteration   1: 10.073 s/op
+# Warmup Iteration   2: 5.147 s/op
+# Warmup Iteration   3: 5.527 s/op
+# Warmup Iteration   4: 4.805 s/op
+# Warmup Iteration   5: 5.503 s/op
+Iteration   1: 4.696 s/op
+Iteration   2: 5.259 s/op
+Iteration   3: 4.191 s/op
+Iteration   4: 3.947 s/op
+Iteration   5: 3.899 s/op
+
+# Run progress: 74.00% complete, ETA 00:25:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 10.306 s/op
+# Warmup Iteration   2: 4.596 s/op
+# Warmup Iteration   3: 5.361 s/op
+# Warmup Iteration   4: 4.440 s/op
+# Warmup Iteration   5: 4.478 s/op
+Iteration   1: 4.421 s/op
+Iteration   2: 4.071 s/op
+Iteration   3: 5.122 s/op
+Iteration   4: 3.751 s/op
+Iteration   5: 4.032 s/op
+
+# Run progress: 76.00% complete, ETA 00:23:07
+# Fork: 4 of 5
+# Warmup Iteration   1: 6.942 s/op
+# Warmup Iteration   2: 5.516 s/op
+# Warmup Iteration   3: 5.129 s/op
+# Warmup Iteration   4: 5.242 s/op
+# Warmup Iteration   5: 5.311 s/op
+Iteration   1: 5.035 s/op
+Iteration   2: 4.410 s/op
+Iteration   3: 5.386 s/op
+Iteration   4: 4.755 s/op
+Iteration   5: 5.088 s/op
+
+# Run progress: 78.00% complete, ETA 00:21:14
+# Fork: 5 of 5
+# Warmup Iteration   1: 6.241 s/op
+# Warmup Iteration   2: 4.373 s/op
+# Warmup Iteration   3: 4.570 s/op
+# Warmup Iteration   4: 4.551 s/op
+# Warmup Iteration   5: 4.294 s/op
+Iteration   1: 3.714 s/op
+Iteration   2: 4.075 s/op
+Iteration   3: 4.363 s/op
+Iteration   4: 4.356 s/op
+Iteration   5: 3.847 s/op
+
+
+Result "org.sample.ScanBenchmark.Scan":
+  4.406 ±(99.9%) 0.366 s/op [Average]
+  (min, avg, max) = (3.714, 4.406, 5.386), stdev = 0.489
+  CI (99.9%): [4.040, 4.772] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.SortBenchmark.Sort
+
+# Run progress: 80.00% complete, ETA 00:19:21
+# Fork: 1 of 5
+# Warmup Iteration   1: 10.107 s/op
+# Warmup Iteration   2: 9.504 s/op
+# Warmup Iteration   3: 11.161 s/op
+# Warmup Iteration   4: 10.479 s/op
+# Warmup Iteration   5: 9.877 s/op
+Iteration   1: 10.689 s/op
+Iteration   2: 9.986 s/op
+Iteration   3: 10.637 s/op
+Iteration   4: 9.720 s/op
+Iteration   5: 10.360 s/op
+
+# Run progress: 82.00% complete, ETA 00:17:27
+# Fork: 2 of 5
+# Warmup Iteration   1: 10.989 s/op
+# Warmup Iteration   2: 9.865 s/op
+# Warmup Iteration   3: 11.926 s/op
+# Warmup Iteration   4: 10.404 s/op
+# Warmup Iteration   5: 10.036 s/op
+Iteration   1: 10.881 s/op
+Iteration   2: 9.734 s/op
+Iteration   3: 10.529 s/op
+Iteration   4: 9.870 s/op
+Iteration   5: 10.412 s/op
+
+# Run progress: 84.00% complete, ETA 00:15:34
+# Fork: 3 of 5
+# Warmup Iteration   1: 11.205 s/op
+# Warmup Iteration   2: 9.775 s/op
+# Warmup Iteration   3: 11.074 s/op
+# Warmup Iteration   4: 10.421 s/op
+# Warmup Iteration   5: 10.060 s/op
+Iteration   1: 11.800 s/op
+Iteration   2: 9.970 s/op
+Iteration   3: 10.443 s/op
+Iteration   4: 10.025 s/op
+Iteration   5: 10.368 s/op
+
+# Run progress: 86.00% complete, ETA 00:13:39
+# Fork: 4 of 5
+# Warmup Iteration   1: 10.934 s/op
+# Warmup Iteration   2: 9.921 s/op
+# Warmup Iteration   3: 10.748 s/op
+# Warmup Iteration   4: 10.466 s/op
+# Warmup Iteration   5: 9.933 s/op
+Iteration   1: 11.454 s/op
+Iteration   2: 10.131 s/op
+Iteration   3: 10.467 s/op
+Iteration   4: 9.835 s/op
+Iteration   5: 10.317 s/op
+
+# Run progress: 88.00% complete, ETA 00:11:44
+# Fork: 5 of 5
+# Warmup Iteration   1: 11.205 s/op
+# Warmup Iteration   2: 10.217 s/op
+# Warmup Iteration   3: 11.885 s/op
+# Warmup Iteration   4: 10.761 s/op
+# Warmup Iteration   5: 9.865 s/op
+Iteration   1: 11.601 s/op
+Iteration   2: 9.975 s/op
+Iteration   3: 10.403 s/op
+Iteration   4: 9.716 s/op
+Iteration   5: 10.515 s/op
+
+
+Result "org.sample.SortBenchmark.Sort":
+  10.394 ±(99.9%) 0.423 s/op [Average]
+  (min, avg, max) = (9.716, 10.394, 11.800), stdev = 0.565
+  CI (99.9%): [9.971, 10.817] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseParallelGC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.TabulateBenchmark.Tabulate
+
+# Run progress: 90.00% complete, ETA 00:09:48
+# Fork: 1 of 5
+# Warmup Iteration   1: 3.530 s/op
+# Warmup Iteration   2: 1.283 s/op
+# Warmup Iteration   3: 0.951 s/op
+# Warmup Iteration   4: 0.792 s/op
+# Warmup Iteration   5: 0.822 s/op
+Iteration   1: 0.778 s/op
+Iteration   2: 0.794 s/op
+Iteration   3: 0.807 s/op
+Iteration   4: 0.858 s/op
+Iteration   5: 0.816 s/op
+
+# Run progress: 92.00% complete, ETA 00:07:49
+# Fork: 2 of 5
+# Warmup Iteration   1: 3.845 s/op
+# Warmup Iteration   2: 1.148 s/op
+# Warmup Iteration   3: 0.950 s/op
+# Warmup Iteration   4: 0.858 s/op
+# Warmup Iteration   5: 0.847 s/op
+Iteration   1: 0.842 s/op
+Iteration   2: 0.808 s/op
+Iteration   3: 0.808 s/op
+Iteration   4: 0.874 s/op
+Iteration   5: 0.864 s/op
+
+# Run progress: 94.00% complete, ETA 00:05:51
+# Fork: 3 of 5
+# Warmup Iteration   1: 3.749 s/op
+# Warmup Iteration   2: 1.121 s/op
+# Warmup Iteration   3: 1.007 s/op
+# Warmup Iteration   4: 0.931 s/op
+# Warmup Iteration   5: 0.870 s/op
+Iteration   1: 0.882 s/op
+Iteration   2: 0.848 s/op
+Iteration   3: 0.861 s/op
+Iteration   4: 0.876 s/op
+Iteration   5: 0.913 s/op
+
+# Run progress: 96.00% complete, ETA 00:03:53
+# Fork: 4 of 5
+# Warmup Iteration   1: 3.882 s/op
+# Warmup Iteration   2: 1.182 s/op
+# Warmup Iteration   3: 0.970 s/op
+# Warmup Iteration   4: 0.942 s/op
+# Warmup Iteration   5: 0.817 s/op
+Iteration   1: 0.830 s/op
+Iteration   2: 0.822 s/op
+Iteration   3: 0.811 s/op
+Iteration   4: 0.834 s/op
+Iteration   5: 0.742 s/op
+
+# Run progress: 98.00% complete, ETA 00:01:56
+# Fork: 5 of 5
+# Warmup Iteration   1: 3.804 s/op
+# Warmup Iteration   2: 1.141 s/op
+# Warmup Iteration   3: 0.953 s/op
+# Warmup Iteration   4: 0.959 s/op
+# Warmup Iteration   5: 0.880 s/op
+Iteration   1: 0.863 s/op
+Iteration   2: 0.872 s/op
+Iteration   3: 0.892 s/op
+Iteration   4: 0.847 s/op
+Iteration   5: 0.853 s/op
+
+
+Result "org.sample.TabulateBenchmark.Tabulate":
+  0.840 ±(99.9%) 0.029 s/op [Average]
+  (min, avg, max) = (0.742, 0.840, 0.913), stdev = 0.039
+  CI (99.9%): [0.811, 0.869] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:37:07
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                               Mode  Cnt   Score   Error  Units
+ConcHashBenchmark.ConcHash              avgt   25   1.911 ± 0.169   s/op
+FibBenchmark.Fib                        avgt   25   0.768 ± 0.051   s/op
+FilterBenchmark.Filter                  avgt   25   0.236 ± 0.014   s/op
+HistogramBenchmark.Histogram            avgt   25   2.252 ± 0.231   s/op
+MapMutBenchmark.MapMut                  avgt   25   1.176 ± 0.130   s/op
+MatrixMultiplyBenchmark.MatrixMultiply  avgt   25   5.001 ± 0.087   s/op
+ReduceBenchmark.Reduce                  avgt   25   1.782 ± 0.075   s/op
+ScanBenchmark.Scan                      avgt   25   4.406 ± 0.366   s/op
+SortBenchmark.Sort                      avgt   25  10.394 ± 0.423   s/op
+TabulateBenchmark.Tabulate              avgt   25   0.840 ± 0.029   s/op

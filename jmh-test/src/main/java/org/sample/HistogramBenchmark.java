@@ -33,6 +33,7 @@ package org.sample;
 
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
 import java.util.stream.*;
 
 import org.openjdk.jmh.annotations.*;
@@ -53,10 +54,13 @@ public class HistogramBenchmark {
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
     public void Histogram(BState state, Blackhole bh) {
-	ConcurrentHashMap<StrGen.HashObject, Integer> x= new ConcurrentHashMap<StrGen.HashObject, Integer>(state.result.length);
+	ConcurrentHashMap<StrGen.HashObject, LongAdder> x = new ConcurrentHashMap<StrGen.HashObject, LongAdder>(state.result.length);
 	IntStream.range(0, state.result.length).parallel()
-		.forEach(i -> x.compute(new StrGen.HashObject(state.result[i]), 
-					(k, v) -> (v == null) ? 1 : (v + 1)));
+		.forEach(i -> x.computeIfAbsent(new StrGen.HashObject(state.result[i]), k -> new LongAdder()).increment());
+	// ConcurrentHashMap<StrGen.HashObject, Integer> x= new ConcurrentHashMap<StrGen.HashObject, Integer>(state.result.length);
+	// IntStream.range(0, state.result.length).parallel()
+	// 	.forEach(i -> x.compute(new StrGen.HashObject(state.result[i]), 
+	// 				(k, v) -> (v == null) ? 1 : (v + 1)));
 	bh.consume(x);
     }
 
