@@ -42,7 +42,7 @@ public class FibBenchmark {
 
     @State(Scope.Thread)
     public static class BState {
-      public int n = 42;
+      public int n = 43;
     }
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
