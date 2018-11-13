@@ -9,29 +9,29 @@
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.ConcHashBenchmark.ConcHash
 
-# Run progress: 0.00% complete, ETA 00:25:00
+# Run progress: 0.00% complete, ETA 00:27:30
 # Fork: 1 of 1
-# Warmup Iteration   1: 7.401 s/op
-# Warmup Iteration   2: 11.478 s/op
-# Warmup Iteration   3: 5.686 s/op
-# Warmup Iteration   4: 7.970 s/op
-# Warmup Iteration   5: 7.785 s/op
-Iteration   1: 6.026 s/op
-Iteration   2: 11.285 s/op
-Iteration   3: 18.510 s/op
-Iteration   4: 5.904 s/op
-Iteration   5: 10.536 s/op
-Iteration   6: 10.523 s/op
-Iteration   7: 12.445 s/op
-Iteration   8: 7.621 s/op
-Iteration   9: 10.393 s/op
-Iteration  10: 10.355 s/op
+# Warmup Iteration   1: 8.273 s/op
+# Warmup Iteration   2: 12.405 s/op
+# Warmup Iteration   3: 5.591 s/op
+# Warmup Iteration   4: 7.245 s/op
+# Warmup Iteration   5: 7.050 s/op
+Iteration   1: 5.733 s/op
+Iteration   2: 10.477 s/op
+Iteration   3: 19.093 s/op
+Iteration   4: 6.045 s/op
+Iteration   5: 10.495 s/op
+Iteration   6: 10.434 s/op
+Iteration   7: 12.823 s/op
+Iteration   8: 7.926 s/op
+Iteration   9: 10.444 s/op
+Iteration  10: 10.343 s/op
 
 
 Result "org.sample.ConcHashBenchmark.ConcHash":
-  10.360 ±(99.9%) 5.470 s/op [Average]
-  (min, avg, max) = (5.904, 10.360, 18.510), stdev = 3.618
-  CI (99.9%): [4.890, 15.830] (assumes normal distribution)
+  10.381 ±(99.9%) 5.709 s/op [Average]
+  (min, avg, max) = (5.733, 10.381, 19.093), stdev = 3.776
+  CI (99.9%): [4.672, 16.090] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -45,29 +45,29 @@ Result "org.sample.ConcHashBenchmark.ConcHash":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.FibBenchmark.Fib
 
-# Run progress: 10.00% complete, ETA 00:32:10
+# Run progress: 9.09% complete, ETA 00:35:39
 # Fork: 1 of 1
-# Warmup Iteration   1: 1.347 s/op
-# Warmup Iteration   2: 1.103 s/op
-# Warmup Iteration   3: 1.233 s/op
-# Warmup Iteration   4: 1.180 s/op
-# Warmup Iteration   5: 1.259 s/op
-Iteration   1: 1.360 s/op
-Iteration   2: 1.335 s/op
-Iteration   3: 1.445 s/op
-Iteration   4: 1.344 s/op
-Iteration   5: 1.229 s/op
-Iteration   6: 1.185 s/op
-Iteration   7: 1.258 s/op
-Iteration   8: 1.380 s/op
-Iteration   9: 1.420 s/op
-Iteration  10: 1.440 s/op
+# Warmup Iteration   1: 1.339 s/op
+# Warmup Iteration   2: 1.112 s/op
+# Warmup Iteration   3: 1.160 s/op
+# Warmup Iteration   4: 1.254 s/op
+# Warmup Iteration   5: 1.402 s/op
+Iteration   1: 1.148 s/op
+Iteration   2: 1.339 s/op
+Iteration   3: 1.369 s/op
+Iteration   4: 1.288 s/op
+Iteration   5: 1.273 s/op
+Iteration   6: 1.411 s/op
+Iteration   7: 1.222 s/op
+Iteration   8: 1.183 s/op
+Iteration   9: 1.101 s/op
+Iteration  10: 1.106 s/op
 
 
 Result "org.sample.FibBenchmark.Fib":
-  1.340 ±(99.9%) 0.136 s/op [Average]
-  (min, avg, max) = (1.185, 1.340, 1.445), stdev = 0.090
-  CI (99.9%): [1.204, 1.476] (assumes normal distribution)
+  1.244 ±(99.9%) 0.166 s/op [Average]
+  (min, avg, max) = (1.101, 1.244, 1.411), stdev = 0.110
+  CI (99.9%): [1.078, 1.410] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -81,29 +81,29 @@ Result "org.sample.FibBenchmark.Fib":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.FilterBenchmark.Filter
 
-# Run progress: 20.00% complete, ETA 00:25:06
+# Run progress: 18.18% complete, ETA 00:28:10
 # Fork: 1 of 1
-# Warmup Iteration   1: 1.695 s/op
-# Warmup Iteration   2: 1.334 s/op
-# Warmup Iteration   3: 1.483 s/op
-# Warmup Iteration   4: 1.224 s/op
-# Warmup Iteration   5: 1.254 s/op
-Iteration   1: 1.159 s/op
-Iteration   2: 1.130 s/op
-Iteration   3: 1.230 s/op
-Iteration   4: 1.118 s/op
-Iteration   5: 1.188 s/op
-Iteration   6: 1.215 s/op
-Iteration   7: 1.251 s/op
-Iteration   8: 1.141 s/op
-Iteration   9: 1.171 s/op
-Iteration  10: 1.123 s/op
+# Warmup Iteration   1: 1.557 s/op
+# Warmup Iteration   2: 1.191 s/op
+# Warmup Iteration   3: 1.221 s/op
+# Warmup Iteration   4: 1.235 s/op
+# Warmup Iteration   5: 1.156 s/op
+Iteration   1: 0.911 s/op
+Iteration   2: 0.940 s/op
+Iteration   3: 0.976 s/op
+Iteration   4: 0.948 s/op
+Iteration   5: 0.985 s/op
+Iteration   6: 1.049 s/op
+Iteration   7: 0.975 s/op
+Iteration   8: 1.097 s/op
+Iteration   9: 1.051 s/op
+Iteration  10: 0.959 s/op
 
 
 Result "org.sample.FilterBenchmark.Filter":
-  1.173 ±(99.9%) 0.071 s/op [Average]
-  (min, avg, max) = (1.118, 1.173, 1.251), stdev = 0.047
-  CI (99.9%): [1.102, 1.243] (assumes normal distribution)
+  0.989 ±(99.9%) 0.088 s/op [Average]
+  (min, avg, max) = (0.911, 0.989, 1.097), stdev = 0.058
+  CI (99.9%): [0.901, 1.077] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -117,29 +117,29 @@ Result "org.sample.FilterBenchmark.Filter":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.HistogramBenchmark.Histogram
 
-# Run progress: 30.00% complete, ETA 00:20:56
+# Run progress: 27.27% complete, ETA 00:23:59
 # Fork: 1 of 1
-# Warmup Iteration   1: 11.017 s/op
-# Warmup Iteration   2: 12.594 s/op
-# Warmup Iteration   3: 13.939 s/op
-# Warmup Iteration   4: 14.466 s/op
-# Warmup Iteration   5: 14.419 s/op
-Iteration   1: 17.441 s/op
-Iteration   2: 19.581 s/op
-Iteration   3: 14.889 s/op
-Iteration   4: 14.236 s/op
-Iteration   5: 15.193 s/op
-Iteration   6: 14.951 s/op
-Iteration   7: 18.848 s/op
-Iteration   8: 13.289 s/op
-Iteration   9: 24.978 s/op
-Iteration  10: 14.501 s/op
+# Warmup Iteration   1: 10.022 s/op
+# Warmup Iteration   2: 13.535 s/op
+# Warmup Iteration   3: 16.362 s/op
+# Warmup Iteration   4: 16.092 s/op
+# Warmup Iteration   5: 15.760 s/op
+Iteration   1: 22.056 s/op
+Iteration   2: 21.058 s/op
+Iteration   3: 11.032 s/op
+Iteration   4: 17.784 s/op
+Iteration   5: 14.714 s/op
+Iteration   6: 22.027 s/op
+Iteration   7: 12.777 s/op
+Iteration   8: 13.475 s/op
+Iteration   9: 13.896 s/op
+Iteration  10: 15.699 s/op
 
 
 Result "org.sample.HistogramBenchmark.Histogram":
-  16.791 ±(99.9%) 5.358 s/op [Average]
-  (min, avg, max) = (13.289, 16.791, 24.978), stdev = 3.544
-  CI (99.9%): [11.432, 22.149] (assumes normal distribution)
+  16.452 ±(99.9%) 6.117 s/op [Average]
+  (min, avg, max) = (11.032, 16.452, 22.056), stdev = 4.046
+  CI (99.9%): [10.335, 22.569] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -153,29 +153,29 @@ Result "org.sample.HistogramBenchmark.Histogram":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.MapMutBenchmark.MapMut
 
-# Run progress: 40.00% complete, ETA 00:19:25
+# Run progress: 36.36% complete, ETA 00:23:23
 # Fork: 1 of 1
-# Warmup Iteration   1: 3.076 s/op
-# Warmup Iteration   2: 2.743 s/op
-# Warmup Iteration   3: 2.373 s/op
-# Warmup Iteration   4: 2.417 s/op
-# Warmup Iteration   5: 2.350 s/op
-Iteration   1: 2.561 s/op
-Iteration   2: 2.203 s/op
-Iteration   3: 2.468 s/op
-Iteration   4: 2.329 s/op
-Iteration   5: 2.581 s/op
-Iteration   6: 2.240 s/op
-Iteration   7: 2.508 s/op
-Iteration   8: 2.342 s/op
-Iteration   9: 2.429 s/op
-Iteration  10: 1.936 s/op
+# Warmup Iteration   1: 4.080 s/op
+# Warmup Iteration   2: 2.918 s/op
+# Warmup Iteration   3: 2.754 s/op
+# Warmup Iteration   4: 2.110 s/op
+# Warmup Iteration   5: 2.857 s/op
+Iteration   1: 2.307 s/op
+Iteration   2: 2.538 s/op
+Iteration   3: 2.258 s/op
+Iteration   4: 2.651 s/op
+Iteration   5: 2.346 s/op
+Iteration   6: 2.504 s/op
+Iteration   7: 2.029 s/op
+Iteration   8: 2.618 s/op
+Iteration   9: 1.977 s/op
+Iteration  10: 2.578 s/op
 
 
 Result "org.sample.MapMutBenchmark.MapMut":
-  2.360 ±(99.9%) 0.297 s/op [Average]
-  (min, avg, max) = (1.936, 2.360, 2.581), stdev = 0.197
-  CI (99.9%): [2.063, 2.657] (assumes normal distribution)
+  2.381 ±(99.9%) 0.362 s/op [Average]
+  (min, avg, max) = (1.977, 2.381, 2.651), stdev = 0.240
+  CI (99.9%): [2.018, 2.743] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -189,29 +189,65 @@ Result "org.sample.MapMutBenchmark.MapMut":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.MatrixMultiplyBenchmark.MatrixMultiply
 
-# Run progress: 50.00% complete, ETA 00:16:19
+# Run progress: 45.45% complete, ETA 00:20:00
 # Fork: 1 of 1
-# Warmup Iteration   1: 6.012 s/op
-# Warmup Iteration   2: 5.508 s/op
-# Warmup Iteration   3: 5.253 s/op
-# Warmup Iteration   4: 5.395 s/op
-# Warmup Iteration   5: 5.372 s/op
-Iteration   1: 5.338 s/op
-Iteration   2: 5.208 s/op
-Iteration   3: 5.214 s/op
-Iteration   4: 5.479 s/op
-Iteration   5: 5.244 s/op
-Iteration   6: 5.247 s/op
-Iteration   7: 4.973 s/op
-Iteration   8: 5.174 s/op
-Iteration   9: 4.887 s/op
-Iteration  10: 4.914 s/op
+# Warmup Iteration   1: 5.694 s/op
+# Warmup Iteration   2: 5.472 s/op
+# Warmup Iteration   3: 5.218 s/op
+# Warmup Iteration   4: 5.290 s/op
+# Warmup Iteration   5: 5.302 s/op
+Iteration   1: 5.483 s/op
+Iteration   2: 5.292 s/op
+Iteration   3: 5.327 s/op
+Iteration   4: 5.302 s/op
+Iteration   5: 5.328 s/op
+Iteration   6: 5.188 s/op
+Iteration   7: 5.084 s/op
+Iteration   8: 5.062 s/op
+Iteration   9: 5.019 s/op
+Iteration  10: 5.029 s/op
 
 
 Result "org.sample.MatrixMultiplyBenchmark.MatrixMultiply":
-  5.168 ±(99.9%) 0.286 s/op [Average]
-  (min, avg, max) = (4.887, 5.168, 5.479), stdev = 0.189
-  CI (99.9%): [4.881, 5.454] (assumes normal distribution)
+  5.211 ±(99.9%) 0.239 s/op [Average]
+  (min, avg, max) = (5.019, 5.211, 5.483), stdev = 0.158
+  CI (99.9%): [4.972, 5.450] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 1.8.0_181, OpenJDK 64-Bit Server VM, 25.181-b13
+# VM invoker: /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+# VM options: -XX:+UseG1GC -XX:ParallelGCThreads=1 -Djava.util.concurrent.ForkJoinPool.common.parallelism=1
+# Warmup: 5 iterations, 10 s each
+# Measurement: 10 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.sample.OurTabulateBenchmark.OurTabulate
+
+# Run progress: 54.55% complete, ETA 00:16:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 3.984 s/op
+# Warmup Iteration   2: 3.336 s/op
+# Warmup Iteration   3: 2.822 s/op
+# Warmup Iteration   4: 2.459 s/op
+# Warmup Iteration   5: 2.355 s/op
+Iteration   1: 2.070 s/op
+Iteration   2: 2.085 s/op
+Iteration   3: 2.174 s/op
+Iteration   4: 2.269 s/op
+Iteration   5: 2.516 s/op
+Iteration   6: 2.250 s/op
+Iteration   7: 2.256 s/op
+Iteration   8: 2.027 s/op
+Iteration   9: 2.033 s/op
+Iteration  10: 2.063 s/op
+
+
+Result "org.sample.OurTabulateBenchmark.OurTabulate":
+  2.174 ±(99.9%) 0.231 s/op [Average]
+  (min, avg, max) = (2.027, 2.174, 2.516), stdev = 0.153
+  CI (99.9%): [1.943, 2.406] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -225,29 +261,29 @@ Result "org.sample.MatrixMultiplyBenchmark.MatrixMultiply":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.ReduceBenchmark.Reduce
 
-# Run progress: 60.00% complete, ETA 00:12:45
+# Run progress: 63.64% complete, ETA 00:12:38
 # Fork: 1 of 1
-# Warmup Iteration   1: 2.108 s/op
-# Warmup Iteration   2: 1.757 s/op
-# Warmup Iteration   3: 1.943 s/op
-# Warmup Iteration   4: 1.910 s/op
-# Warmup Iteration   5: 1.667 s/op
-Iteration   1: 1.746 s/op
-Iteration   2: 1.894 s/op
-Iteration   3: 1.804 s/op
-Iteration   4: 1.883 s/op
-Iteration   5: 1.805 s/op
-Iteration   6: 1.777 s/op
-Iteration   7: 1.783 s/op
-Iteration   8: 1.809 s/op
-Iteration   9: 1.877 s/op
-Iteration  10: 1.783 s/op
+# Warmup Iteration   1: 2.250 s/op
+# Warmup Iteration   2: 1.885 s/op
+# Warmup Iteration   3: 1.880 s/op
+# Warmup Iteration   4: 1.736 s/op
+# Warmup Iteration   5: 1.791 s/op
+Iteration   1: 1.826 s/op
+Iteration   2: 1.948 s/op
+Iteration   3: 1.521 s/op
+Iteration   4: 1.734 s/op
+Iteration   5: 1.713 s/op
+Iteration   6: 1.570 s/op
+Iteration   7: 1.669 s/op
+Iteration   8: 1.668 s/op
+Iteration   9: 1.513 s/op
+Iteration  10: 1.424 s/op
 
 
 Result "org.sample.ReduceBenchmark.Reduce":
-  1.816 ±(99.9%) 0.077 s/op [Average]
-  (min, avg, max) = (1.746, 1.816, 1.894), stdev = 0.051
-  CI (99.9%): [1.739, 1.893] (assumes normal distribution)
+  1.659 ±(99.9%) 0.238 s/op [Average]
+  (min, avg, max) = (1.424, 1.659, 1.948), stdev = 0.158
+  CI (99.9%): [1.420, 1.897] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -261,29 +297,29 @@ Result "org.sample.ReduceBenchmark.Reduce":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.ScanBenchmark.Scan
 
-# Run progress: 70.00% complete, ETA 00:09:24
+# Run progress: 72.73% complete, ETA 00:09:19
 # Fork: 1 of 1
-# Warmup Iteration   1: 5.286 s/op
-# Warmup Iteration   2: 6.094 s/op
-# Warmup Iteration   3: 5.092 s/op
-# Warmup Iteration   4: 5.656 s/op
-# Warmup Iteration   5: 5.062 s/op
-Iteration   1: 5.191 s/op
-Iteration   2: 6.210 s/op
-Iteration   3: 5.787 s/op
-Iteration   4: 4.837 s/op
-Iteration   5: 5.413 s/op
-Iteration   6: 5.427 s/op
-Iteration   7: 5.855 s/op
-Iteration   8: 5.332 s/op
-Iteration   9: 5.745 s/op
-Iteration  10: 5.580 s/op
+# Warmup Iteration   1: 5.757 s/op
+# Warmup Iteration   2: 5.997 s/op
+# Warmup Iteration   3: 6.059 s/op
+# Warmup Iteration   4: 6.856 s/op
+# Warmup Iteration   5: 5.054 s/op
+Iteration   1: 5.971 s/op
+Iteration   2: 6.133 s/op
+Iteration   3: 7.274 s/op
+Iteration   4: 5.642 s/op
+Iteration   5: 5.027 s/op
+Iteration   6: 5.463 s/op
+Iteration   7: 5.037 s/op
+Iteration   8: 5.989 s/op
+Iteration   9: 5.489 s/op
+Iteration  10: 5.266 s/op
 
 
 Result "org.sample.ScanBenchmark.Scan":
-  5.538 ±(99.9%) 0.584 s/op [Average]
-  (min, avg, max) = (4.837, 5.538, 6.210), stdev = 0.386
-  CI (99.9%): [4.954, 6.121] (assumes normal distribution)
+  5.729 ±(99.9%) 1.008 s/op [Average]
+  (min, avg, max) = (5.027, 5.729, 7.274), stdev = 0.667
+  CI (99.9%): [4.721, 6.737] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -297,29 +333,29 @@ Result "org.sample.ScanBenchmark.Scan":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.SortBenchmark.Sort
 
-# Run progress: 80.00% complete, ETA 00:06:15
+# Run progress: 81.82% complete, ETA 00:06:11
 # Fork: 1 of 1
-# Warmup Iteration   1: 12.545 s/op
-# Warmup Iteration   2: 12.520 s/op
-# Warmup Iteration   3: 11.619 s/op
-# Warmup Iteration   4: 10.811 s/op
-# Warmup Iteration   5: 11.393 s/op
-Iteration   1: 11.831 s/op
-Iteration   2: 12.976 s/op
-Iteration   3: 10.851 s/op
-Iteration   4: 11.270 s/op
-Iteration   5: 12.011 s/op
-Iteration   6: 11.998 s/op
-Iteration   7: 11.727 s/op
-Iteration   8: 11.646 s/op
-Iteration   9: 10.539 s/op
-Iteration  10: 10.672 s/op
+# Warmup Iteration   1: 12.309 s/op
+# Warmup Iteration   2: 10.686 s/op
+# Warmup Iteration   3: 11.208 s/op
+# Warmup Iteration   4: 11.030 s/op
+# Warmup Iteration   5: 11.136 s/op
+Iteration   1: 11.440 s/op
+Iteration   2: 12.417 s/op
+Iteration   3: 11.362 s/op
+Iteration   4: 11.244 s/op
+Iteration   5: 11.735 s/op
+Iteration   6: 11.642 s/op
+Iteration   7: 11.586 s/op
+Iteration   8: 11.666 s/op
+Iteration   9: 10.786 s/op
+Iteration  10: 11.456 s/op
 
 
 Result "org.sample.SortBenchmark.Sort":
-  11.552 ±(99.9%) 1.118 s/op [Average]
-  (min, avg, max) = (10.539, 11.552, 12.976), stdev = 0.740
-  CI (99.9%): [10.434, 12.670] (assumes normal distribution)
+  11.533 ±(99.9%) 0.625 s/op [Average]
+  (min, avg, max) = (10.786, 11.533, 12.417), stdev = 0.414
+  CI (99.9%): [10.908, 12.159] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -333,32 +369,32 @@ Result "org.sample.SortBenchmark.Sort":
 # Benchmark mode: Average time, time/op
 # Benchmark: org.sample.TabulateBenchmark.Tabulate
 
-# Run progress: 90.00% complete, ETA 00:03:13
+# Run progress: 90.91% complete, ETA 00:03:11
 # Fork: 1 of 1
-# Warmup Iteration   1: 3.361 s/op
-# Warmup Iteration   2: 2.964 s/op
-# Warmup Iteration   3: 2.515 s/op
-# Warmup Iteration   4: 2.741 s/op
-# Warmup Iteration   5: 2.535 s/op
-Iteration   1: 2.314 s/op
-Iteration   2: 2.288 s/op
-Iteration   3: 2.329 s/op
-Iteration   4: 2.158 s/op
-Iteration   5: 2.225 s/op
-Iteration   6: 1.988 s/op
-Iteration   7: 2.001 s/op
-Iteration   8: 2.157 s/op
-Iteration   9: 2.269 s/op
-Iteration  10: 2.325 s/op
+# Warmup Iteration   1: 3.315 s/op
+# Warmup Iteration   2: 2.843 s/op
+# Warmup Iteration   3: 2.605 s/op
+# Warmup Iteration   4: 2.640 s/op
+# Warmup Iteration   5: 2.560 s/op
+Iteration   1: 2.232 s/op
+Iteration   2: 2.269 s/op
+Iteration   3: 2.274 s/op
+Iteration   4: 2.093 s/op
+Iteration   5: 2.109 s/op
+Iteration   6: 1.903 s/op
+Iteration   7: 2.150 s/op
+Iteration   8: 2.020 s/op
+Iteration   9: 2.013 s/op
+Iteration  10: 2.040 s/op
 
 
 Result "org.sample.TabulateBenchmark.Tabulate":
-  2.205 ±(99.9%) 0.192 s/op [Average]
-  (min, avg, max) = (1.988, 2.205, 2.329), stdev = 0.127
-  CI (99.9%): [2.013, 2.398] (assumes normal distribution)
+  2.110 ±(99.9%) 0.185 s/op [Average]
+  (min, avg, max) = (1.903, 2.110, 2.274), stdev = 0.122
+  CI (99.9%): [1.926, 2.295] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:31:54
+# Run complete. Total time: 00:34:34
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -367,13 +403,14 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                               Mode  Cnt   Score   Error  Units
-ConcHashBenchmark.ConcHash              avgt   10  10.360 ± 5.470   s/op
-FibBenchmark.Fib                        avgt   10   1.340 ± 0.136   s/op
-FilterBenchmark.Filter                  avgt   10   1.173 ± 0.071   s/op
-HistogramBenchmark.Histogram            avgt   10  16.791 ± 5.358   s/op
-MapMutBenchmark.MapMut                  avgt   10   2.360 ± 0.297   s/op
-MatrixMultiplyBenchmark.MatrixMultiply  avgt   10   5.168 ± 0.286   s/op
-ReduceBenchmark.Reduce                  avgt   10   1.816 ± 0.077   s/op
-ScanBenchmark.Scan                      avgt   10   5.538 ± 0.584   s/op
-SortBenchmark.Sort                      avgt   10  11.552 ± 1.118   s/op
-TabulateBenchmark.Tabulate              avgt   10   2.205 ± 0.192   s/op
+ConcHashBenchmark.ConcHash              avgt   10  10.381 ± 5.709   s/op
+FibBenchmark.Fib                        avgt   10   1.244 ± 0.166   s/op
+FilterBenchmark.Filter                  avgt   10   0.989 ± 0.088   s/op
+HistogramBenchmark.Histogram            avgt   10  16.452 ± 6.117   s/op
+MapMutBenchmark.MapMut                  avgt   10   2.381 ± 0.362   s/op
+MatrixMultiplyBenchmark.MatrixMultiply  avgt   10   5.211 ± 0.239   s/op
+OurTabulateBenchmark.OurTabulate        avgt   10   2.174 ± 0.231   s/op
+ReduceBenchmark.Reduce                  avgt   10   1.659 ± 0.238   s/op
+ScanBenchmark.Scan                      avgt   10   5.729 ± 1.008   s/op
+SortBenchmark.Sort                      avgt   10  11.533 ± 0.625   s/op
+TabulateBenchmark.Tabulate              avgt   10   2.110 ± 0.185   s/op
