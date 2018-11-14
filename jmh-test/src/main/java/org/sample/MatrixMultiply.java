@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.*;
 
 public class MatrixMultiply {
-    static final int DEFAULT_GRANULARITY = 256;
+    static final int DEFAULT_GRANULARITY = 128;
 
     static int granularity = DEFAULT_GRANULARITY;
 
