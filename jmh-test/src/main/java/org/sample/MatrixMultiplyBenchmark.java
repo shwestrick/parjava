@@ -44,8 +44,8 @@ public class MatrixMultiplyBenchmark {
     public static class BState {
       @Setup(Level.Invocation)
       public void doSetup() {
-	a = new float[n][n];
-	b = new float[n][n];
+	a = new double[n][n];
+	b = new double[n][n];
 	for (int i = 0;i < n;i++) {
 	  for (int j = 0;j < n;j++) {
 	    a[i][j] = 1.0f;
@@ -53,14 +53,14 @@ public class MatrixMultiplyBenchmark {
 	  }
 	}
       }
-      public float[][] a;
-      public float[][] b;
+      public double[][] a;
+      public double[][] b;
       public int n = 2048;
     }
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
     public void MatrixMultiply(BState state, Blackhole bh) {
-	float[][] c = new float[state.n][state.n];
+	double[][] c = new double[state.n][state.n];
 	MatrixMultiply.run(state.a, state.b, c, state.n);
     }
 }

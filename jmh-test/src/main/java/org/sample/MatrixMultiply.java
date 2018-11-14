@@ -4,7 +4,7 @@ import java.util.*;
 import java.util.concurrent.*;
 
 public class MatrixMultiply {
-    static final int DEFAULT_GRANULARITY = 128;
+    static final int DEFAULT_GRANULARITY = 64;
 
     static int granularity = DEFAULT_GRANULARITY;
 
@@ -26,9 +26,9 @@ public class MatrixMultiply {
     //         return;
     //     }
 
-    //     float[][] a = new float[n][n];
-    //     float[][] b = new float[n][n];
-    //     float[][] c = new float[n][n];
+    //     double[][] a = new double[n][n];
+    //     double[][] b = new double[n][n];
+    //     double[][] c = new double[n][n];
 
     //     final int n2 = n;
     //     Runner.run_with_setup(
@@ -38,12 +38,12 @@ public class MatrixMultiply {
     //         sreps);
     // }
 
-    public static void run(float[][] a, float[][] b, float[][] c, int n) {
+    public static void run(double[][] a, double[][] b, double[][] c, int n) {
         ForkJoinPool.commonPool().invoke(new Multiplier(a, 0, 0, b, 0, 0, c, 0, 0, n));
     }
 
     // To simplify checking, fill with all 1's. Answer should be all n's.
-    static void init(float[][] a, float[][] b, float[][] c, int n) {
+    static void init(double[][] a, double[][] b, double[][] c, int n) {
       for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
           a[i][j] = 1.0F;
@@ -53,7 +53,7 @@ public class MatrixMultiply {
       }
     }
 
-    static void check(float[][] c, int n) {
+    static void check(double[][] c, int n) {
       for (int i = 0; i < n; i++ ) {
         for (int j = 0; j < n; j++ ) {
           if (c[i][j] != n) {
@@ -80,23 +80,23 @@ public class MatrixMultiply {
     }
 
     static class Multiplier extends RecursiveTask {
-        final float[][] A;   // Matrix A
+        final double[][] A;   // Matrix A
         final int aRow;      // first row    of current quadrant of A
         final int aCol;      // first column of current quadrant of A
 
-        final float[][] B;   // Similarly for B
+        final double[][] B;   // Similarly for B
         final int bRow;
         final int bCol;
 
-        final float[][] C;   // Similarly for result matrix C
+        final double[][] C;   // Similarly for result matrix C
         final int cRow;
         final int cCol;
 
         final int size;      // number of elements in current quadrant
     
-        Multiplier(float[][] A, int aRow, int aCol,
-                   float[][] B, int bRow, int bCol,
-                   float[][] C, int cRow, int cCol,
+        Multiplier(double[][] A, int aRow, int aCol,
+                   double[][] B, int bRow, int bCol,
+                   double[][] C, int cRow, int cCol,
                    int size) {
           this.A = A; this.aRow = aRow; this.aCol = aCol;
           this.B = B; this.bRow = bRow; this.bCol = bCol;
@@ -164,24 +164,24 @@ public class MatrixMultiply {
       for (int j = 0; j < size; j+=2) {
         for (int i = 0; i < size; i +=2) {
 
-          float[] a0 = A[aRow+i];
-          float[] a1 = A[aRow+i+1];
+          double[] a0 = A[aRow+i];
+          double[] a1 = A[aRow+i+1];
         
-          float s00 = 0.0F; 
-          float s01 = 0.0F; 
-          float s10 = 0.0F; 
-          float s11 = 0.0F; 
+          double s00 = 0.0F; 
+          double s01 = 0.0F; 
+          double s10 = 0.0F; 
+          double s11 = 0.0F; 
 
           for (int k = 0; k < size; k+=2) {
 
-            float[] b0 = B[bRow+k];
+            double[] b0 = B[bRow+k];
 
             s00 += a0[aCol+k]   * b0[bCol+j];
             s10 += a1[aCol+k]   * b0[bCol+j];
             s01 += a0[aCol+k]   * b0[bCol+j+1];
             s11 += a1[aCol+k]   * b0[bCol+j+1];
 
-            float[] b1 = B[bRow+k+1];
+            double[] b1 = B[bRow+k+1];
 
             s00 += a0[aCol+k+1] * b1[bCol+j];
             s10 += a1[aCol+k+1] * b1[bCol+j];
