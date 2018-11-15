@@ -38,24 +38,12 @@ import java.util.stream.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
-public class SortBenchmark {
-
-    @State(Scope.Thread)
-    public static class BState {
-      @Setup(Level.Invocation)
-      public void doSetup() {
-	int n = 10000000;
-	result = new char[n][0];
-	IntStream.range(0, n).parallel().forEach(i -> result[i] = StrGen.generate(i));
-      }
-      public static char[][] result;
-    }
+public class AllocBenchmark {
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
-    public void Sort(BState state, Blackhole bh) {
-      char[][] res = new char[state.result.length][0];
-      IntStream.range(0, state.result.length).parallel().forEach(i -> res[i] = state.result[i]);
-      Arrays.parallelSort(res, (x, y) -> StrGen.compare(x, y));
+    public void Alloc(Blackhole bh) {
+      int n = 10000000;
+      char[][] res = new char[n][0];
       bh.consume(res);
     }
 

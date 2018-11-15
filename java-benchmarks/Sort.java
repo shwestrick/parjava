@@ -5,7 +5,9 @@ import java.util.stream.*;
 class Sort {
 
     private static void compute(char[][] l) {
-      Arrays.parallelSort(l, (x, y) -> StrGen.compare(x, y));
+      char[][] res = new char[l.length][0];
+      IntStream.range(0, l.length).parallel().forEach(i -> res[i] = l[i]);
+      Arrays.parallelSort(res, (x, y) -> StrGen.compare(x, y));
     }
 
 
