@@ -38,7 +38,7 @@ import java.util.stream.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
-public class ScanBenchmark {
+public class ScanImmutBenchmark {
 
     @State(Scope.Thread)
     public static class BState {
@@ -53,7 +53,11 @@ public class ScanBenchmark {
 
     @Benchmark @BenchmarkMode(Mode.AverageTime)
     public void Scan(BState state, Blackhole bh) {
-	Arrays.parallelPrefix(state.result, (x, y) -> StrGen.combine(x, y));
+	char[][] result = new char[state.result.length][0];
+	IntStream.range(0, state.result.length).parallel()
+		.forEach(i -> result[i] = state.result[i]);
+	Arrays.parallelPrefix(result, (x, y) -> StrGen.combine(x, y));
+	bh.consume(result);
     }
 
 }

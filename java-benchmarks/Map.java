@@ -4,13 +4,14 @@ import java.util.stream.*;
 
 class Map {
 
-    static private long mapper(long elem) {
-        return elem - 1;
+    static private char[] mapper(char[] elem) {
+      int res = StrGen.hash(elem);
+      return Integer.toBinaryString(res).toCharArray();
     }
 
-    static private void map(long[] arr) {
-	long[] out = new long[arr.length];
-        IntStream.range(0, arr.length).parallel().forEach(i -> out[i] = mapper(arr[i]));
+    static private void map(char[][] arr) {
+      char[][] res = new char[arr.length][0];
+      IntStream.range(0, arr.length).parallel().forEach(i -> res[i] = mapper(arr[i]));
     }
 
     public static void main(String[] args) throws Exception {
@@ -25,12 +26,14 @@ class Map {
             if (args.length > 2)
               sreps = Integer.parseInt(args[2]);
         } catch (Exception e) {
+	    System.out.println(e);
             System.out.println("Usage: java Filter size reps sreps");
             return;
         }
 
-        long[] result = new long[n];
-        IntStream.range(0, n).parallel().forEach(i -> result[i] = i);
+
+	char[][] result = new char[n][0];
+	IntStream.range(0, n).parallel().forEach(i -> result[i] = StrGen.generate(i));
 
         Runner.run((Void v) -> { map(result); return null; }, reps, sreps);
     }

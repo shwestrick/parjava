@@ -38,11 +38,11 @@ import java.util.stream.*;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
-public class ScanBenchmark {
+public class MapBenchmark {
 
     @State(Scope.Thread)
     public static class BState {
-      @Setup(Level.Trial)
+      @Setup(Level.Invocation)
       public void doSetup() {
 	int n = 10000000;
 	result = new char[n][0];
@@ -51,9 +51,17 @@ public class ScanBenchmark {
       public static char[][] result;
     }
 
+    public static char[] mapper(char[] elem) {
+      int res = StrGen.hash(elem);
+      return Integer.toBinaryString(res).toCharArray();
+    }
+
     @Benchmark @BenchmarkMode(Mode.AverageTime)
-    public void Scan(BState state, Blackhole bh) {
-	Arrays.parallelPrefix(state.result, (x, y) -> StrGen.combine(x, y));
+    public void Map(BState state, Blackhole bh) {
+	char[][] result = new char[state.result.length][0];
+	IntStream.range(0, state.result.length)
+		.parallel().forEach(i -> result[i] = mapper(state.result[i]));
+	bh.consume(result);
     }
 
 }
